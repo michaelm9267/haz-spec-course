@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/haz-spec-course/static/css/main.d2ad2139.css",
+    "main.js": "/haz-spec-course/static/js/main.0143a33e.js",
+    "static/js/453.120ceb6f.chunk.js": "/haz-spec-course/static/js/453.120ceb6f.chunk.js",
+    "index.html": "/haz-spec-course/index.html",
+    "main.d2ad2139.css.map": "/haz-spec-course/static/css/main.d2ad2139.css.map",
+    "main.0143a33e.js.map": "/haz-spec-course/static/js/main.0143a33e.js.map",
+    "453.120ceb6f.chunk.js.map": "/haz-spec-course/static/js/453.120ceb6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ad2139.css",
+    "static/js/main.0143a33e.js"
+  ]
+}
