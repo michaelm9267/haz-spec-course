@@ -1,0 +1,6748 @@
+[
+   
+    {
+        "substance": "A2213",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acenaphthene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Acenaphthylene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetaldehyde",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Acetaldehyde, chloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Acetaldehyde, trichloro-",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetam ide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Acetamide, N -(aminothioxomethyl) -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Acetamide, N -(4-ethoxyphenyl) -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Acetamide, N -9H-fluoren -2-yl-",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Acetamide, 2 -fluoro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Acetic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetic acid, (2,4 -dichlorophenoxy)",
+        "reportable_quantity_lbs": "-,",
+        "reportable_quantity_kg": "salts"
+    },
+    {
+        "substance": "& esters",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Acetic acid, ethyl ester",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetic acid, fluoro -, sodium salt",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Acetic acid, lead(2 + ) salt",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Acetic acid, thallium(1 + ) salt",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Acetic acid, (2,4,5 -trichlorophenoxy) -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Acetic anhydride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetone cyanohydrin",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Acetonitrile",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetophenone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Acetylaminofluorene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Acetyl bromide",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acetyl chloride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1-Acetyl -2-thiourea",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Acrolein",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Acryl amide",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acrylic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Acrylonitrile",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Adipic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Aldicarb",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aldicarb sulfone",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Aldrin",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Allyl alcohol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Allyl chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Aluminum phosphide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Aluminum sulfate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "4-Aminobiphenyl",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "5-(Aminomethyl) -3-isoxazolol",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "4-Aminopyridine",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Amitrole",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ammonia",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ammonium acetate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium benzoate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium bicarbonate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammo nium bichromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ammonium bifluoride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ammonium bisulfite",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium carbamate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium carbonate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium chloride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium chromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ammonium citrate, dibasic",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium dichromate@",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ammonium fluoborate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium fluoride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ammonium hydroxide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ammonium oxalate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium picrate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ammonium silicofluoride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ammonium sulfamate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammoni um sulfide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ammonium sulfite",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium tartrate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium thiocyanate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ammonium vanadate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Amyl acetate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Aniline",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "o-Anisidine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Anthracene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Antimony\u00a2",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Antimony pentachloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Antimony potassium tartrate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Antimony tribromide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Antimony trichloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Antimony trifluoride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Antimony trioxi de",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Argentate(1 -), bis(cyano -C)-, potassium",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclor 1016",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclor 1221",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclor 1232",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclor 1242",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclor 1248",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclor 1254",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclor 1260",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aroclors",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic\u00a2",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic acid H3AsO4",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic disulfide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic oxide As2O3",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic oxide As2O5",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic pentoxide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic trichloride",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic trioxide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsenic trisulfide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsine, diethyl - 1 (0.454)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "Arsinic acid, dimethyl -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Arsonous dichloride, phenyl -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Asbestos\u00a2\u00a2",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Auramine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Azaserine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aziridine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Aziridine, 2 -methyl -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Azirino[2′,3′:3,4]pyrrolo[1,2-a]indole-4,7-dione, 6-amino-8-[[(aminocarbonyl)oxy]methyl]-1,1a,2,8,8a,8b-hexahydro-8a-methoxy-5-methyl-, [1aS-(1aalpha,8beta,8aalpha,8balpha)]-",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Barban",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Barium cyanide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Bendiocarb",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Bendiocarb phenol",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Benomyl",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benz[j]aceanthrylene, 1,2-dihydro-3-methyl-",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benz[c]acridine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzal chloride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "dimethyl -2-propynyl) -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benz[a]anthracene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,2-Benzanthracene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benz[a]anthracene, 7,12 -dimethyl -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Benzenamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(N,N dimethyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzenamine, 4 -chloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "hydrochloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(phenylazo) -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzenamine, 2 -methyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzenamine, 4-methyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "chloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzenamine, 2 -methyl -, hydrochloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzenamine, 2 -methyl -5-nitro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzenamine, 4 -nitro -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benzene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "chlorophenyl) -\\u03b1-hydroxy -, ethyl ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzene, 1 -bromo -4-phenoxy -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "chloroethyl)amino] -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzene, chloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene, (chloromethyl) -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzenediamine, ar -methyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "ethylhexyl) ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benzene, 1,2 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene, 1,3 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene, 1,4 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene, 1,1′-(2,2-dichloroethylidene)bis[4-chloro",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "bis[4 -chloro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Benzene, (dichloromethyl) -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benzene, 1,3 -diisocyanatomethyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene, dimethyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,3-Benzenediol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(methylamino) ethyl] -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "dimethyl -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benzene, hexachloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzene, hexahydro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Benzene, methyl -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Benzene, 1 -methyl -2,4-dinitro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzene, 2 -methyl -1,3-dinitro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene, (1 -methylethyl) -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benzene, nitro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Benzene, pentachloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzene, pentachloronitro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzenesulfonic acid chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzenesulfonyl chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene,1,2,4,5 -tetrachloro -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benzenethio l",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzene,1,1\u2032",
+        "reportable_quantity_lbs": "-2,2,2",
+        "reportable_quantity_kg": "-trichloroethylidene"
+    },
+    {
+        "substance": "bis[4 -chloro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Benzene,1,1\u2032",
+        "reportable_quantity_lbs": "-2,2,2",
+        "reportable_quantity_kg": "-trichloroethylidene"
+    },
+    {
+        "substance": "bis[4 -methoxy -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Benzene, (trichloromethyl) -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzene, 1,3,5 -trinitro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzidine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Benzo[a]anthr acene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,3-Benzodioxole, 5 -(1-propenyl) -1",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,3-Benzodioxole, 5 -(2-propenyl) -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,3-Benzodioxole, 5 -propyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,3-Benzodioxol -4-ol, 2,2 -dimethyl -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "methyl carbamate 100",
+        "reportable_quantity_lbs": "",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzo[b]fluoranthene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Benzo(k)fluoranthene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "dimethyl - 10 (4.54)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "dimethyl -, methylcarbamate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzoic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(3aS-cis)-1,2,3,3a,8,8a -hexahydro",
+        "reportable_quantity_lbs": "-1,3a,8",
+        "reportable_quantity_kg": "-"
+    },
+    {
+        "substance": "methylcarbamate ester (1:1)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzonitrile",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Benzo[rst]pentaphene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzo[ghi]perylene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(3-oxo-1-phenylbutyl) -, & salts",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Benzo[a]pyrene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "3,4-Benzopyrene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "p-Benzoquinone",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzotrichloride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Benzoyl chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Benzyl chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Beryllium\u00a2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Beryllium chloride",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Berylli um fluoride",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Beryllium nitrate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Beryllium powder\u00a2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "alpha -BHC",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "beta-BHC",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "delta -BHC",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "gamma -BHC",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "2,2\u2032-Bioxirane",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Biphenyl",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "[1,1\u2032-Biphenyl] -4,4\u2032-diamine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "dichloro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "dimethoxy -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "dimethyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Bis(2 -chloroethoxy) methane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Bis(2 -chloroethyl) ether",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Bis(chloromethyl) ether",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Bis(2 -ethylhexyl) phthalate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Bromoacetone",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Bromoform",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Bromomethane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "4-Bromophenyl phenyl ether",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Brucine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,3-Butadiene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,3-Butadiene, 1,1,2,3,4,4 -hexachloro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "1-Butanamine, N -butyl -N-nitroso -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1-Butanol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Butanone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Butanone, 3,3 -dimethyl",
+        "reportable_quantity_lbs": "-1methylthio",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "O [(methylamino) carbonyl] oxime",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Butanone peroxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2-Butenal",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Butene, 1,4 -dichl oro-",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "dihydroxy -2-(1-methoxyethyl)",
+        "reportable_quantity_lbs": "-3-methyl",
+        "reportable_quantity_kg": "-"
+    },
+    {
+        "substance": "[1alpha(Z), 7(2S*,3R*),7aalpha]] -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Butyl acetate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "n-Butyl alcohol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Butylamine",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Butyl benzyl phthalate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "n-Butyl phthalate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Butyric acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Cacod ylic acid",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Cadmium\u00a2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cadmium acetate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cadmium bromide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cadmium chloride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Calcium arsenate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Calcium arsenite",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Calcium carbide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Calcium chromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Calcium cyanamide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Calcium cyanide Ca(CN)2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Calcium dodecylbenzenesulfonate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Calcium hypochlorite",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Captan",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "methyl ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "",
+        "reportable_quantity_lbs": "[butylaminocarbonyl]",
+        "reportable_quantity_kg": "-1H-"
+    },
+    {
+        "substance": "benzimidazol -2-yl]-, methyl ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Carbamic acid, (3 -chlorophenyl)",
+        "reportable_quantity_lbs": "-,",
+        "reportable_quantity_kg": "4-"
+    },
+    {
+        "substance": "chloro -2-butynyl ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "7-benzofuranyl ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "yl ester",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "methylethyl) -1H-pyrazol -5-yl ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Carbamic acid, ethyl ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Carbamic acid, methylnitroso -, ethyl ester 1 (0.454)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "dimethyl ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Carbamic chloride, dimethyl -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "salts & esters",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Carbamothioic acid, bis(1",
+        "reportable_quantity_lbs": "-methylethyl",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "S-(2,3-dichloro -2-propenyl) ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Carbamothioic acid, bis(1",
+        "reportable_quantity_lbs": "-methylethyl",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "S-(2,3,3 -trichloro -2-propenyl) ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(phenylmethyl) ester",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Carbaryl",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Carbendazim",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Carbofuran",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Carbofuran phenol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Carbon disulfide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Carbonic acid, dithallium(1 + ) salt",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Carbonic dichloride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Carbonic difluoride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Carbonochlo ridic acid, methyl ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Carbon oxyfluoride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Carbon tetrachloride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Carbonyl sulfide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Carbosulfan",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Catechol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chloral",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Chloramben",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chlorambucil",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Chlordane",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Chlordane, alpha & gamma isomers",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "MIXTURE AND METABOLITES)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Chlorinated camphene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Chlorine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Chlornaphazine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chloroacetaldehyde",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Chloroacetic acid",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Chloro acetophenone",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "p-Chloroaniline",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Chlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chlorobenzilate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "p-Chloro -m-cresol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Chlorodibromomethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1-Chloro -2,3-epoxypropane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chloroethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Chloroethyl vinyl eth er",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Chloroform",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Chloromethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chloromethyl methyl ether",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "beta-Chloronaphthalene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Chloronaphthalene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Chlorophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "o-Chlorophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "4-Chlorophenyl phenyl ether",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1-(o-Chlorophenyl)thiourea",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chloroprene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "3-Chloropropionitrile",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Chlorosulfonic acid",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "4-Chloro -o-toluidine, hydrochloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chlorpyrifos",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Chromic acetate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Chromic acid 10",
+        "reportable_quantity_lbs": "4.",
+        "reportable_quantity_kg": "54"
+    },
+    {
+        "substance": "Chromic acid H2CrO4, calcium salt",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Chromic sulfate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Chromium \u00a2",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Chromous chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Chrysene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cobaltous bromide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Cobaltous formate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Cobaltous sulfamate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Coke Oven E missions",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Copper \u00a2",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Copper chloride @",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Copper cyanide Cu(CN)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Coumaphos",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Creosote",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Cresol (cresylic acid)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "m-Cresol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "o-Cresol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "p-Cresol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cresols (isom ers and mixture)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cresylic acid (isomers and mixture)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Crotonaldehyde",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cumene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "m-Cumenyl methylcarbamate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cupric acetate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cupric acetoarsenite",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Cupric chloride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cupric ni trate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cupric oxalate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cupric sulfate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cupric sulfate, ammoniated",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cupric tartrate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "not otherwise specified",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cyanogen",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cyanogen bromide (CN)Br",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Cyanogen chloride (CN)Cl",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,5-Cyclohexadiene -1,4-dione",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cyclohexane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(1\u03b1, 2\u03b1, 3\u03b2 -, 4\u03b1, 5\u03b1, 6\u03b2)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Cyclohexanone 5000 (2270)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "2-Cyclohexyl -4,6-dinitrophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "hexachloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cyclophosphamide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4-D Acid",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4-D Ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4-D, salts and esters",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Daunomycin",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "DDD",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "4,4\u2032-DDD",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "DDE (72 -55-9)#",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "DDE (3547 -04-4)#",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "4,4\u2032-DDE",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "DDT",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "4,4\u2032-DDT",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "DEHP",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diallate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diazinon",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Diazomethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dibenz[a,h]anthracene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "1,2:5,6 -Dibenzanthracene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dibenzo[a,h]anthracene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dibenzofuran",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dibenzo[a,i]pyrene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,2-Dibromo -3-chloropropane",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dibromoethane",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dibutyl phthalate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Di-n-butyl phthalate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dicamba",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Dichlobenil",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dichlone",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,2-Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,3-Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,4-Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "m-Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "o-Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "p-Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "3,3\u2032-Dichlorobenzidine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dichlorobromomethane",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1,4-Dichloro -2-butene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dichlorodifluoromethane",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1,1-Dichloroethane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "1,2-Dichloroethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,1-Dichloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,2-Dichloroethylene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Dichloroethyl ether",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dichloroisopropyl ether",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Dichloromethane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Dichloromethoxyethane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Dichloromethyl ether",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4-Dichlorophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,6-Dichlorophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dichlorophenylarsine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dichloropropane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "1,2-Dichloropropane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(mixture)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dichloropropene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,3-Dichloropropene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,2-Dichloropropionic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Dichlorvos",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dicofol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dieldrin",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "1,2:3,4 -Diepoxybutane",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Diethanolamine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diethylamine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "N,N-Diethylaniline",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Diethylarsine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Diethylene glycol, di carbamate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1,4-Diethyleneoxide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diethylhexyl phthalate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "N,N\u2032 -Diethylhydrazine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "O,O-Diethyl S -methyl dithiophosphate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Diethyl -p-nitrophenyl phosphate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diethyl phthalate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "phosphorothioate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diethylstilbestrol",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Diethyl sulfate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dihydrosafrole",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Diisopropylfluorophosphate (DFP)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "5alpha, 8alpha, 8abeta) -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "5beta, 8beta, 8abeta)",
+        "reportable_quantity_lbs": "-1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "7beta, 7aalpha) -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "7beta, 7aalpha) -, & metabolites",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dimethoate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "3,3\u2032-Dimethoxybenzidine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dimethylamine",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Dimethyl aminoazobenzene 10 (4.54)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "p-Dimethylaminoazobenzene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "N,N-Dimethylaniline",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "7,12-Dimethylbenz[a]anthracene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "3,3\u2032-Dimethylbenzidine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dimethylbenzylhydroperoxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dimethylcarbamoyl chloride",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dimethylformamide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,1-Dimethylhydrazine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,2-Dimethylhydrazine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dimethylhydrazine, unsymmetrical@",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "alpha,alpha -Dimethylphenethylamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2,4-Dimethylpheno l",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dimethyl phthalate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Dimethyl sulfate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dimetilan",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dinitrobenzene (mixed)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "4,6-Dinitro -o-cresol, and salts",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dinitrogen tetroxide@",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dinitrophenol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4-Dinitrophenol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dinitrotoluene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4-Dinitrotoluene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,6-Dinitrotoluene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dinoseb",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Di-n-octyl phthalate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1,4-Dioxane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,2-Diphenylhydrazine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Diphosphoramide, octamethyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diphosphoric acid, tetraethyl ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Dipropylamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Di-n-propylnitrosamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Diquat",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Disulfoton",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Dithiobiuret",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "carbonyl]oxime",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Diuron",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Dodecylbenzenesulfonic acid",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Endosulfan",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "alpha -Endosulfan",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "beta-Endosulfan",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Endo sulfan sulfate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Endothall",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Endrin",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Endrin aldehyde",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Endrin, & metabolites",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Epichlorohydrin",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Epinephrine",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "1,2-Epoxybutane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethanal",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethanamine, N,N -diethyl -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethanamine, N -ethyl -N-nitroso -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "pyridinyl -N\u2032-(2-thienylmethyl) -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethane, 1,2 -dibromo -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Ethane, 1,1 -dichloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethane, 1,2 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethanedinitrile 100",
+        "reportable_quantity_lbs": "45.",
+        "reportable_quantity_kg": "4"
+    },
+    {
+        "substance": "Ethane, hexachloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethane, 1,1\u2032",
+        "reportable_quantity_lbs": "-[methylenebisoxy]bis[2",
+        "reportable_quantity_kg": "-"
+    },
+    {
+        "substance": "chloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethane, 1,1\u2032 -oxybis -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethane, 1,1\u2032 -oxybis[2 -chloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ethane, pentachloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ethane, 1,1,1,2 -tetrachloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethane, 1,1,2,2 -tetrachloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethanethioamide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ethane, 1,1,1 -trichloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethane, 1,1,2 -trichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(dimethylamino)",
+        "reportable_quantity_lbs": "-N-hydroxy",
+        "reportable_quantity_kg": "-2-oxo-,"
+    },
+    {
+        "substance": "methyl ester",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "carbonyl]oxy] -2-oxo-, methyl ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "bis-, dimethyl ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethanol, 2 -ethoxy -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethanol, 2,2\u2032 -(nitrosoimino)bis -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Ethanol, 2,2\u2032 -oxybis -, dicarbamate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethanone, 1 -phenyl -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethene, chloro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Ethene, (2 -chloroethoxy) -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethene, 1,1 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethene, 1,2 -dichloro -(E)",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethene, tetrachloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethene, trichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethion",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ethyl acetate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethyl acrylate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethylbenzene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethyl carbamate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethyl chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethyl cyanide 10 (4.54)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "esters",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethylenediamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethylenediamine -tetraacetic acid (EDTA) 5000",
+        "reportable_quantity_lbs": "2270",
+        "reportable_quantity_kg": ""
+    },
+    {
+        "substance": "Ethylene dibromide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Ethylene dichloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethylene glycol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Ethylene glycol monoethyl ether",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethylene oxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ethylenethiourea",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Ethylenimine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Ethyl ether",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ethylidene dichl oride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethyl methacrylate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ethyl methanesulfonate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Ethyl methyl ketone@",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Famphur",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ferric ammonium citrate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ferric ammonium oxalate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ferric chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ferric fluoride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ferric nitrate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ferric sulfate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ferrous ammonium sulfate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ferrous chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Ferrous sulfate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Fluoranthene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Fluorene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Fluorine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Fluoroacetamide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Fluoroacetic acid, sodium salt",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Formaldehyde",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Formetanate hydrochloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Formic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Formparanate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Fulminic acid, mercury(2 + )salt",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Fumaric acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Furan",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Furancarboxyald ehyde",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2,5-Furandione",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Furan, tetrahydro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Furfural",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Furfuran",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "nitrosoureido) -, D-",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "[[(methylnitrosoamino) -carbonyl]amino] - 1",
+        "reportable_quantity_lbs": "0.4",
+        "reportable_quantity_kg": "54"
+    },
+    {
+        "substance": "Glycidylaldehyde",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Guanidine, N -methyl -N\u2032-nitro -N-nitroso -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Guthion",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Heptachlor",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Heptachlor epoxide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Hexachlorobenzene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hexachlorobutadiene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Hexachlorocyclopentadiene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hexachloroethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hexachlo rophene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hexachloropropene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Hexaethyl tetraphosphate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hexamethylene -1,6-diisocyanate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hexamethylphosphoramide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Hexane",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Hexone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Hydrazine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Hydrazinecarbothioamide 100",
+        "reportable_quantity_lbs": "4",
+        "reportable_quantity_kg": "5.4"
+    },
+    {
+        "substance": "Hydrazine, 1,2 -diethyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hydrazine, 1,1 -dimethyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hydrazine, 1,2 -dimethyl -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Hydrazine, 1,2 -diphenyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hydrazine, methyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hydrochloric acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Hydrocyanic acid",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hydrofluoric acid",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hydrogen chloride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Hydrogen cyanide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hydrogen fluoride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hydrogen phosphide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hydrogen sulfide H2S",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Hydroperoxide, 1 -methyl -1-phenylethyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hydroquinone",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Imidazolidinet hione",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Indeno(1,2,3 -cd)pyrene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Iodomethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,3-Isobenzofurandione",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Isobutyl alcohol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Isodrin",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Isolan",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Isophorone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Isoprene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "dodecylbenzene sulfonate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "3-Isopropylphenyl N -methylcarbamate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Isosafrole",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "3(2H) -Isoxazolone, 5 -(aminomethyl) -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Kepone",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Lasiocarpine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead\u00a2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead acetate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead arsenate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Lead, bi s(acetato -O)tetrahydroxytri -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead chloride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead fluoborate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead fluoride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead iodide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead nitrate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead phosphate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead stearate 10 (4.54)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "Lead subacetate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead sulfate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead sulfide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lead thiocyanate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lindane",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Lindane (all isomers)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Lithium chromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Malathion",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Maleic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Maleic anhydride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Maleic hydrazide",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Malonon itrile",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "bis(dimethylcarbamodithioato -S,S\u2032) -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Manganese dimethyldithiocarbamate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "MDI",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "MEK",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Melphalan",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Mercaptodimethur",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Mercuric cyanide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Mercuric nitrate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Mercuric sulfa te",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Mercuric thiocyanate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Mercurous nitrate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Mercury",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Mercury, (acetato -O)phenyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Mercury fulminate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methacrylonitrile",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methanamine, N -methyl -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methanamine, N -methyl -N-nitroso-",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methane, bromo -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methane, chloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methane, chloromethoxy -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methane, dibromo -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methane, dichloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methane, dichlorodifluoro -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Methane, iodo -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methane, isocyanato -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methane, oxybis(chloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methanesulfenyl chloride, trichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methanesulfonic acid, ethyl ester",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Methane, tetrachloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methane, tetranitro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methanethiol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methane, tribromo - 100",
+        "reportable_quantity_lbs": "4",
+        "reportable_quantity_kg": "5.4"
+    },
+    {
+        "substance": "Methane, trichloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methane, trichlorofluoro -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "phenyl] -, monohydrochloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "",
+        "reportable_quantity_lbs": "methyl",
+        "reportable_quantity_kg": "-4-[[methylaminocarbonyl]"
+    },
+    {
+        "substance": "oxy]phenyl] -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "oxide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "heptachloro -3a,4,7,7a -tetrahydro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "octachloro -2,3,3a,4,7,7a -hexahydro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Methanol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Methapyrilen e",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "decachlorooctahydro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Methiocarb",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methomyl",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methoxychlor",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Methyl alcohol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Methylamine @",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Methyl aziridine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Methyl bromide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "1-Methylbutadiene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methyl chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methyl chlorocarbonate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methyl chloroform",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methyl chloroformate @",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methyl chloromethyl ether @",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "3-Methylcholanthrene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "4,4\u2032-Methylenebis(2 -chloroaniline)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methylene bromide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methylene chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "4,4\u2032-Methylenedianiline",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methylene diphenyl diisocyanate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Methyl ethyl ketone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Methyl ethyl ketone peroxide 10",
+        "reportable_quantity_lbs": "4.5",
+        "reportable_quantity_kg": "4"
+    },
+    {
+        "substance": "Methyl hydrazine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methyl iodide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methyl isobutyl ketone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Methyl isocyanate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2-Methyllactonitrile",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Methyl mercaptan",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Methyl methacrylate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methyl parathion",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "4-Methyl -2-pentanone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Methyl tert -butyl ether",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Methylthiouracil",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Metolcarb",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Mevinphos",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Mexacarbate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Mitomycin C",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "MNNG",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Monoethylamine 100 (45.4)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "Monomethylamine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Naled",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "6,8,11 -trihydroxy -1-methoxy -, (8S -cis)-",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1-Naphthalenamine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Naphthalenamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "chloroethyl) -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Naphthalene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Naphthalene, 2 -chloro -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1,4-Naphthalenedione",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "[(3,3\u2032 -dimethyl -(1,1\u2032-biphenyl)",
+        "reportable_quantity_lbs": "-4,4\u2032-diyl",
+        "reportable_quantity_kg": "-"
+    },
+    {
+        "substance": "bis(azo)]bis(5 -amino",
+        "reportable_quantity_lbs": "-4-hydroxy",
+        "reportable_quantity_kg": "-"
+    },
+    {
+        "substance": "tetrasodium salt",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1-Naphthalenol, methylcarbamate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Naphthenic acid",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,4-Naphthoquinone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "alpha -Naphthylamine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "beta-Naphthylamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "alpha -Naphthylthiourea",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nickel\u00a2",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nickel ammonium sulfate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nickel carbonyl Ni(CO)4, (T -4)-",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nickel chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nickel cyanide Ni(CN)2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nickel hydroxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nickel nitrate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nickel sulfate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nicotine, & salts",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nitric acid",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Nitric acid, thallium (1 + ) salt",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Nitric oxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "p-Nitroaniline",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Nitrobenzene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "4-Nitrobiphenyl",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nitrogen dioxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nitrogen oxide NO",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nitrogen oxide NO2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nitroglycerine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Nitrophenol (mixed)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "o-Nitrophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "p-Nitrophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Nitrophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "4-Nitrophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Nitropropane",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "N-Nitrosodi -n-butylamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "N-Nitrosodiethanolamine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "N-Nitro sodiethylamine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "N-Nitrosodimethylamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "N-Nitrosodiphenylamine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "N-Nitroso -N-ethylurea",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "N-Nitroso -N-methylurea",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "N-Nitroso -N-methylurethane",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "N-Nitrosomethylvinylamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "N-Nitrosomorpholine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "N-Nitrosopiperidine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "N-Nitrosopyrrolidine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Nitrotoluene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "5-Nitro -o-toluidine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Octamethylpyrophosphoramide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Osmium oxide OsO4, (T -4)- 1000",
+        "reportable_quantity_lbs": "4",
+        "reportable_quantity_kg": "54"
+    },
+    {
+        "substance": "Osmium tetroxide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "dicarboxylic acid",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Oxamyl",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,2-Oxathiolane, 2,2 -dioxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "N,N-bis(2 -chloroethyl) tetrahydro",
+        "reportable_quantity_lbs": "-,",
+        "reportable_quantity_kg": "2-"
+    },
+    {
+        "substance": "oxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Oxirane 10",
+        "reportable_quantity_lbs": "4",
+        "reportable_quantity_kg": ".54"
+    },
+    {
+        "substance": "Oxiranecarboxyaldehyde",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Oxirane, (chloromethyl) -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Paraformaldehyde",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Paraldehyde",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Parathion",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "PCBs",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "PCNB",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Pentachlorobenzene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Pentachloroethane",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Pentachloroni trobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Pentachlorophenol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,3-Pentadiene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Perchloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Perchloromethyl mercaptan@",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenacetin",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenanthrene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Phenol",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Phenol, 2 -chloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol, 4 -chloro -3-methyl -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Phenol, 2 -cyclohexyl -4,6-dinitro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol, 2,4 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol, 2,6 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "ethenediyl)bis -, (E)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Phenol, 2,4 -dimethyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol, 4",
+        "reportable_quantity_lbs": "-dimethylamino",
+        "reportable_quantity_kg": "-3,5-"
+    },
+    {
+        "substance": "dimethyl -, methylcarbamate (ester)",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Phenol, (3,5 -dimethyl",
+        "reportable_quantity_lbs": "-4-methylthio",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "methylcarbamate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Phenol, 2,4 -dinitro- 10 (4.54)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "Phenol, methyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol, 2 -methyl -4,6-dinitro -, & salts",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "trichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol,",
+        "reportable_quantity_lbs": "2-1-methylethoxy",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "methylcarbamate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol, 3 -(1-methylethyl)",
+        "reportable_quantity_lbs": "-,",
+        "reportable_quantity_kg": "methyl"
+    },
+    {
+        "substance": "carbamate 10",
+        "reportable_quantity_lbs": "4.",
+        "reportable_quantity_kg": "54"
+    },
+    {
+        "substance": "Phenol, 3 -methyl",
+        "reportable_quantity_lbs": "-5-1-methylethyl",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "methyl carbamate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Phenol, 2 -(1-methylpropyl) -4,6-dinitro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Phenol, 4 -nitro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenol, pentachloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Phenol, 2,3,4,6 -tetrachloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Phenol, 2,4,5 -trichloro - 10",
+        "reportable_quantity_lbs": "4.5",
+        "reportable_quantity_kg": "4"
+    },
+    {
+        "substance": "Phenol, 2,4,6 -trichloro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Phenol, 2,4,6 -trinitro -, ammonium salt",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "chloroethyl)amino] -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "p-Phenylenediamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Phenyl mercaptan@",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenylmercury acetate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phenylthioure a",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phorate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Phosgene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Phosphine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phosphoric acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phosphoric acid, lead(2 + ) salt (2:3)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "(ethylthio)ethyl] ester",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "[(ethylthio)methyl] ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "methyl ester",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "[2-(methylamino) -2-oxoethyl] ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "methylethyl) ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "nitrophenyl) ester",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "pyrazinyl ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "dimethyl ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(4-nitrophenyl) ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phosphorus",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Phosphorus oxychloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Phosphorus pentasulfide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phosphorus sulfide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Phosphorus trichloride 1000",
+        "reportable_quantity_lbs": "45",
+        "reportable_quantity_kg": "4"
+    },
+    {
+        "substance": "Phthalic anhydride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Physostigmine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Physostigmine salicylate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Picoline",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Piperidine, 1 -nitroso -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Plumbane, tetraethyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "POLYCHLORINATED BIPHENYLS",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Potassium arsenate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Potassium arsenite",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Potassium bichromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Potassium chromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Potassium cyanide K(CN)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Potassium hydroxide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Potassium permanganate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Potassium silver cyanide",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Promecarb",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Pronamide",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Propanal, 2 -methyl -2-(methyl",
+        "reportable_quantity_lbs": "-sulfonyl",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "O-[(methylamino)carbonyl] oxime",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Propanal, 2 -methyl -2-(methylthio)",
+        "reportable_quantity_lbs": "-,",
+        "reportable_quantity_kg": "O-"
+    },
+    {
+        "substance": "[(methylamino)carbonyl] oxime",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "1-Propanamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1-Propanamine, N -propyl -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1-Propa namine, N -nitroso -N-propyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Propane, 1,2 -dibromo -3-chloro -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Propane, 1,2 -dichloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Propanedinitrile",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Propanenitrile",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Propanenitrile, 3 -chloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Propanenitrile, 2 -hydroxy -2-methyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Propane, 2 -nitro -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Propane, 2,2\u2032 -oxybis[2 -chloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "1,3-Propane sultone",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,2,3 -Propanetriol, trinitrate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "trichlorophenoxy) -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(3:1)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1-Propanol, 2 -methyl -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Propanone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Propanone, 1 -bromo -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Propargite",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Propargyl alcohol",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2-Propenal",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "2-Propenamide",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "1-Propene, 1,3 -dichloro -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1-Propene, 1,1,2,3,3,3 -hexachloro -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2-Propenenitrile",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2-Propenenitrile, 2 -methyl -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2-Propenoic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2-Propenoic acid, ethyl ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2-Propenoic acid, 2 -methyl -, ethyl ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2-Propenoic acid, 2 -methyl -, methyl ester",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2-Propen -1-ol 100 (45.4)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "Propham",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "beta-Propiolactone",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Propionaldehyde",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Propionic acid",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Propionic anhydride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Propoxur (Baygon)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "n-Propylamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Propylene dichloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Propylene oxide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,2-Propylenimine",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "2-Propyn -1-ol",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Prosulfocarb",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Pyrene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Pyrethrins",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "3,6-Pyridazinedione, 1,2 -dihydro -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "4-Pyridinamine",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Pyridine",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Pyridine, 2 -methyl -",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Pyridine, 3 -(1-methyl",
+        "reportable_quantity_lbs": "-2-pyrrolidinyl",
+        "reportable_quantity_kg": "-,"
+    },
+    {
+        "substance": "(S)-, & salts",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4-(1H,3H) -Pyrimidinedione, 5",
+        "reportable_quantity_lbs": "-[bis2",
+        "reportable_quantity_kg": "-"
+    },
+    {
+        "substance": "chloroethyl)amino] -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "4(1H) -Pyrimidinone, 2,3",
+        "reportable_quantity_lbs": "-dihydro",
+        "reportable_quantity_kg": "-6-"
+    },
+    {
+        "substance": "methyl -2-thioxo -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Pyrrolidine, 1 -nitroso -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "methylcarbamate (ester), (3aS -cis)-",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Quinoline",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Quinone",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Quintobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Reserpine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Resorcinol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Safrole",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Selenious acid",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Selenious acid, dithallium (1 + ) salt",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Selenium\u00a2",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Selenium dioxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Selenium oxide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Selenium sulfide SeS2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Selenourea",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "L-Serine, dia zoacetate (ester)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Silver\u00a2",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Silver cyanide Ag(CN)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Silver nitrate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Silvex (2,4,5 -TP)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Sodium",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Sodium arsenate",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Sodium arsenite",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Sodium azide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Sodium bichromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Sodium bifluoride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Sodium bisulfite",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Sodium chromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Sodium cyanide Na(CN)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Sodium dodecylbenzenesulfonate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Sodium fluoride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Sodium hydrosulfide",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Sodium hydroxide 1000",
+        "reportable_quantity_lbs": "4",
+        "reportable_quantity_kg": "54"
+    },
+    {
+        "substance": "Sodium hypochlorite",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Sodium methylate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Sodium nitrite",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Sodium phosphate, dibasic",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Sodium phosphate, tribasic",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Sodium selenite",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Streptozotocin",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Strontium chromate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Strychnidin -10-one, & salts",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Strychnidin -10-one, 2,3 -dimethoxy -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Strychnine, & salts",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Styrene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Styrene oxide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Sulfur chlorides@",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Sulfuric acid",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Sulfuric acid, dimethyl ester 100",
+        "reportable_quantity_lbs": "45",
+        "reportable_quantity_kg": ".4"
+    },
+    {
+        "substance": "Sulfuric acid, dithallium (1 + ) salt",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Sulfur monochloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Sulfur phosphide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4,5 -T",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2,4,5 -T acid",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2,4,5 -T amines",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2,4,5 -T esters",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "2,4,5 -T salts",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "TCDD",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "TDE",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "1,2,4,5 -Tetrachlorobenzene",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "2,3,7,8 -Tetrachlorodibenzo -p-dioxin",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "1,1,1,2 -Tetrachloroethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,1,2,2 -Tetrachloroethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Tetrachloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,3,4,6 -Tetrachlorophenol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Tetraet hyl pyrophosphate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Tetraethyl lead",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Tetraethyldithiopyrophosphate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Tetrahydrofuran",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Tetranitromethane",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Tetraphosphoric acid, hexaethyl ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thallic oxide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thallium\u00a2",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Thallium (I) acetate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thallium (I) carbonate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thallium chloride TlCl",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thallium (I) nitrate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thallium oxide Tl2O3",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thallium (I) selenite",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Thallium (I) sulfate 100 (45.4)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "Thioacetamide",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Thiodicarb",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiodiphosphoric acid, tetraethyl ester",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiofanox",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "[(H2N)C(S)]2NH",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiomethanol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "[(H2N)C(S)]2S2, tetramethyl -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Thiophan ate-methyl",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Thiophenol",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiosemicarbazide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiourea",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Thiourea, (2 -chlorophenyl) -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiourea, 1 -naphthalenyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiourea, phenyl -",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Thiram",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Tirpate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Titanium tetrac hloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Toluene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Toluenediamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4-Toluene diamine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Toluene diisocyanate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4-Toluene diisocyanate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "o-Toluidine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "p-Toluidine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "o-Toluidine hydrochloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Toxaphene",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "2,4,5 -TP acid",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4,5 -TP esters",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Triallate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1H-1,2,4 -Triazol -3-amine",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Trichlorfon",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,2,4 -Trichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,1,1 -Trichloroethane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "1,1,2 -Trichloroethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Trichloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Trichloromethanesulfenyl chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Trichloromonofluoromethane",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Trichlorophenol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4,5 -Trichlorop henol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4,6 -Trichlorophenol",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "dodecylbenzenesulfonate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Triethylamine",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Trifluralin",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Trimethylamine",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,2,4 -Trimethylpentane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "1,3,5 -Trinitrobenzene",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "1,3,5 -Trioxane, 2,4,6 -trimethyl -",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Tris(2,3 -dibromopropyl) phosphate",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Trypan blue",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Characteristic of Corrosivity",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Characteristic of Ignitability",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Characteristic of Reactivity",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Arsenic (D004)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Barium (D005)",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Benzene (D018)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Cadmium (D006)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Carbon tetrachlorid e (D019)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Chlordane (D020)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Chlorobenzene (D021)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Chloroform (D022)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Chromium (D007)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "o-Cresol (D023)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "m-Cresol (D024)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "p-Cresol (D025)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Cresol (D026)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4-D (D0 16)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,4-Dichlorobenzene (D027)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,2-Dichloroethane (D028)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "1,1-Dichloroethylene (D029)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4-Dinitrotoluene (D030)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Endrin (D012)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Heptachlor (and epoxide) (D031)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Hexachlorobenzene (D032)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Hexachlorobutadiene (D033)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Hexachloroethane (D034)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Lead (D008)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Lindane (D013)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Mercury (D009)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Methoxychlor (D014)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Methyl ethyl ketone (D035)",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Nitrobenzene (D036 )",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Pentachlorophenol (D037)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Pyridine (D038)",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Selenium (D010)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Silver (D011)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Tetrachloroethylene (D039)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Toxaphene (D015)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Trichloroethylene (D040)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "2,4,5 -Trichlorophenol (D041)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4,6 -Trichlorophenol (D042)",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "2,4,5 -TP (D017)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Vinyl chloride (D043)",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Uracil mustard",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Uranyl acetate",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Uranyl nitrate 100 (45.4)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "Urea, N -ethyl -N-nitroso -",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Urea, N -methyl -N-nitroso-",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Urethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Vanadic acid, ammonium salt",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Vanadium oxide V2O5",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Vanadium pentoxide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Vanadyl sulfate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Vinyl acetate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Vinyl acetate monomer",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Vinylamine, N -methyl -N-nitroso-",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Vinyl bromide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Vinyl chloride",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "Vinylidene chloride",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Warfarin, & salts",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Xylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "m-Xylene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "o-Xylene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "p-Xylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Xylene (mixed)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Xylenes (isomers and mixture)",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Xylenol",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(3beta,16beta,17alpha,18beta, 20alpha)",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Zinc\u00a2",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc acetate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc ammonium chlor ide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "S,S\u2032) -",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Zinc borate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc bromide",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc carbonate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc cyanide Zn(CN)2",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Zinc fluoride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc formate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc hydrosulfite",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc nitrate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zinc phenolsulfonate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Zinc phosphide Zn3P2",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "Zinc silicofluoride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Zinc sulfate",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Ziram",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "Zirconium nitrate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Zirconium potassium fluoride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "Zirco nium sulfate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "Zirconium tetrachloride",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "F001",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "(a) Tetrachloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(b) Trichloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(c) Methylene chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(d) 1,1,1 -Trichloroethane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(e) Carbon tetrachloride",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "(f) Chlorinated fluorocarbons",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "F002",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "(a) Tetrachloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(b) Methylene chloride",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(c) Trichloroethylene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(d) 1,1,1 -Trichloroethane",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(e) Chlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(f) 1,1,2 -Trichloro -1,2,2-trifluoroethane",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(g) o -Dichlorobenzene",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(h) Trichlorofluoromethane",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(i) 1,1,2 -Trichloroethane",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "F003",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(a) Xylene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(b) Acetone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(c) Ethyl acetate",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(d) Ethylbenzen e",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(e) Ethyl ether",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(f) Methyl isobutyl ketone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(g) n -Butyl alcohol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(h) Cyclohexanone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(i) Methanol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "F004",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(a) Cresols/Cresylic acid",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(b) Nitrobenzene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "F005",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(a) Toluene",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "(b) Methyl ethyl ketone",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(c) Carbon disulfide",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "(d) Isobutanol",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "(e) Pyridine",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "F006",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "F007",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "F008",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "F009",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "F010",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "F011 10",
+        "reportable_quantity_lbs": "4.5",
+        "reportable_quantity_kg": "4"
+    },
+    {
+        "substance": "F012",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "F019",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "F020",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F021",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F022",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F023",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F024",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F025",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F026",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F027",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F028",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F032",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F034",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F035",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F037",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "F038 1 (0.45 4)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "F039",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K001",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K002",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K003",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K004",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K005",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K006",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K007",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K008",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K009",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K010",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K011",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K013",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K014",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "K015",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K016",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K017",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K018",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K019",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K020",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K021",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K022",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K023",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "K024",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "K025",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K026",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "K027",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K028",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K029",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K030",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K031",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K032",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K033",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K034",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K035",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K036",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K037",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K038",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K039",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K040",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K041",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K042",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K043",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K044",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K045",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K046",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K047",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K048",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K049",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K050",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K051",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K052",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K060",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K061",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K062",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K064",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K065",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K066",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K069",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K071",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K073",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K083",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "K084",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K085",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K086",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K087",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "K088",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K090",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K091",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K093",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "K094",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "K095",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "K096",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "K097",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K098",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K099",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K100",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K101",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K102 1",
+        "reportable_quantity_lbs": "0.454",
+        "reportable_quantity_kg": ""
+    },
+    {
+        "substance": "K103",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "K104",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K105",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K106",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K107",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K108",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K109",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K110",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K111",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K112",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K113",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K114 10 (4.54)",
+        "reportable_quantity_lbs": "Table",
+        "reportable_quantity_kg": "A4.3"
+    },
+    {
+        "substance": "K115",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K116",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K117",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K118 1",
+        "reportable_quantity_lbs": "0.45",
+        "reportable_quantity_kg": "4"
+    },
+    {
+        "substance": "K123",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K124",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K125",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K126",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K131",
+        "reportable_quantity_lbs": "100",
+        "reportable_quantity_kg": "45.4"
+    },
+    {
+        "substance": "K132",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "K136",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K141",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K142",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K143",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K144",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K145",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K147",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K148",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K149",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K150 10",
+        "reportable_quantity_lbs": "4",
+        "reportable_quantity_kg": ".54"
+    },
+    {
+        "substance": "K151",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K156",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K157",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K158",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K159",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K161",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K169",
+        "reportable_quantity_lbs": "10",
+        "reportable_quantity_kg": "4.54"
+    },
+    {
+        "substance": "K170",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K171",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K172",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K174",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K175",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K176",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    },
+    {
+        "substance": "K177",
+        "reportable_quantity_lbs": "5000",
+        "reportable_quantity_kg": "2270"
+    },
+    {
+        "substance": "K178",
+        "reportable_quantity_lbs": "1000",
+        "reportable_quantity_kg": "454"
+    },
+    {
+        "substance": "K181",
+        "reportable_quantity_lbs": "1",
+        "reportable_quantity_kg": "0.454"
+    }
+]
