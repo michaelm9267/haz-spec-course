@@ -1,606 +1,1064 @@
 {
-  "P": [
-    {
-      "provision": "P1",
-      "details": "Transport this material on dedicated airlift (e.g., Special Assignment Airlift Mission) aircraft as identified in Attachment 24. Material authorized on cargo aircraft only. Passenger deviations are not authorized."
-    },
-    {
-      "provision": "P2",
-      "details": "Transport this material on cargo aircraft only. Passenger deviations are not authorized."
-    },
-    {
-      "provision": "P3",
-      "details": "Transport this material on cargo aircraft only. Deviations are authorized according to paragraph 2.2. and Attachment 22."
-    },
-    {
-      "provision": "P4",
-      "details": "Transport this material on cargo aircraft only. Deviations are authorized according to paragraph 2.2. and Attachment 22. DOD duty passengers do not require a deviation."
-    },
-    {
-      "provision": "P5",
-      "details": "Transport this material on passenger or cargo aircraft without passenger restriction."
-    },
-
-    {
-      "provision": "1",
-      "details": "This material is poisonous by inhalation in Hazard Zone A, describe as an inhalation hazard."
-    },
-    {
-      "provision": "2",
-      "details": "This material is poisonous by inhalation in Hazard Zone B, describe as an inhalation hazard."
-    },
-    {
-      "provision": "3",
-      "details": "This material is poisonous by inhalation in Hazard Zone C, describe as an inhalation hazard."
-    },
-    {
-      "provision": "4",
-      "details": "This material is poisonous by inhalation in Hazard Zone D, describe as an inhalation hazard."
-    },
-    {
-      "provision": "5",
-      "details": "If this material meets the defining criteria for a material poisonous by inhalation (49 CFR Paragraphs 173.116(a) or 173.133(a)) use an appropriate Class 2.3 or Class 6.1 generic PSN that identifies the inhalation hazard."
-    },
-    {
-      "provision": "6",
-      "details": "This material is poisonous by inhalation and must be described as an inhalation hazard."
-    },
-    {
-      "provision": "8",
-      "details": "A hazardous substance that is not a hazardous waste may be shipped under the shipping description 'Other regulated substance, liquid or solid', as appropriate."
-    },
-    {
-      "provision": "9",
-      "details": "EPA in 40 CFR Sections 761.60 and 761.65 prescribes packaging for certain PCBs for disposal and storage."
-    },
-    {
-      "provision": "11",
-      "details": "Package material either as a liquid or solid, as appropriate, depending on its physical form at 55 degrees C (131 degrees F) at atmospheric pressure."
-    },
-    {
-      "provision": "12",
-      "details": "In concentrations greater than 40 percent, this material has strong oxidizing properties and is capable of starting fires in contact with combustible materials."
-    },
-    {
-      "provision": "13",
-      "details": "Enter the words 'Inhalation Hazard' on each shipping paper in association with the shipping description."
-    },
-    {
-      "provision": "14",
-      "details": "Motor fuel anti-knock mixtures are mixtures of one or more organic lead mixtures with one or more halogen compounds, hydrocarbon solvents, or other equally efficient stabilizers."
-    },
-    {
-      "provision": "21",
-      "details": "This material must be stabilized by appropriate means to prevent dangerous polymerization."
-    },
-    {
-      "provision": "22",
-      "details": "If the hazardous material is in dispersion in organic liquid, the organic liquid must have a flash point above 50 degrees C (122 degrees F)."
-    },
-    {
-      "provision": "23",
-      "details": "Classify this material as Class 4.1 only if it is packed so that the percentage of diluent will not fall below that stated in the shipping description at any time during transport."
-    },
-    {
-      "provision": "30",
-      "details": "Sulphur is not regulated if transported in a non-bulk packaging or if formed to a specific shape (e.g., prills, granules, pellets, pastilles, or flakes)."
-    },
-    {
-      "provision": "33",
-      "details": "Ammonium nitrites and mixtures of an inorganic nitrite with an ammonium salt are prohibited."
-    },
-    {
-      "provision": "43",
-      "details": "The nitrogen content of the nitrocellulose must not exceed 11.5 percent."
-    },
-    {
-      "provision": "44",
-      "details": "The formulation must be prepared so that it remains homogenous and does not separate during transport."
-    },
-    {
-      "provision": "46",
-      "details": "During transport, it must be protected from direct sunshine and stored in a cool and well-ventilated place."
-    },
-    {
-      "provision": "47",
-      "details": "Mixtures of solids which are not subject to this subchapter and flammable liquids may be transported without first applying the classification criteria of Division 4.1, provided there is no free liquid visible at the time of loading."
-    },
-    {
-      "provision": "48",
-      "details": "Mixtures of solids which are not subject to this subchapter and toxic liquids may be transported without first applying the classification criteria of Division 6.1, provided there is no free liquid visible."
-    },
-    {
-      "provision": "49",
-      "details": "Mixtures of solids which are not subject to this subchapter and corrosive liquids may be transported without first applying the classification criteria of Class 8, provided there is no free liquid visible."
-    },
-    {
-      "provision": "51",
-      "details": "This description applies to items previously described as 'Toy propellant devices, Class C' and includes reloaded kits. Model rocket motors are classed as Division 1.4S or 1.4C based on propellant."
-    },
-    {
-      "provision": "53",
-      "details": "Packages of these materials must bear a subsidiary hazard label, 'EXPLOSIVE', unless exempted by the DOT."
-    },
-    {
-      "provision": "56",
-      "details": "Ensure a means to interrupt and prevent detonation of the detonator from initiating the detonating cord is installed between each electric detonator and the detonating cord ends."
-    },
-    {
-      "provision": "60",
-      "details": "An oxygen generator that is shipped with its means of initiation attached must incorporate at least two positive means of preventing unintentional actuation of the generator."
-    },
-    {
-      "provision": "62",
-      "details": "Oxygen generators are not authorized for transportation under this entry."
-    },
-    {
-      "provision": "102",
-      "details": "This article may be transported as Class 1.4D if all conditions specified in 49 CFR Paragraph 173.63(a) are met."
-    },
-    {
-      "provision": "103",
-      "details": "Detonators that will not mass detonate and undergo only limited propagation in the shipping package may be assigned to Class 1.4B."
-    },
-    {
-      "provision": "105",
-      "details": "The word 'Agents' may be used instead of 'Explosives' when approved by the DOT."
-    },
-    {
-      "provision": "106",
-      "details": "The recognized name of the particular explosive may be specified in addition to the type."
-    },
-    {
-      "provision": "107",
-      "details": "The classification of the substance is expected to vary especially with the particle size and packaging, but the border lines have not been experimentally determined."
-    },
-    {
-      "provision": "108",
-      "details": "Fireworks must be constructed and packaged so that loose pyrotechnic composition is not present in packages during transportation."
-    },
-    {
-      "provision": "109",
-      "details": "Rocket motors must be nonpropulsive in transportation unless approved according to regulations."
-    },
-    {
-      "provision": "110",
-      "details": "Fire extinguishers and oxygen cylinders transported for emergency use may include installed actuating cartridges without changing the classification of Division 2.2."
-    },
-    {
-      "provision": "111",
-      "details": "Explosive substances of Class 1.1A are forbidden for transportation if dry or not desensitized, unless incorporated in a device."
-    },
-    {
-      "provision": "112",
-      "details": "Cartridges, Small Arms (1.4S) and Cartridges, Power Devices (1.4S) may be transported as limited quantities when authorized."
-    },
-    {
-      "provision": "113",
-      "details": "The sample must be given tentative approval by an agency or laboratory."
-    },
-    {
-      "provision": "115",
-      "details": "Boosters with detonator that will not mass detonate and undergo only limited propagation may be assigned to Class 1.4B."
-    },
-    {
-      "provision": "116",
-      "details": "Fuzes, detonating, may be classed in Class 1.4 if they contain no more than 25 g of explosive per fuze."
-    },
-    {
-      "provision": "117",
-      "details": "If freezing weather is anticipated, the water contained in the explosive substance must be mixed with denatured alcohol to prevent freezing."
-    },
-    {
-      "provision": "118",
-      "details": "This substance may not be transported under the provisions of Division 4.1 unless authorized."
-    },
-    {
-      "provision": "123",
-      "details": "Any explosive, blasting, type C containing chlorate must be segregated from explosives containing ammonium nitrate or other ammonium salts."
-    },
-    {
-      "provision": "127",
-      "details": "Mixtures containing oxidizing and organic materials transported under this entry may not meet the definition of a Class 1 material."
-    },
-    {
-      "provision": "132",
-      "details": "This description may only be used for ammonium nitrate-based compound fertilizers. They must be classified according to the procedure outlined in the UN Manual of Tests and Criteria."
-    },
-    {
-      "provision": "134",
-      "details": "This entry applies to vehicles powered by various batteries or hybrid engines, including lithium-ion batteries and fuel cells."
-    },
-    {
-      "provision": "135",
-      "details": "Internal combustion engines installed in a vehicle must be consigned under the entries “Vehicle, flamma le gas powered” or “Vehicle, flammable liquid powered,” as appropriate. (T-0). If a vehicle is powered by a flammable liquid and a flammable gas internal combustion engine, it must be consigned under the entry “Vehicle, flammable gas powered.” (T-0). These entries include hybrid electric vehicles powered by both an internal combustion engine and wet, sodium or lithium batteries installed. If a fuel cell engine is installed in a vehicle, the vehicle must be consigned using the entries “Vehicle, fuel cell, flammable gas powered” or “Vehicle, fuel cell, flammable liquid powered,” as appropriate. (T-0). These entries include hybrid electric vehicles powered by a fuel cell, an internal combustion engine, and wet, sodium or lithium batteries installed. For the purpose of this special provision, vehicles are self-propelled apparatus designed to carry one or more persons or goods. Examples of such vehicles are cars, motorcycles, trucks, locomotives, scooters, three- and four-wheeled vehicles or motorcycles, lawn tractors, self-propelled farming and construction equipment, boats and aircraft."
-    },
-    {
-      "provision": "139",
-      "details": "Use of the 'special arrangement' proper shipping names for international shipments must be made under an IAEA Certificate of Competent Authority."
-    },
-    {
-      "provision": "155",
-      "details": "Fish meal, fish scrap, and krill meal may not be transported if the temperature at the time of loading exceeds specified limits."
-    },
-    {
-      "provision": "156",
-      "details": "Asbestos that is immersed or fixed in a binder material or contained in manufactured products is not subject to the requirements of this manual."
-    },
-    {
-      "provision": "160",
-      "details": "This entry applies to safety devices for vehicles, vessels, or aircraft, e.g., airbag inflators, seat-belt pretensioners, and pyromechanical devices containing Class 1 materials."
-    },
-    {
-      "provision": "162",
-      "details": "This material may be transported under Division 4.1 only if packed so that the percentage of diluent will not fall below the percentage stated in the shipping description."
-    },
-    {
-      "provision": "165",
-      "details": "These substances are susceptible to exothermic decomposition at elevated temperatures and must be shaded from direct sunlight and placed in adequately ventilated areas."
-    },
-    {
-      "provision": "167",
-      "details": "These storage systems must always be considered as containing hydrogen. Metal hydride storage systems must be approved for transport by the Associate Administrator."
-    },
-    {
-      "provision": "177",
-      "details": "Gasoline or ethanol and gasoline mixtures for use in internal combustion engines must be assigned to Packing Group II regardless of variations in volatility."
-    },
-    {
-      "provision": "182",
-      "details": "Equipment containing only lithium batteries must be classified as either UN3091 or UN3481."
-    },
-    {
-      "provision": "198",
-      "details": "Nitrocellulose solutions containing not more than 20% nitrocellulose may be transported as paint or printing ink if the nitrocellulose contains no more than 12.6% nitrogen."
-    },
-    {
-      "provision": "237",
-      "details": "This entry may only be used for non-activated batteries that contain dry potassium hydroxide and are intended to be activated prior to use by adding water."
-    },
-    {
-      "provision": "328",
-      "details": "When lithium metal or lithium-ion batteries are contained in the fuel cell system, they must be described under this entry and the appropriate entries for lithium batteries."
-    },
-    {
-      "provision": "332",
-      "details": "Magnesium nitrate hexahydrate is not subject to the requirements of this manual."
-    },
-    {
-      "provision": "346",
-      "details": "Nitrogen, refrigerated liquid (cryogenic liquid) transported in accordance with open cryogenic receptacles is not subject to other requirements of this manual."
-    },
-    {
-      "provision": "347",
-      "details": "Substances and articles assigned to these PSNs must pass Test series 6(d) of Part I of the UN Manual of Tests and Criteria, or must be reclassified."
-    },
-    {
-      "provision": "349",
-      "details": "Mixtures of hypochlorite with an ammonium salt are forbidden for transport. Hypochlorite solution is a Class 8 corrosive material."
-    },
-    {
-      "provision": "361",
-      "details": "Capacitors with an energy storage capacity of 0.3 Wh or less are not subject to the requirements of this manual."
-    },
-    {
-      "provision": "362",
-      "details": "This entry applies to liquids, pastes, or powders, pressurized with a propellant that meets the definition of a gas in 49 CFR Section 173.115."
-    },
-    {
-      "provision": "367",
-      "details": "The proper shipping name 'Paint related material' may be used for consignments containing paint and paint-related material in the same package."
-    },
-    {
-      "provision": "368",
-      "details": "Non-fissile or fissile-excepted uranium hexafluoride must be classified under UN3507 or UN2978."
-    },
-    {
-      "provision": "369",
-      "details": "This radioactive material in an excepted package possessing toxic and corrosive properties is classified in Division 6.1."
-    },
-    {
-      "provision": "372",
-      "details": "This entry applies to asymmetric capacitors with an energy storage capacity greater than 0.3 Wh."
-    },
-    {
-      "provision": "387",
-      "details": "When chemical stabilization is employed, the level of stabilization must be sufficient to prevent the material from dangerous polymerization at 50°C."
-    },
-    {
-      "provision": "388",
-      "details": "Lithium batteries containing both primary lithium metal cells and rechargeable lithium ion cells that are not designed to be externally charged must meet certain conditions."
-    },
-    {
-      "provision": "389",
-      "details": "This entry only applies to lithium-ion or lithium-metal batteries installed in a cargo transport unit and designed to provide power externally."
-    },
-    {
-      "provision": "391",
-      "details": "Articles containing hazardous materials of various divisions may only be offered for transportation and transported under conditions approved by the DOT Associate Administrator."
-    },
-    {
-      "provision": "A1",
-      "details": "Single packaging is not permitted on aircraft carrying passengers. P4 restrictions apply."
-    },
-    {
-      "provision": "A2",
-      "details": "Single packagings are not permitted."
-    },
-    {
-      "provision": "A3",
-      "details": "For combination packagings, if glass inner packagings (including ampoules) are used, they must be packed with absorbent material in tightly closed rigid and leakproof receptacles before packing in outer packagings."
-    },
-    {
-      "provision": "A4",
-      "details": "Liquids having an inhalation toxicity of PG I and are identified as P1, P2, or P3 are not permitted on passenger aircraft. Deviations are not allowed."
-    },
-    {
-      "provision": "A5",
-      "details": "Solids having an inhalation toxicity of PG I and are identified as P1, P2, or P3, are not permitted on passenger aircraft and may not exceed a maximum net quantity per package of 15 kg (33 pounds) on cargo aircraft."
-    },
-    {
-      "provision": "A6",
-      "details": "For combination packagings, if plastic inner packagings are used, pack in tightly closed metal receptacles before packing into outer packagings."
-    },
-    {
-      "provision": "A7",
-      "details": "Steel packagings must be corrosion-resistant or have protection against corrosion."
-    },
-    {
-      "provision": "A8",
-      "details": "For combination packagings, if glass inner packagings (including ampoules) are used, they must be packed with cushioning material in tightly closed metal receptacles before packing in outer packagings."
-    },
-    {
-      "provision": "A9",
-      "details": "For combination packages, if plastic bags are used, they must be packed in tightly closed metal receptacles before packing in outer packagings."
-    },
-    {
-      "provision": "A10",
-      "details": "When aluminum or aluminum alloy construction materials are used, they must be resistant to corrosion."
-    },
-    {
-      "provision": "A11",
-      "details": "For combination packagings, when metal inner packagings are permitted, only specification cylinders constructed of metals which are compatible with the hazardous material may be used."
-    },
-    {
-      "provision": "A19",
-      "details": "Combination packagings consisting of outer fiber drums or plywood drums, with inner plastic packagings, are not authorized."
-    },
-    {
-      "provision": "A20",
-      "details": "Plastic bags as inner receptacles of combination packagings are not authorized."
-    },
-    {
-      "provision": "A29",
-      "details": "Combination packagings consisting of outer expanded plastic boxes with inner plastic bags are not authorized."
-    },
-    {
-      "provision": "A30",
-      "details": "Ammonium permanganate is not authorized."
-    },
-    {
-      "provision": "A35",
-      "details": "This includes material which is not covered by any other hazard class but has anesthetic, narcotic, noxious or other properties such that, in the event of spillage or leakage on the aircraft, extreme annoyance or discomfort could be caused to aircrew members so as to prevent correct performance of assigned duties."
-    },
-    {
-      "provision": "A37",
-      "details": "This entry applies only to a material meeting the definition in 49 CFR Section 171.8 for self-defense spray."
-    },
-    {
-      "provision": "A43",
-      "details": "Toxins from plant, animal, or bacterial sources, which contain infectious substances, or toxins that are contained in infectious substances, must be classified as Division 6.2."
-    },
-    {
-      "provision": "A56",
-      "details": "Radioactive material with a subsidiary hazard of Division 4.2 Packing Group I must be transported in Type B packages when offered for transportation by aircraft. Radioactive material with a subsidiary hazard of Division 2.1 is forbidden from transport on passenger aircraft."
-    },
-    {
-      "provision": "A58",
-      "details": "An aqueous solution containing 24% or less alcohol by volume and more than 50% water is not subject to these regulations."
-    },
-    {
-      "provision": "A61",
-      "details": "When used for purposes such as sterilization, inner packagings of peroxyacetic acid, stabilized, classified as UN3107 or UN3109, may be fitted with a vent consisting of a hydrophobic membrane."
-    },
-    {
-      "provision": "A67",
-      "details": "Non-spillable batteries are considered dry batteries and not subject to any other requirements if they meet specific conditions, including no free liquid flow at 55°C."
-    },
-    {
-      "provision": "A69",
-      "details": "May be transported using a DOT hazard classification approval. Except for Class/Division 1.4S, a copy of the approval must accompany the shipment."
-    },
-    {
-      "provision": "A87",
-      "details": "Engines or machinery which are not fully enclosed by packaging, crates, or other means that prevent ready identification, are not subject to marking, labeling, or placarding requirements."
-    },
-    {
-      "provision": "A117",
-      "details": "Wastes containing Category A infectious substances must be assigned to UN2814 or UN2900."
-    },
-    {
-      "provision": "A124",
-      "details": "Only mixtures with not more than 23.5% oxygen may be transported under this entry. A Division 5.1 subsidiary hazard label is not required for any concentration within this limit."
-    },
-    {
-      "provision": "A140",
-      "details": "Technical name must not be shown on the package, but must be shown on the shipper’s declaration for dangerous goods."
-    },
-    {
-      "provision": "A191",
-      "details": "Notwithstanding the Division 6.1 subsidiary hazard for this description, the toxic subsidiary hazard label and requirement are not required for manufactured articles containing less than 5 kg of mercury."
-    },
-    {
-      "provision": "A197",
-      "details": "Marine pollutants in single or combination packagings containing a net quantity per packaging of 5 L or less for liquids, or 5 kg or less for solids, are not subject to other requirements provided packagings meet general standards."
-    },
-    {
-      "provision": "A213",
-      "details": "Lithium batteries containing both primary lithium metal cells and rechargeable lithium-ion cells must be assigned to UN numbers 3090 or 3091 as appropriate."
-    },
-    {
-      "provision": "A500",
-      "details": "P2 Code applies if rocket motor contains hypergolic liquids."
-    },
-    {
-      "provision": "A501",
-      "details": "P3 does not apply to unit maintenance and support personnel traveling on Special Assignment Airlift Missions."
-    },
-    {
-      "provision": "A502",
-      "details": "With approval of the Shipper’s HAZMAT service focal point, may be shipped as P2."
-    },
-    {
-      "provision": "A503",
-      "details": "Only Class 2 (non-toxic aerosols), Class 3 (PG II or III), and Division 6.1 (PG III) substances without a subsidiary hazard may be shipped to an international location as Class 9."
-    },
-    {
-      "provision": "A504",
-      "details": "Deleted"
-    },
-    {
-      "provision": "A506",
-      "details": "Inner receptacles of a combination package and a single package must meet internal air gauge pressure requirements for PG III liquids."
-    },
-    {
-      "provision": "A507",
-      "details": "Passenger eligibility for radioactive materials is determined by Category III, II, or I Yellow label provisions (P3, P4, and P5)."
-    },
-    {
-      "provision": "A508",
-      "details": "Diagnostic, Patient, or Clinical Specimens not containing Category A or B infectious substances are not regulated."
-    },
-    {
-      "provision": "A509",
-      "details": "Magnesium alloys with 50% or less magnesium in pellets, turnings, or ribbons are not regulated."
-    },
-    {
-      "provision": "A510",
-      "details": "Emergency power units (EPU) for F-16 aircraft are packaged, marked, and labeled per a DOT-SP, CAA, or COE."
-    },
-
-    {
-      "provision": "N3",
-      "details": "Glass inner packagings are permitted in combination or composite packagings only if the hazardous material is free from hydrofluoric acid."
-    },
-    {
-      "provision": "N4",
-      "details": "For combination or composite packagings, glass inner packagings, other than ampoules, are not permitted."
-    },
-    {
-      "provision": "N5",
-      "details": "Glass materials of construction are not authorized for any part of the packaging which is normally in contact with the hazardous material."
-    },
-    {
-      "provision": "N6",
-      "details": "Battery fluid packaged with electric storage batteries, wet or dry, must conform to the packaging provisions of A12.4.4."
-    },
-    {
-      "provision": "N7",
-      "details": "The hazard class or division number of the material must be marked on the package according to 49 CFR Section 172.302."
-    },
-    {
-      "provision": "N8",
-      "details": "Nitroglycerin solution in alcohol may be transported only when packed in metal cans of not more than 1 L capacity, overpacked in a wooden box, with absorbent material."
-    },
-    {
-      "provision": "N12",
-      "details": "Plastic packagings are not authorized."
-    },
-    {
-      "provision": "N25",
-      "details": "Steel single packagings are not authorized."
-    },
-    {
-      "provision": "N32",
-      "details": "Aluminum materials of construction are not authorized for single packagings."
-    },
-    {
-      "provision": "N33",
-      "details": "Aluminum drums are not authorized."
-    },
-    {
-      "provision": "N34",
-      "details": "Aluminum construction materials are not authorized for any part of a packaging that is normally in contact with the hazardous materials."
-    },
-    {
-      "provision": "N36",
-      "details": "Aluminum or aluminum alloy construction materials are permitted only for halogenated hydrocarbons that will not react with aluminum."
-    },
-    {
-      "provision": "N37",
-      "details": "This material may be shipped in an integrally-lined fiber drum (1G) that meets the general packaging requirements and UN performance tests."
-    },
-    {
-      "provision": "N40",
-      "details": "This material is not authorized in the following packagings: (1) A combination packaging consisting of a 4G fiberboard box with inner receptacles of glass or earthenware. (2) A single packaging of a 4C2 sift-proof, natural wood box. (3) A composite packaging 6PG2."
-    },
-    {
-      "provision": "N41",
-      "details": "Metal construction materials are not authorized for any part of a packaging that is normally in contact with the hazardous material."
-    },
-    {
-      "provision": "N43",
-      "details": "Metal drums are permitted as single packagings only if constructed of nickel or Monel."
-    },
-    {
-      "provision": "N45",
-      "details": "For combination packagings, copper cartridges are permitted as inner packagings when the hazardous material is not in dispersion."
-    },
-    {
-      "provision": "N65",
-      "details": "Outage must be sufficient to prevent cylinders or spheres from becoming liquid full at 55 degrees C (130 degrees F)."
-    },
-    {
-      "provision": "N73",
-      "details": "Packagings consisting of outer wooden or fiberboard boxes with inner glass, metal, or other strong containers are authorized and need not conform to the UN test requirements for domestic shipment."
-    },
-    {
-      "provision": "N74",
-      "details": "Packages consisting of tightly closed inner containers of glass, earthenware, metal, or polyethylene are authorized and need not conform to the UN test requirements for domestic shipment."
-    },
-    {
-      "provision": "N75",
-      "details": "Packages consisting of tightly closed inner packagings of glass, earthenware, or metal are authorized and need not conform to the UN test requirements for domestic shipment."
-    },
-    {
-      "provision": "N76",
-      "details": "For materials of not more than 25 percent active ingredient by weight, packages consisting of inner metal packagings not greater than 250 ml capacity each, packed with absorbent material, are authorized."
-    },
-    {
-      "provision": "N77",
-      "details": "For materials of not more than two percent active ingredients by weight, with the liquid absorbed in an inert material, the packagings need not conform to UN test requirements for domestic shipment."
-    },
-    {
-      "provision": "N78",
-      "details": "Packages consisting of inner glass, earthenware, polyethylene, or metal bottles or jars not over 0.5 kg capacity each are authorized and need not conform to UN test requirements for domestic shipments."
-    },
-    {
-      "provision": "N79",
-      "details": "Packages consisting of tightly closed metal inner packagings not over 0.5 kg capacity each are authorized and need not conform to UN test requirements for domestic shipment."
-    },
-    {
-      "provision": "N85",
-      "details": "Packagings certified at the Packing Group I performance level may not be used."
-    },
-    {
-      "provision": "N86",
-      "details": "UN pressure receptacles made of aluminum alloy are not authorized."
-    },
-    {
-      "provision": "N87",
-      "details": "The use of copper valves on UN pressure receptacles is prohibited."
-    },
-    {
-      "provision": "N88",
-      "details": "Any metal part of a UN pressure receptacle in contact with the contents may not contain more than 65% copper."
-    },
-    {
-      "provision": "N89",
-      "details": "When steel UN pressure receptacles are used, only those bearing the 'H' mark are authorized."
-    },
-    {
-      "provision": "N90",
-      "details": "Metal packagings are not authorized."
-    }
-  ]
+ "P": [
+  {
+   "provision": "P1",
+   "details": "Transport this material on dedicated airlift (e.g., Special Assignment Airlift Mission) aircraft as identified in Attachment 24. Material authorized on cargo aircraft only. Passenger deviations are not authorized."
+  },
+  {
+   "provision": "P2",
+   "details": "Transport this material on cargo aircraft only. Passenger deviations are not authorized."
+  },
+  {
+   "provision": "P3",
+   "details": "Transport this material on cargo aircraft only. Deviations are authorized according to paragraph 2.2. and Attachment 22."
+  },
+  {
+   "provision": "P4",
+   "details": "Transport this material on cargo aircraft only. Deviations are authorized according to paragraph 2.2. and Attachment 22. DoW duty passengers do not require a deviation."
+  },
+  {
+   "provision": "P5",
+   "details": "Transport this material on passenger and cargo aircraft without passenger restriction."
+  },
+  {
+   "provision": "1",
+   "details": "This material is poisonous by inhalation in Hazard Zone A, describe as an inhalation hazard."
+  },
+  {
+   "provision": "2",
+   "details": "This material is poisonous by inhalation in Hazard Zone B, describe as an inhalation hazard."
+  },
+  {
+   "provision": "3",
+   "details": "This material is poisonous by inhalation in Hazard Zone C, describe as an inhalation hazard."
+  },
+  {
+   "provision": "4",
+   "details": "This material is poisonous by inhalation in Hazard Zone D, describe as an inhalation hazard."
+  },
+  {
+   "provision": "5",
+   "details": "If this material meets the defining criteria for a material poisonous by inhalation (49 CFR Paragraphs 173.116(a) or 173.133(a)) use an appropriate Class 2.3 or Class 6.1 generic PSN that identifies the inhalation hazard."
+  },
+  {
+   "provision": "6",
+   "details": "This material is poisonous by inhalation and must be described as an inhalation hazard. (T-0)"
+  },
+  {
+   "provision": "8",
+   "details": "A hazardous substance that is not a hazardous waste may be shipped under the shipping description \"Other regulated substance, liquid or solid\", as appropriate."
+  },
+  {
+   "provision": "9",
+   "details": "EPA in 40 CFR Sections 761.60 and 761.65 prescribes packaging for certain PCBs for disposal and storage."
+  },
+  {
+   "provision": "11",
+   "details": "Package material either as a liquid or solid, as appropriate, depending on its physical form at 55 degrees C (131 degrees F) at atmospheric pressure."
+  },
+  {
+   "provision": "12",
+   "details": "In concentrations greater than 40 percent, this material has strong oxidizing properties and is capable of starting fires in contact with combustible materials. If applicable, a package containing this material must comply with the subsidiary hazard labeling requirements of Attachment 15. (T-0)"
+  },
+  {
+   "provision": "13",
+   "details": "Enter the words “Inhalation Hazard” on each shipping paper in association with the shipping description."
+  },
+  {
+   "provision": "14",
+   "details": "Motor fuel anti-knock mixtures are mixtures of one or more organic lead mixtures (such as tetraethyl lead, triethylmethyl lead, diethyldimethyl lead, ethyltrimethyl lead, and tetramethyl lead) with one or more halogen compounds (such as ethylene dibromide and ethylene dichloride), hydrocarbon solvents or other equally efficient stabilizers; or tetraethyl lead."
+  },
+  {
+   "provision": "15",
+   "details": "This entry applies to “Chemical kits” and “First aid kits” containing one or more compatible items of hazardous materials in boxes, cases, etc. that, for example, are used for medical, analytical, diagnostic, testing, or repair purposes. Kits that are carried on board transport vehicles for first aid or operating purposes are not subject to the requirements of this subchapter."
+  },
+  {
+   "provision": "16",
+   "details": "This description applies to smokeless powder and other solid propellants that are used as powder for small arms and have been classed as Division 1.3C, 1.4C and Division 4.1 in accordance with 49 CFR § 173.56 of this subchapter."
+  },
+  {
+   "provision": "19",
+   "details": "For domestic transportation only, the identification number “UN1075” may be used in place of the identification number specified in column (2) of the Table A4.1. The identification number used must be consistent on package markings, shipping papers and emergency response information."
+  },
+  {
+   "provision": "21",
+   "details": "This material must be stabilized by appropriate means to prevent dangerous polymerization. (T-0)"
+  },
+  {
+   "provision": "22",
+   "details": "If the hazardous material is in dispersion in organic liquid, the organic liquid must have a flash point above 50 degrees C (122 degrees F). (T-0)"
+  },
+  {
+   "provision": "23",
+   "details": "Classify this material as Cl ass 4.1 only if it is packed so that the percentage of diluent will not fall below that stated in the shipping description at any time during transport."
+  },
+  {
+   "provision": "24",
+   "details": "Alcoholic beverages containing more than 70 percent alcohol by volume must be transported as materials in Packing Group II. Alcoholic beverages containing more than 24 percent but not more than 70 percent alcohol by volume must be transported as materials in Packing Group III."
+  },
+  {
+   "provision": "26",
+   "details": "This entry does not include ammonium permanganate, the transport of which is prohibited except when approved by the Associate Administrator."
+  },
+  {
+   "provision": "28",
+   "details": "The dihydrated sodium salt of dichloroisocyanuric acid does not meet the criteria for inclusion in Division 5.1 (Oxidizer) and is not subject to the requirements of this subchapter unless meeting the criteria for inclusion in another class or division."
+  },
+  {
+   "provision": "30",
+   "details": "Sulphur is not regulated if transported in a non-bulk packaging or if formed to a specific shape (e.g., prills, granules, pellets, pastilles, or flakes)."
+  },
+  {
+   "provision": "31",
+   "details": "Materials which have undergone sufficient heat treatment to render them non-hazardous are not subject to the requirements of this subchapter."
+  },
+  {
+   "provision": "32",
+   "details": "Polymeric beads and molding compounds may be made from polystyrene, poly(methyl methacrylate) or other polymeric material."
+  },
+  {
+   "provision": "33",
+   "details": "Ammonium nitrites and mixtures of an inorganic nitrite with an ammonium salt are prohibited."
+  },
+  {
+   "provision": "34",
+   "details": "The commercial grade of calcium nitrate fertilizer, when consisting mainly of a double salt (calcium nitrate and ammonium nitrate) containing not more than 10 percent ammonium nitrate and at least 12 percent water of crystallization, is not subject to the requirements of this subchapter."
+  },
+  {
+   "provision": "35",
+   "details": "Antimony sulphides and oxides which do not contain more than 0.5 percent of arsenic calculated on the total mass do not meet the definition of Division 6.1."
+  },
+  {
+   "provision": "37",
+   "details": "Unless it can be demonstrated by testing that the sensitivity of the substance in its frozen state is no greater than in its liquid state, the substance must remain liquid during normal transport conditions. It must not freeze at temperatures above −15 °C (5 °F)."
+  },
+  {
+   "provision": "38",
+   "details": "If this material shows a violent effect in laboratory tests involving heating under confinement, the labeling requirements of Special Provision 53 apply, and the material must be packaged in accordance with packing method OP6 in § 173.225 of this subchapter. If the SADT of the technically pure substance is higher than 75 °C, the technically pure substance and formulations derived from it are not self-reactive materials and, if not meeting any other hazard class, are not subject to the requirements of this subchapter."
+  },
+  {
+   "provision": "39",
+   "details": "This substance may be carried under provisions other than those of Class 1 only if it is so packed that the percentage of water will not fall below that stated at any time during transport. When phlegmatized with water and inorganic inert material, the content of urea nitrate must not exceed 75 percent by mass and the mixture should not be capable of being detonated by test 1(a)(i) or test 1(a)(ii) in the UN Manual of Tests and Criteria (IBR, see § 171.7 of this subchapter)."
+  },
+  {
+   "provision": "40",
+   "details": "Polyester resin kits consist of two components: A base material (either Class 3 or Division 4.1, Packing Group II or III) and an activator (organic peroxide), each separately packed in an inner packaging. The organic peroxide must be type D, E, or F, not requiring temperature control. The components may be placed in the same outer packaging provided they will not interact dangerously in the event of leakage. The Packing Group assigned will be II or III, according to the classification criteria for either Class 3 or Division 4.1, as appropriate, applied to the base material. Additionally, unless otherwise excepted in this subchapter, polyester resin kits must be packaged in specification combination packagings based on the performance level of the base material contained within the kit."
+  },
+  {
+   "provision": "41",
+   "details": "This material at the Packing Group II hazard criteria level may be transported in Large Packagings."
+  },
+  {
+   "provision": "43",
+   "details": "The nitrogen content of the nitrocellulose must not exceed 11.5 percent. (T-0) Pack each single filter sheet between sheets of glazed paper. Ensure the portion of glazed paper between the filter sheets is not less than 65 percent, by mass. The membrane filters/paper arrangement must not be liable to propagate a detonation. (T-0)"
+  },
+  {
+   "provision": "44",
+   "details": "The formulation must be prepared so that it remains homogenous and does not separate during transport. (T-0). Formulations with low nitrocellulose contents and neither showing dangerous properties when tested for their ability to detonate, deflagrate or explode when heated under defined confinement by the appropriate test methods and criteria in the UN Manual of Tests and Criteria, nor classed as a Division 4.1 (flammable solid) when tested in accordance with the procedures specified in 49 CFR Section 173.124 (chips, if necessary, crushed and sieved to a particle size of less than 1.25 mm), are not subject to the requirements of this manual."
+  },
+  {
+   "provision": "45",
+   "details": "Temperature should be maintained between 18 °C (64.4 °F) and 40 °C (104 °F). Tanks containing solidified methacrylic acid must not be reheated during transport."
+  },
+  {
+   "provision": "46",
+   "details": "During transport, it must be protected from direct sunshine and stored (or kept) in a cool and well-ventilated place, away from all sources of heat. (T-0)"
+  },
+  {
+   "provision": "47",
+   "details": "Mixtures of solids which are not subject to this subchapter and flammable liquids may be transported under this entry without first applying the classification criteria of Division 4.1, provided there is no free liquid visible at the time the material is loaded or at the time the packaging or transport unit is closed. Each packaging must correspond to a design type that has passed a leakproofness test at the Packing Group II level. (T-0) Small inner packagings consisting of sealed packets containing less than 10 mL of a Class 3 liquid in Packing Group II or III absorbed onto a solid material are not subject to this subchapter provided there is no free liquid in the packet."
+  },
+  {
+   "provision": "48",
+   "details": "Mixtures of solids which are not subject to this subchapter and toxic liquids may be transported under this entry without first applying the classification criteria of Division 6.1, provided there is no free liquid visible at the time the material is loaded or at the time the packaging or transport unit is closed. Each packaging must correspond to a design type that has passed a leakproofness test at the Packing Group II level. (T-0) This entry may not be used for solids containing a Packing Group I liquid."
+  },
+  {
+   "provision": "49",
+   "details": "Mixtures of solids which are not subject to this subchapter and corrosive liquids may be transported under this entry without first applying the classification criteria of Class 8, provided there is no free liquid visible at the time the material is loaded or at the time the packaging or transport unit is closed. Each packaging must correspond to a design type that has passed a leakproofness test at the Packing Group II level. (T-0"
+  },
+  {
+   "provision": "50",
+   "details": "Cases, cartridge, empty with primer which are made of metallic or plastic casings and meeting the classification criteria of Division 1.4 are not regulated for domestic transportation."
+  },
+  {
+   "provision": "51",
+   "details": "This description applies to items previously described as “Toy propellant devices, Class C” and includes reloaded kits. Model rocket motors containing 30 grams or less propellant are classed as Division 1.4S and items containing more than 30 grams of propellant but not more than 62.5 grams of propellant are classed as Division 1.4C."
+  },
+  {
+   "provision": "52",
+   "details": "This entry may only be used for substances that are too insensitive for acceptance into Class 1 (explosive) when tested in accordance with Test Series 2 in the UN Manual of Tests and Criteria, Part I (incorporated by reference; see § 171.7 of this subchapter)."
+  },
+  {
+   "provision": "53",
+   "details": "Packages of these materials must bear a subsidiary hazard label, \"EXPLOSIVE\", unless exempted by the DOT. (T-0) A copy of the permit must accompany the shipment. (T-0)"
+  },
+  {
+   "provision": "54",
+   "details": "Maneb or maneb preparations not meeting the definition of Division 4.3 or any other hazard class are not subject to the requirements of this subchapter when transported by motor vehicle, rail car, or aircraft."
+  },
+  {
+   "provision": "55",
+   "details": "This device must be approved in accordance with § 173.56 of this subchapter by the Associate Administrator."
+  },
+  {
+   "provision": "56",
+   "details": "Ensure a means to interrupt and prevent detonation of the detonator from initiating the detonating cord is installed between each electric detonator and the detonating cord ends of the jet perforating guns."
+  },
+  {
+   "provision": "57",
+   "details": "Maneb or Maneb preparations stabilized against self-heating need not be classified in Division 4.2 when it can be demonstrated by testing that a volume of 1 m3 of substance does not self-ignite and that the temperature at the center of the sample does not exceed 200 °C, when the sample is maintained at a temperature of not less than 75 °C ±2 °C for a period of 24 hours, in accordance with procedures set forth for testing self-heating materials in the UN Manual of Tests and Criteria (IBR, see § 171.7 of this subchapter)."
+  },
+  {
+   "provision": "58",
+   "details": "Aqueous solutions of Division 5.1 inorganic solid nitrate substances are considered as not meeting the criteria of Division 5.1 if the concentration of the substances in solution at the minimum temperature encountered in transport is not greater than 80% of the saturation limit."
+  },
+  {
+   "provision": "59",
+   "details": "Ferrocerium, stabilized against corrosion, with a minimum iron content of 10 percent is not subject to the requirements of this subchapter."
+  },
+  {
+   "provision": "61",
+   "details": "A chemical oxygen generator is spent if its means of ignition and all or a part of its chemical contents have been expended."
+  },
+  {
+   "provision": "62",
+   "details": "Oxygen generators are not authorized for transportation under this entry."
+  },
+  {
+   "provision": "64",
+   "details": "The group of alkali metals includes lithium, sodium, potassium, rubidium, and caesium."
+  },
+  {
+   "provision": "65",
+   "details": "The group of alkaline earth metals includes magnesium, calcium, strontium, and barium."
+  },
+  {
+   "provision": "66",
+   "details": "Formulations of these substances containing not less than 30 percent non-volatile, non-flammable phlegmatizer are not subject to this subchapter."
+  },
+  {
+   "provision": "70",
+   "details": "Black powder that has been classed in accordance with the requirements of § 173.56 of this subchapter may be reclassed and offered for domestic transportation as a Division 4.1 material if it is offered for transportation and transported in accordance with the limitations and packaging requirements of § 173.170 of this subchapter."
+  },
+  {
+   "provision": "74",
+   "details": "During transport, this material must be protected from direct sunshine and stored or kept in a cool and well-ventilated place, away from all sources of heat."
+  },
+  {
+   "provision": "78",
+   "details": "This entry may not be used to describe compressed air which contains more than 23.5 percent oxygen. Compressed air containing greater than 23.5 percent oxygen must be shipped using the description “Compressed gas, oxidizing, n.o.s., UN3156.”"
+  },
+  {
+   "provision": "79",
+   "details": "This entry may not be used for mixtures that meet the definition for oxidizing gas."
+  },
+  {
+   "provision": "81",
+   "details": "Polychlorinated biphenyl items, as defined in 40 CFR 761.3, for which specification packagings are impractical, may be packaged in non-specification packagings meeting the general packaging requirements of subparts A and B of part 173 of this subchapter. Alternatively, the item itself may be used as a packaging if it meets the general packaging requirements of subparts A and B of part 173 of this subchapter."
+  },
+  {
+   "provision": "101",
+   "details": "The name of the particular substance or article must be specified."
+  },
+  {
+   "provision": "102",
+   "details": "This article may be transported as Class 1.4D if all of the conditions specified in 49 CFR Paragraph 173.63(a) are met. Reclassification requires approval by a DOW Explosive Hazard Classification Authority according to A3.3.1.4."
+  },
+  {
+   "provision": "105",
+   "details": "The word \"Agents\" may be used instead of \"Explosives\" when approved by the DOT."
+  },
+  {
+   "provision": "106",
+   "details": "The recognized name of the particular explosive may be specified in addition to the type."
+  },
+  {
+   "provision": "107",
+   "details": "The classification of the substance is expected to vary especially with the particle size and packaging, but the border lines have not been experimentally determined; verify appropriate classifications following the test procedures in 49 CFR Sections 173.57 and 173.58. Reclassification requires approval by a DOW Explosive Hazard Classification Authority according to A3.3.1.4."
+  },
+  {
+   "provision": "108",
+   "details": "Fireworks must be constructed and packaged so that loose pyrotechnic composition is not present in packages during transportation. (T-0)"
+  },
+  {
+   "provision": "109",
+   "details": "Rocket motors must be nonpropulsive in transportation unless approved according to A3.3.1.4. (T-0) To be considered \"nonpropulsive\", a rocket motor must be capable of unrestrained burning and must not appreciably move in any direction when ignited by any means. (T-0)"
+  },
+  {
+   "provision": "110",
+   "details": "Fire extinguishers transported under UN1044 and oxygen cylinders transported for emergency use under UN1072 may include installed actuating cartridges (cartridges, power device of Division 1.4C or 1.4S), without changing the classification of Division 2.2 unless listed as a Class 1 material in the JHCS, provided the aggregate quantity of deflagrating (propellant) explosives does not exceed 3.2 grams per cylinder. Oxygen cylinders with installed actuating cartridges as prepared for transportation must have an effective means of preventing inadvertent activation . (T-0) Fire extinguisher, items described and packaged for transportation under the respective international standards as UN3559 and UN 0514 “Fire suppressant Dispersing devices,” must first be approved by the Associate Administrator in accordance with 49 CFR § 173.56. (per Notice of Enforcement Policy Regarding International Standards, (HM215 Jan-Mar 2025))."
+  },
+  {
+   "provision": "111",
+   "details": "Explosive substances of Class 1.1A are forbidden for transportation if dry or not desensitized, unless incorporated in a device."
+  },
+  {
+   "provision": "113",
+   "details": "The sample must be given a tentative approval by an agency or laboratory according to the provisions of 49 CFR Section 173.56. (T-0)"
+  },
+  {
+   "provision": "114",
+   "details": "Jet perforating guns, charged, oil well, without detonator may be reclassed to Division 1.4 Compatibility Group D (1.4D) if the following conditions are met: a. The total weight of the explosive contents of the shaped charges assembled in the guns does not exceed 90.5 kg (200 pounds) per vehicle; and b. The guns are packaged in accordance with Packing Method US 1 as specified in § 173.62 of this subchapter."
+  },
+  {
+   "provision": "115",
+   "details": "Boosters with detonator (detonating primers) in which the total explosive charge per unit does not exceed 25 g, and which will not mass detonate and undergo only limited propagation in the shipping package may be assigned to Class 1.4B. Mass detonate means more than 90 percent of the devices tested in a package explode practically simultaneously. Limited propagation means that if one booster near the center of the package is exploded, the aggregate weight of explosives, excluding ignition and delay charges, in this and all additional boosters in the outer packaging that explode may not exceed 25 g. Reclassification requires approval by a DOW Explosive Hazard Classification Authority according to A3.3.1.4."
+  },
+  {
+   "provision": "116",
+   "details": "Fuzes, detonating, may be classed in Class 1.4 if the fuzes do not contain more than 25 g of explosive per fuze and are made and packaged so that they will not cause functioning of other fuzes, explosives, or other explosive devices if one of the fuzes detonates in a shipping packaging or in adjacent packages. Reclassification requires approval by a DOW Explosive Hazard Classification Authority according to A3.3.1.4."
+  },
+  {
+   "provision": "117",
+   "details": "If a shipment of the explosive substance is to take place at a time that freezing weather is anticipated, the water contained in the explosive substance must be mixed with denatured alcohol so that freezing will not occur. (T-0)"
+  },
+  {
+   "provision": "118",
+   "details": "This substance may not be transported under the provisions of Division 4.1 unless specifically authorized by the Associate Administrator."
+  },
+  {
+   "provision": "119",
+   "details": "This substance, when in quantities of not more than 11.5 kg (25.3 pounds), with not less than 10 percent water, by mass, also may be classed as Division 4.1, provided a negative test result is obtained when tested in accordance with test series 6(c) of the UN Manual of Tests and Criteria (IBR, see § 171.7 of this subchapter)."
+  },
+  {
+   "provision": "120",
+   "details": "The phlegmatized substance must be significantly less sensitive than dry PETN."
+  },
+  {
+   "provision": "121",
+   "details": "This substance, when containing less alcohol, water or phlegmatizer than specified, may not be transported unless approved by the Associate Administrator."
+  },
+  {
+   "provision": "123",
+   "details": "Any explosive, blasting, type C containing chlorate must be segregated from explosives containing ammonium nitrate or other ammonium salts. (T-0)"
+  },
+  {
+   "provision": "125",
+   "details": "Lactose or glucose or similar materials may be used as a phlegmatizer provided that the substance contains not less than 90%, by mass, of phlegmatizer. These mixtures may be classified in Division 4.1 when tested in accordance with test series 6(c) of the UN Manual of Tests and Criteria (IBR, see § 171.7 of this subchapter) and approved by the Associate Administrator. Testing must be conducted on at least three packages as prepared for transport. Mixtures containing at least 98%, by mass, of phlegmatizer are not subject to the requirements of this subchapter. Packages containing mixtures with not less than 90% by mass, of phlegmatizer need not bear a POISON subsidiary risk label."
+  },
+  {
+   "provision": "127",
+   "details": "Mixtures containing oxidizing and organic materials transported under this entry may not meet the definition and criteria of a Class 1 material."
+  },
+  {
+   "provision": "128",
+   "details": "Regardless of the provisions of § 172.101(c)(12), aluminum smelting by-products and aluminum remelting by-products described under this entry, meeting the definition of Class 8, Packing Group II and III may be classed as a Division 4.3 material and transported under this entry. The presence of a Class 8 hazard must be communicated as required by this part for subsidiary hazards."
+  },
+  {
+   "provision": "129",
+   "details": "These materials may not be classified and transported unless authorized by the Associate Administrator on the basis of results from Series 2 Test and a Series 6(c) Test from the UN Manual of Tests and Criteria (IBR, see § 171.7 of this subchapter) on packages as prepared for transport. The packing group assignment and packaging must be approved by the Associate Administrator for Hazardous Materials Safety on the basis of the criteria in § 173.21 of this subchapter and the package type used for the Series 6(c) test."
+  },
+  {
+   "provision": "130",
+   "details": "“Batteries, dry, sealed, n.o.s.,” commonly referred to as dry batteries, are hermetically sealed and generally utilize metals (other than lead) and/or carbon as electrodes. These batteries are typically used for portable power applications. The rechargeable (and some non-rechargeable) types have gelled alkaline electrolytes (rather than acidic) making it difficult for them to generate hydrogen or oxygen when overcharged and therefore, differentiating them from non-spillable batteries. Dry batteries specifically covered by another entry in the § 172.101 Table must be transported in accordance with the requirements applicable to that entry. For example, nickel-metal hydride batteries transported by vessel in certain quantities are covered by another entry ( see Batteries, nickel-metal hydride, UN3496). Dry batteries not specifically covered by another entry in the § 172.101 Table are covered by this entry ( i.e., Batteries, dry, sealed, n.o.s.) and are not subject to requirements of this subchapter except for the following: (a) Incident reporting. For transportation by aircraft, a telephone report in accordance with § 171.15(a) is required if a fire, violent rupture, explosion or dangerous evolution of heat ( i.e., an amount of heat sufficient to be dangerous to packaging or personal safety to include charring of packaging, melting of packaging, scorching of packaging, or other evidence) occurs as a direct result of a dry battery. For all modes of transportation, a written report submitted, retained, and updated in accordance with § 171.16 is required if a fire, violent rupture, explosion or dangerous evolution of heat occurs as a direct result of a dry battery or battery-powered device. (b) Preparation for transport. Batteries and battery-powered device(s) containing batteries must be prepared and packaged for transport in a manner to prevent: (1) A dangerous evolution of heat; (2) Short circuits, including but not limited to the following methods: (i) Packaging each battery or each battery-powered device when practicable, in fully enclosed inner packagings made of non-conductive material; (ii) Separating or packaging batteries in a manner to prevent contact with other batteries, devices or conductive materials ( e.g., metal) in the packagings; or (iii) Ensuring exposed terminals or connectors are protected with non-conductive caps, non-conductive tape, or by other appropriate means; and (3) Damage to terminals. If not impact resistant, the outer packaging should not be used as the sole means of protecting the battery terminals from damage or short circuiting. Batteries must be securely cushioned and packed to prevent shifting which could loosen terminal caps or reorient the terminals to produce short circuits. Batteries contained in devices must be securely installed. Terminal protection methods include but are not limited to the following: (i) Securely attaching covers of sufficient strength to protect the terminals; (ii) Packaging the battery in a rigid plastic packaging; or (iii) Constructing the battery with terminals that are recessed or otherwise protected so that the terminals will not be subjected to damage if the package is dropped. (c) Additional air transport requirements. For a battery whose voltage (electrical potential) exceeds 9 volts— (1) When contained in a device, the device must be packaged in a manner that prevents unintentional activation or must have an independent means of preventing unintentional activation ( e.g., packaging restricts access to activation switch, switch caps or locks, recessed switches, trigger locks, temperature sensitive circuit breakers, etc. ); and (2) An indication of compliance with this special provision must be provided by marking each package with the words “not restricted” or by including the words “not restricted” on a transport document such as an air waybill accompanying the shipment. (d) Used or spent battery exception. Used or spent dry batteries of both non-rechargeable and rechargeable designs, with a marked rating up to 9-volt that are combined in the same package and transported by highway or rail for recycling, reconditioning, or disposal are not subject to this special provision or any other requirement of the HMR. Note that batteries utilizing different chemistries ( i.e., those battery chemistries specifically covered by another entry in the § 172.101 Table) as well as dry batteries with a marked rating greater than 9-volt may not be combined with used or spent batteries in the same package. Note also that this exception does not apply to batteries that have been reconditioned for reuse."
+  },
+  {
+   "provision": "131",
+   "details": "This material may not be offered for transportation unless approved by the Associate Administrator."
+  },
+  {
+   "provision": "132",
+   "details": "This description may only be used for ammonium nitrate-based compound fertilizers. They must be classified in accordance with the procedure as set out in the Manual of Tests and Criteria, part III, section 39. (T-0)"
+  },
+  {
+   "provision": "134",
+   "details": "This entry only applies to vehicles powered by wet batteries, lithium sodium batteries, lithium metal batteries or lithium ion batteries and equipment powered by wet batteries or sodium batteries that are transported with these batteries installed. a. For the purpose of this special provision, vehicles are self-propelled apparatus designed to carry one or more persons or goods. Examples of such vehicles are electrically-powered cars, motorcycles, scooters, three-and four-wheeled vehicles or motorcycles, trucks, locomotives, bicycles (pedal cycles with an electric motor) and other vehicles of this type (e.g., self-balancing vehicles or vehicles not equipped with at least one seating position), lawn tractors, self-propelled farming and construction equipment, boats, aircraft, wheelchairs and other mobility aids. This includes vehicles transported in a packaging. In this case some parts of the vehicle may be detached from its frame to fit into the packaging. b. Examples of equipment are lawnmowers, cleaning machines or model boats and model aircraft. Equipment powered by lithium metal batteries or lithium ion batteries must be consigned under the entries “Lithium metal batteries contained in equipment” or “Lithium metal batteries packed with equipment” or “Lithium ion batteries contained in equipment” or “Lithium ion batteries packed with equipment” or Lithium Sodium Batteries contain in equipment or packed with equipment as appropriate. (T-0) c. Self-propelled vehicles or equipment that also contain an internal combustion engine must be consigned under the entries “Engine, internal combustion, flammable gas powered” or “Engine, internal combustion, flammable liquid powered” or “Vehicle, flammable gas powered” or “Vehicle, flammable liquid powered,” as appropriate. (T-0) These entries include hybrid electric vehicles powered by both an internal combustion engine and batteries. Additionally, self-propelled vehicles or equipment that contain a fuel cell engine must be consigned under the entries “Engine, fuel cell, flammable gas powered” or “Engine, fuel cell, flammable liquid powered” or “Vehicle, fuel cell, flammable gas powered” or “Vehicle, fuel cell, flammable liquid powered,” as appropriate. (T-0) These entries include hybrid electric vehicles powered by a fuel cell engine, an internal combustion engine, and batteries. powered” or “Vehicle, fuel cell, flammable liquid powered,” as appropriate."
+  },
+  {
+   "provision": "135",
+   "details": "Internal combustion engines installed in a vehicle must be consigned under the entries “Vehicle, flammable gas powered” or “Vehicle, flammable liquid powered,” as appropriate. (T-0) If a vehicle is powered by a flammable liquid and a flammable gas internal combustion engine, it must be consigned under the entry “Vehicle, flammable gas powered.” (T-0) These entries include hybrid electric vehicles powered by both an internal combustion engine and wet, lithium sodium or lithium batteries installed. If a fuel cell engine is installed in a vehicle, the vehicle must be consigned using the entries “Vehicle, fuel cell, flammable gas powered” or “Vehicle, fuel cell, flammable liquid powered,” as appropriate. (T-0) These entries include hybrid electric vehicles powered by a fuel cell, an internal combustion engine, and wet, lithium sodium or lithium batteries installed. For the purpose of this special provision, vehicles are self-propelled apparatus designed to carry one or more persons or goods. Examples of such vehicles are cars, motorcycles, trucks, locomotives, scooters, three-and four-wheeled vehicles or motorcycles, lawn tractors, self-propelled farming and construction equipment, boats and aircraft."
+  },
+  {
+   "provision": "136",
+   "details": "This entry applies only to articles, machinery, and apparatus containing hazardous materials as an integral element of the article, machinery, or apparatus. It may not be used to describe articles, machinery, or apparatus for which a proper shipping name exists in the § 172.101 Table. Except when approved by the Associate Administrator, these items may only contain hazardous materials for which exceptions are referenced in Column (8) of the § 172.101 Table and are provided in part 173, subparts D and G, of this subchapter. Hazardous materials shipped under this entry are excepted from the labeling requirements of this subchapter unless offered for transportation or transported by aircraft and are not subject to the placarding requirements of subpart F of this part. Orientation markings as described in § 172.312(a)(2) are required when liquid hazardous materials may escape due to incorrect orientation. The article, machinery, or apparatus, if unpackaged, or the packaging in which it is contained will be marked “Dangerous goods in articles” or “Dangerous goods in machinery” or “Dangerous goods in apparatus” as appropriate, with the identification number UN3363. For transportation by aircraft, articles, machinery, or apparatus, may not contain any material forbidden for transportation by passenger or cargo aircraft. The Associate Administrator may except from the requirements of this subchapter articles, machinery, and apparatus provided: a. It is shown that it does not pose a significant risk in transportation; b. The quantities of hazardous materials do not exceed those specified in § 173.4a of this subchapter; and c. The equipment, and machinery or apparatus articles conforms with § 173.222 of this subchapter."
+  },
+  {
+   "provision": "137",
+   "details": "Cotton, dry; flax, dry; sisal, dry; and tampico fiber, dry are not subject to the requirements of this subchapter when they are baled in accordance with ISO 8115, “Cotton Bales— Dimensions and Density” (IBR, see § 171.7 of this subchapter) to a density of not less than 360 kg/m3 (22.1 lb/ft3) for cotton, 400 kg/m3 (24.97 lb/ft3) for flax, 620 kg/m3 (38.71 lb/ft3) for sisal and 360 kg/m3 (22.1 lb/ft3) for tampico fiber and transported in a freight container or closed transport vehicle."
+  },
+  {
+   "provision": "138",
+   "details": "This entry applies to lead compounds which, when mixed in a ratio of 1:1,000 with 0.07 M (Molar concentration) hydrochloric acid and stirred for one hour at a temperature of 23 °C ±2 °C, exhibit a solubility of more than 5%. Lead compounds which, when mixed in a ratio of 1:1,000 with 0.07 M (Molar concentration) hydrochloric acid and stirred for one hour at a temperature of 23 °C ±2 °C, exhibit a solubility of 5% or less are not subject to the requirements of this subchapter unless they meet criteria as another hazard class or division. Lead compounds that have a solubility of 5% or less in accordance with this special provision are not subject to the requirements of this subchapter that pertain to Marine Pollutants."
+  },
+  {
+   "provision": "139",
+   "details": "Use of the \"special arrangement\" proper shipping names for international shipments must be made under an IAEA Certificate of Competent Authority issued by the Associate Administrator in accordance with the requirements in 49 CFR Sections 173.471, 173.472, or 173.473. (T-0) Use of these proper shipping names for domestic shipments may be made only under a DOT special permit."
+  },
+  {
+   "provision": "140",
+   "details": "This material is regulated only when it meets the defining criteria for a hazardous substance or a marine pollutant. In addition, the column 5 reference is modified to read “III” on those occasions when this material is offered for transportation or transported by highway or rail."
+  },
+  {
+   "provision": "141",
+   "details": "A toxin obtained from a plant, animal, or bacterial source containing an infectious substance, or a toxin contained in an infectious substance, must be classed as Division 6.2, described as an infectious substance, and assigned to UN 2814 or UN 2900, as appropriate."
+  },
+  {
+   "provision": "142",
+   "details": "These hazardous materials may not be classified and transported unless authorized by the Associate Administrator. The Associate Administrator will base the authorization on results from Series 2 tests and a Series 6(c) test from the UN Manual of Tests and Criteria (IBR, see § 171.7 of this subchapter) on packages as prepared for transport in accordance with the requirements of this subchapter."
+  },
+  {
+   "provision": "144",
+   "details": "If transported as a residue in an underground storage tank (UST), as defined in 40 CFR 280.12, that has been cleaned and purged or rendered inert according to the American Petroleum Institute (API) Standard 1604 (IBR, see § 171.7 of this subchapter), then the tank and this material are not subject to any other requirements of this subchapter. However, sediments remaining in the tank that meet the definition for a hazardous material are subject to the applicable regulations of this subchapter."
+  },
+  {
+   "provision": "145",
+   "details": "This entry applies to formulations that neither detonate in the cavitated state nor deflagrate in laboratory testing, show no effect when heated under confinement, exhibit no explosive power, and are thermally stable (self-accelerating decomposition temperature (SADT) at 60 °C (140 °F) or higher for a 50 kg (110.2 lbs.) package). Formulations not meeting these criteria must be transported under the provisions applicable to the appropriate entry in the Organic Peroxide Table in § 173.225 of this subchapter."
+  },
+  {
+   "provision": "146",
+   "details": "This description may be used for a material that poses a hazard to the environment but does not meet the definition for a hazardous waste or a hazardous substance, as defined in § 171.8 of this subchapter, or any hazard class, as defined in part 173 of this subchapter, if it is designated as environmentally hazardous by another Competent Authority. This provision may be used for both domestic and international shipments."
+  },
+  {
+   "provision": "147",
+   "details": "This entry applies to non-sensitized emulsions, suspensions, and gels consisting primarily of a mixture of ammonium nitrate and fuel, intended to produce a Type E blasting explosive only after further processing prior to use. The mixture for emulsions typically has the following composition: 60–85% ammonium nitrate; 5–30% water; 2–8% fuel; 0.5–4% emulsifier or thickening agent; 0–10% soluble flame suppressants; and trace additives. Other inorganic nitrate salts may replace part of the ammonium nitrate. The mixture for suspensions and gels typically has the following composition: 60–85% ammonium nitrate; 0–5% sodium or potassium perchlorate; 0–17% hexamine nitrate or monomethylamine nitrate; 5–30% water; 2– 15% fuel; 0.5–4% thickening agent; 0–10% soluble flame suppressants; and trace additives. Other inorganic nitrate salts may replace part of the ammonium nitrate. These substances must satisfy the criteria for classification as an ammonium nitrate emulsion of Test Series 8 of the UN Manual of Tests and Criteria, Part I, Section 18 (IBR, see § 171.7 of this subchapter), and may not be classified and transported unless approved by the Associate Administrator."
+  },
+  {
+   "provision": "148",
+   "details": "For domestic transportation, this entry directs to § 173.66 for: a. The standards for transporting a single bulk hazardous material for blasting by cargo tank motor vehicles (CTMV); and b. The standards for CTMVs capable of transporting multiple hazardous materials for blasting in bulk and non-bulk packagings ( i.e., a multipurpose bulk truck (MBT))."
+  },
+  {
+   "provision": "149",
+   "details": "When transported as a limited quantity or a consumer commodity, the maximum net capacity specified in § 173.150(b)(2) of this subchapter for inner packagings may be increased to 5 L (1.3 gallons)."
+  },
+  {
+   "provision": "150",
+   "details": "This description may only be used for ammonium nitrate-based fertilizers. They must be classified in accordance with the procedure as set out in the Manual of Tests and Criteria, part III, section 39 (IBR, see § 171.7 of this subchapter)."
+  },
+  {
+   "provision": "151",
+   "details": "If this material meets the definition of a flammable liquid in § 173.120 of this subchapter, a FLAMMABLE LIQUID label is also required and the basic description on the shipping paper must indicate the Class 3 subsidiary hazard."
+  },
+  {
+   "provision": "155",
+   "details": "Fish meal, fish scrap and krill meal may not be transported if the temperature at the time of loading either exceeds 35 °C (95 °F), or exceeds 5 °C (41 °F) above the ambient temperature, whichever is higher."
+  },
+  {
+   "provision": "156",
+   "details": "Asbestos that is immersed or fixed in a natural or artificial binder material, such as cement, plastic, asphalt, resins or mineral ore, or contained in manufactured products is not subject to the requirements of this manual."
+  },
+  {
+   "provision": "157",
+   "details": "When transported as a limited quantity or a consumer commodity, the maximum net capacity specified in § 173.151(b)(1)(i) of this subchapter for inner packagings may be increased to 5 kg (11 pounds)."
+  },
+  {
+   "provision": "159",
+   "details": "This material must be protected from direct sunshine and kept in a cool, well-ventilated place away from sources of heat."
+  },
+  {
+   "provision": "160",
+   "details": "This entry applies to safety devices for vehicles, vessels or aircraft, e.g., air bag inflators, air bag modules, seat-belt pretensioners, and pyromechanical devices containing Class 1 (explosive) materials or materials of other hazard classes. These articles must be tested in accordance with Test series 6(c) of Part I of the UN Manual of Tests and Criteria, with no explosion of the device, no fragmentation of device casing or pressure vessel, and no projection hazard or thermal effect that would significantly hinder fire-fighting or other emergency response efforts in the immediate vicinity. (T-0) If the air bag inflator unit satisfactorily passes the series 6(c) test, it is not necessary to repeat the test on the air bag module. This entry does not apply to life saving appliances described in 49 CFR Section 173.219 (UN2990 and UN3072)."
+  },
+  {
+   "provision": "162",
+   "details": "This material may be transported under the provisions of Division 4.1 only if it is packed so that at no time during transport will the percentage of diluent fall below the percentage that is stated in the shipping description. (T-0)"
+  },
+  {
+   "provision": "163",
+   "details": "Substances must satisfactorily pass Test Series 8 of the UN Manual of Tests and Criteria, Part I, Section 18 (IBR, see § 171.7 of this subchapter)."
+  },
+  {
+   "provision": "164",
+   "details": "Substances must not be transported under this entry unless approved by the Associate Administrator on the basis of the results of appropriate tests according to Part I of the UN Manual of Tests and Criteria (IBR, see § 171.7 of this subchapter). The material must be packaged so that the percentage of diluent does not fall below that stated in the approval at any time during transportation."
+  },
+  {
+   "provision": "165",
+   "details": "These substances are susceptible to exothermic decomposition at elevated temperatures. Decomposition can be initiated by heat, moisture or by impurities (e.g., powdered metals (iron, manganese, cobalt, magnesium)). During the course of transportation, these substances must be shaded from direct sunlight and all sources of heat and be placed in adequately ventilated areas. (T-0)"
+  },
+  {
+   "provision": "166",
+   "details": "When transported in non-friable tablet form, calcium hypochlorite, dry, may be transported as a Packing Group III material."
+  },
+  {
+   "provision": "167",
+   "details": "These storage systems must always be considered as containing hydrogen. (T-0) A metal hydride storage system installed in or intended to be installed in a vehicle or equipment or in vehicle or equipment components must be approved for transport by the Associate Administrator. (T-0) A copy of the approval must accompany each shipment. (T-0)"
+  },
+  {
+   "provision": "168",
+   "details": "For lighters containing a Division 2.1 gas ( see § 171.8 of this subchapter), representative samples of each new lighter design must be examined and successfully tested as specified in § 173.308(b)(3). For criteria in determining what is a new lighter design, see § 173.308(b)(1). For transportation of new lighter design samples for examination and testing, see § 173.308(b)(2). The examination and testing of each lighter design must be performed by a person authorized by the Associate Administrator under the provisions of subpart E of part 107 of this chapter, as specified in § 173.308(a)(4). For continued use of approvals dated prior to January 1, 2012, see § 173.308(b)(5). For non-pressurized lighters containing a Class 3 (flammable liquid) material, its design, description, and packaging must be approved by the Associate Administrator prior to being offered for transportation or transported in commerce. In addition, a lighter design intended to contain a non-pressurized Class 3 material is excepted from the examination and testing criteria specified in § 173.308(b)(3). An unused lighter or a lighter that is cleaned of residue and purged of vapors is not subject to the requirements of this subchapter."
+  },
+  {
+   "provision": "169",
+   "details": "This entry applies to lighter refills ( see § 171.8 of this subchapter) that contain a Division 2.1 (flammable) gas but do not contain an ignition device. Lighter refills offered for transportation under this entry may not exceed 4 fluid ounces capacity (7.22 cubic inches) or contain more than 65 grams of fuel. A lighter refill exceeding 4 fluid ounces capacity (7.22 cubic inches) or containing more than 65 grams of fuel must be classed as a Division 2.1 material, described with the proper shipping name appropriate for the material, and packaged in the packaging specified in part 173 of this subchapter for the flammable gas contained therein. In addition, a container exceeding 4 fluid ounces volumetric capacity (7.22 cubic inches) or containing more than 65 grams of fuel may not be connected or manifolded to a lighter or similar device and must also be described and packaged according to the fuel contained therein. For transportation by passenger-carrying aircraft, the net mass of lighter refills may not exceed 1 kg per package, and, for cargo-only aircraft, the net mass of lighter refills may not exceed 15 kg per package. See § 173.306(h) of this subchapter."
+  },
+  {
+   "provision": "170",
+   "details": "Air must be eliminated from the vapor space by nitrogen or other means."
+  },
+  {
+   "provision": "171",
+   "details": "This entry may only be used when the material is transported in non-friable tablet form or for granular or powered mixtures that have been shown to meet the PG III criteria in § 173.127."
+  },
+  {
+   "provision": "172",
+   "details": "This entry includes alcohol mixtures containing up to 5% petroleum products."
+  },
+  {
+   "provision": "173",
+   "details": "For adhesives, printing inks, printing ink-related materials, paints, paint-related materials, and resin solutions which are assigned to UN3082, and do not meet the definition of another hazard class, metal or plastic packaging for substances of packing groups II and III in quantities of 5 L (1.3 gallons) or less per packaging are not required to meet the UN performance package testing when transported: a. Except for transportation by aircraft, in palletized loads, a pallet box or unit load device ( e.g. individual packaging placed or stacked and secured by strapping, shrink or stretch-wrapping or other suitable means to a pallet). For vessel transport, the palletized loads, pallet boxes or unit load devices must be firmly packed and secured in closed cargo transport units; or b. Except for transportation by aircraft, as an inner packaging of a combination packaging with a maximum net mass of 40 kg (88 pounds). For transportation by aircraft, as an inner packaging of a combination packaging with a maximum gross mass of 30 kg when packaged as a limited quantity in accordance with § 173.27(f)."
+  },
+  {
+   "provision": "175",
+   "details": "This substance must be stabilized when in concentrations of not more than 99%."
+  },
+  {
+   "provision": "176",
+   "details": "This entry must be used for formaldehyde solutions containing methanol as a stabilizer. Formaldehyde solutions not containing methanol and not meeting the Class 3 flammable liquid criteria must be described using a different proper shipping name."
+  },
+  {
+   "provision": "177",
+   "details": "Gasoline, or, ethanol and gasoline mixtures, for use in internal combustion engines (e.g., in automobiles, stationary engines and other engines) must be assigned to Packing Group II regardless of variations in volatility. (T-0)"
+  },
+  {
+   "provision": "181",
+   "details": "When a package contains a combination of lithium batteries contained in equipment and lithium batteries packed with equipment, the following requirements apply: a. The shipper must ensure that all applicable requirements of § 173.185 of this subchapter are met. The total mass of lithium batteries contained in any package must not exceed the quantity limits in columns (9A) and (9B) for passenger aircraft or cargo aircraft, as applicable; b. Except as provided in § 173.185(c)(3) of this subchapter, the package must be marked “UN 3091 Lithium metal batteries packed with equipment”, or “UN 3481 Lithium ion batteries packed with equipment,” as appropriate. If a package contains both lithium metal batteries and lithium ion batteries packed with and contained in equipment, the package must be marked as required for both battery types. However, button cell batteries installed in equipment (including circuit boards) need not be considered; and *c. The shipping paper must indicate “UN 3091 Lithium metal batteries packed with equipment”, “UN 3481 Lithium ion batteries packed with equipment,” or “UN3552 Lithium Sodium batteries packed with equipment” as appropriate. If a package contains lithium metal batteries, lithium ion batteries and lithium sodium batteries packed with and contained in equipment, then the shipping paper must indicate “UN 3091 Lithium metal batteries packed with equipment”, “UN 3481 Lithium ion batteries packed with equipment” and “UN3552 Lithium Sodium batteries packed with equipment."
+  },
+  {
+   "provision": "182",
+   "details": "Equipment containing only lithium batteries must be classified as either UN3091, UN3481 or UN3552. (T-0)"
+  },
+  {
+   "provision": "196",
+   "details": "The nitrocellulose must meet the criteria of the Bergmann-Junk test or methyl violet paper test in the UN Manual of Tests and Criteria, Appendix 10 (IBR, see § 171.7 of this subchapter). Test of type 3(c) is not required."
+  },
+  {
+   "provision": "197",
+   "details": "The nitrocellulose must meet the criteria of the Bergmann-Junk test or methyl violet paper test in the UN Manual of Tests and Criteria, Appendix 10 (IBR, see § 171.7 of this subchapter)."
+  },
+  {
+   "provision": "198",
+   "details": "Nitrocellulose solutions containing not more than 20% nitrocellulose may be transported as paint or printing ink, perfumery products as applicable, provided the nitrocellulose contains no more 12.6% nitrogen (by dry mass). See UN1210, UN1263, UN3066, UN3469, and , UN3470."
+  },
+  {
+   "provision": "200",
+   "details": "Division 1.4G consumer fireworks may be certified for transportation by a DOT-approved Fireworks Certification Agency in accordance with the provisions of § 173.65 of this subchapter."
+  },
+  {
+   "provision": "237",
+   "details": "This entry may only be used for the transport of non-activated batteries that contain dry potassium hydroxide and that are intended to be activated prior to use by the addition of an appropriate amount of water to the individual cells."
+  },
+  {
+   "provision": "238",
+   "details": "Neutron radiation detectors: Neutron radiation detectors containing non-pressurized boron trifluoride gas in excess of 1 gram (0.035 ounces) and radiation detection systems containing such neutron radiation detectors as components may be transported by highway, rail, vessel, or cargo aircraft in accordance with the following: a. Each radiation detector must meet the following conditions: (1) The pressure in each neutron radiation detector must not exceed 105 kPa absolute at 20 °C (68 °F); (2) The amount of gas must not exceed 13 grams (0.45 ounces) per detector; and (3) Each neutron radiation detector must be of welded metal construction with brazed metal to ceramic feed through assemblies. These detectors must have a minimum burst pressure of 1800 kPa as demonstrated by design type qualification testing; and (4) Each detector must be tested to a 1 × 10−10 cm3/s leaktightness standard before filling. b. Radiation detectors transported as individual components must be transported as follows: (1) They must be packed in a sealed intermediate plastic liner with sufficient absorbent or adsorbent material to absorb or adsorb the entire gas contents. (2) They must be packed in strong outer packagings and the completed package must be capable of withstanding a 1.8 meter (5.9 feet) drop without leakage of gas contents from detectors. (3) The total amount of gas from all detectors per outer packaging must not exceed 52 grams (1.83 ounces). c. Completed neutron radiation detection systems containing detectors meeting the conditions of paragraph a of this special provision must be transported as follows: (1) The detectors must be contained in a strong sealed outer casing; (2) The casing must contain include sufficient absorbent or adsorbent material to absorb or adsorb the entire gas contents; (3) The completed system must be packed in strong outer packagings capable of withstanding a 1.8 meter (5.9 feet) drop test without leakage unless a system's outer casing affords equivalent protection. d. Except for transportation by aircraft, neutron radiation detectors and radiation detection systems containing such detectors transported in accordance with paragraph a of this special provision are not subject to the labeling and placarding requirements of part 172 of this subchapter. e. When transported by highway, rail, vessel, or as cargo on an aircraft, neutron radiation detectors containing not more than 1 gram of boron trifluoride, including those with solder glass joints are not subject to any other requirements of this subchapter provided they meet the requirements in paragraph a of this special provision and are packed in accordance with paragraph b of this special provision. Radiation detection systems containing such detectors are not subject to any other requirements of this subchapter provided they are packed in accordance with paragraph c of this special provision."
+  },
+  {
+   "provision": "325",
+   "details": "In the case of non-fissile or fissile-excepted uranium hexafluoride, the material must be classified under UN 2978."
+  },
+  {
+   "provision": "328",
+   "details": "When lithium metal or lithium ion batteries are contained in the fuel cell system, the item must be described under this entry and the appropriate entries for “Lithium metal batteries contained in equipment” or “Lithium ion batteries contained in equipment”. (T-0)"
+  },
+  {
+   "provision": "332",
+   "details": "“Magnesium nitrate hexahydrate” is not subject to the requirements of this manual."
+  },
+  {
+   "provision": "335",
+   "details": "Mixtures of solids that are not subject to this subchapter and environmentally hazardous liquids or solids may be classified as “Environmentally hazardous substances, solid, n.o.s,” UN3077 and may be transported under this entry, provided there is no free liquid visible at the time the material is loaded or at the time the packaging or transport unit is closed. Each transport unit must be leakproof when used as bulk packaging."
+  },
+  {
+   "provision": "336",
+   "details": "The use of UN1H1 drums, UN3H1 jerricans, and UN6HA1 composite packagings which meet the requirements of part 178 of the HMR at the Packing Group I or II performance level. These packagings are not required to: (1.) meet the venting requirements in § 173.24(g) or (2.) be marked with the hydrostatic pressure test marking specified in § 173.24a(b)(4). Shipment of packages under this special provision must be made by private or contract motor carrier. Transportation of these packages also requires the door of each van trailer to be marked with “Warning trailer may contain chemical vapor. Do not enter until vapors have dissipated.” The driver of the transport vehicle and the consignee(s) must be trained not to enter the transport vehicle until the ammonia vapors have dissipated, and the emergency response information on the shipping paper must indicate that the vehicle contains ammonia vapors. This training must be documented in training records required by § 172.704(d). Transport vehicles must be vented to prevent accumulation of vapors at a poisonous or flammable concentration."
+  },
+  {
+   "provision": "337",
+   "details": "Authorizes the use of regulated waste containers manufactured prior to October 1, 2006 to be marked with the alternative shipping name of Regulated medical waste, UN3291 and arrows that deviate as prescribed in § 172.312(a)(2) in that they may be black or white."
+  },
+  {
+   "provision": "338",
+   "details": "n Life Saving appliances, self-inflating transported by motor vehicle only between an U.S. Coast Guard approved inflatable life raft servicing facility and a vessel are only subject to the following requirements: a. Prior to repacking into the life-saving appliance, an installed inflation cylinder must successfully meet and pass all inspection and test criteria and standards of the raft manufacturer and the vessel Flag State requirements for cylinders installed as part of life-saving appliances, self-inflating (UN2990) used on marine vessels. Additionally, each cylinder must be visually inspected in accordance with CGA pamphlet, CGA C–6 (incorporated by reference, see § 171.7). A current copy of CGA pamphlet, CGA C–6 must be available at the facility servicing the life-saving appliance. b. An installed inflation cylinder that requires recharging must be filled in accordance with § 173.301(l). c. Every installed inflation cylinder, as associated equipment of the life-saving appliance, must be packed within the protective packaging of the life raft and the life raft itself must otherwise be in compliance with § 173.219. d. The serial number for each cylinder must be recorded as part of the life-saving appliance service record by the U.S. Coast Guard-approved servicing facility."
+  },
+  {
+   "provision": "340",
+   "details": "This entry only applies to Vessel Transport of Nickel-metal hydride as cargo. Batteries subject to this special provision are subject only to the following requirements: (1)The batteries must be prepared and packaged for transport in a manner to prevent a dangerous evolution of heat, short circuits, and damage to terminals; (2) Subject to the incident reporting in accordance with this AFMAN 24-604 and 49 CFR Section 171.16 if a fire, violent rupture, expolosion or dangerous evolution of heat (i.e. damage to any part of packaging, melting, charring, scorching, of packing material or other evidence) occurs as a direct result of a nickel-metal hydride battery. Any other transport mode see special provision 130. (T-0)"
+  },
+  {
+   "provision": "342",
+   "details": "Glass inner packagings (such as ampoules or capsules) intended only for use in sterilization devices, when containing less than 30 mL of ethylene oxide per inner packaging with not more than 300 mL per outer packaging, may be transported in accordance with § 173.4a of this subchapter, irrespective of the restriction of § 173.4a(b) and the indication of “forbidden” in columns (9A) and (9B) of the § 172.101 table provided that: a. After filling, each glass inner packaging must be determined to be leak-tight by placing the glass inner packaging in a hot water bath at a temperature and for a period of time sufficient to ensure that an internal pressure equal to the vapor pressure of ethylene oxide at 55 °C is achieved. Any glass inner packaging showing evidence of leakage, distortion or other defect under this test must not be transported under the terms of this special provision; b. In addition to the packaging required in § 173.4a, each glass inner packaging must be placed in a sealed plastic bag compatible with ethylene oxide and capable of containing the contents in the event of breakage or leakage of the glass inner packaging; and c. Each glass inner packaging is protected by a means of preventing puncture of the plastic bag ( e.g., sleeves or cushioning) in the event of damage to the packaging ( e.g., by crushing)."
+  },
+  {
+   "provision": "343",
+   "details": "A bulk packaging that emits hydrogen sulfide in sufficient concentration that vapors evolved from the sour crude oil can present an inhalation hazard must be marked as specified in § 172.327."
+  },
+  {
+   "provision": "345",
+   "details": "“Nitrogen, refrigerated liquid ( cryogenic liquid ), UN1977” transported in open cryogenic receptacles with a maximum capacity of 1 L are not subject to the requirements of this subchapter. The receptacles must be constructed with glass double walls having the space between the walls vacuum insulated and each receptacle must be transported in an outer packaging with sufficient cushioning and absorbent materials to protect the receptacle from damage."
+  },
+  {
+   "provision": "346",
+   "details": "“Nitrogen, refrigerated liquid ( cryogenic liquid ), UN1977” transported in accordance with the requirements for open cryogenic receptacles in 49 CFR Section 173.320 and this special provision are not subject to any other requirements of this manual. The receptacle must contain no hazardous materials other than the liquid nitrogen which must be fully absorbed in a porous material in the receptacle. (T-0)"
+  },
+  {
+   "provision": "347",
+   "details": "Substances and articles assigned to these PSNs must pass Test series 6(d) of Part I of the UN Manual of Tests and Criteria, be shipped under an appropriate CAA/DOT-SP, or must be reclassified as other than 1.4S. (T-0)"
+  },
+  {
+   "provision": "349",
+   "details": "Mixtures of hypochlorite with an ammonium salt are forbidden for transport. A hypochlorite solution, UN1791, is a Class 8 corrosive material."
+  },
+  {
+   "provision": "350",
+   "details": "Ammonium bromate, ammonium bromate aqueous solutions, and mixtures of a bromate with an ammonium salt are forbidden for transport."
+  },
+  {
+   "provision": "351",
+   "details": "Ammonium chlorate, ammonium chlorate aqueous solutions, and mixtures of a chlorate with an ammonium salt are forbidden for transport."
+  },
+  {
+   "provision": "352",
+   "details": "Ammonium chlorite, ammonium chlorite aqueous solutions, and mixtures of a chlorite with an ammonium salt are forbidden for transport."
+  },
+  {
+   "provision": "353",
+   "details": "Ammonium permanganate, ammonium permanganate aqueous solutions, and mixtures of a permanganate with an ammonium salt are forbidden for transport."
+  },
+  {
+   "provision": "357",
+   "details": "A bulk packaging that emits hydrogen sulfide in sufficient concentration that vapors evolved from the crude oil can present an inhalation hazard must be marked as specified in § 172.327 of this part."
+  },
+  {
+   "provision": "360",
+   "details": "Vehicles powered only by lithium batteries must be described using “UN3171, Battery-powered vehicle”, “UN3556 Vehicle, Lithium ion battery powered”, “UN3557 Vehicle, lithium metal battery powered”, or “UN3558 Lithium, sodium ion battey powered.” Lithium batteries installed in a cargo transport unit, designed only to provide power external to the transport unit, must be described using “UN3536, Lithium batteries installed in a cargo transport unit.”"
+  },
+  {
+   "provision": "361",
+   "details": "Capacitors with an energy storage capacity of 0.3 Wh or less are not subject to the requirements of this manual. Energy storage capacity means the energy held by a capacitor, as calculated using the nominal voltage and capacitance. This entry does not apply to capacitors that by design maintain a terminal voltage (e.g., asymmetrical capacitors.)"
+  },
+  {
+   "provision": "362",
+   "details": "This entry applies to liquids, pastes or powders, pressurized with a propellant that meets the definition of a gas in 49 CFR Section 173.115. A chemical under pressure packaged in an aerosol dispenser must be transported under UN1950. (T-0) The chemical under pressure must be classed based on the hazard characteristics of the components in the propellant; the liquid; or the solid. (T-0) The following provisions also apply: (1) If one of the components, which can be a pure substance or a mixture, is classed as flammable, the chemical under pressure must be classed as flammable in Division 2.1. (T-0) Flammable components are flammable liquids and liquid mixtures, flammable solids and solid mixtures or flammable gases and gas mixtures meeting the following criteria: (a) A flammable liquid is a liquid having a flashpoint of not more than 93 °C (200 °F); (b) A flammable solid is a solid that meets the criteria in 49 CFR Section 173.124; or (c) A flammable gas is a gas that meets the criteria in 49 CFR Section 173.115. (2) Gases of Division 2.3 and gases with a subsidiary hazard of 5.1 must not be used as a propellant in a chemical under pressure. (T-0) (3) Where the liquid or solid components are classed as Division 6.1, packing groups II or III, or Class 8, packing groups II or III, the chemical under pressure must be assigned a subsidiary hazard of Division 6.1 or Class 8 and the appropriate identification number must be assigned. (T-0) Components classed as Division 6.1, packing group I, or Class 8, packing group I, must not be offered for transportation and transported under this description. (T-0) (4) A chemical under pressure with components meeting the properties of : Class 1 (explosives); Class 3 (liquid desensitized explosives); Division 4.1 (self-reactive substances and solid desensitized explosives); Division 4.2 (substances liable to spontaneous combustion); Division 4.3 (substances which, in contact with water, emit flammable gases or toxic gases); Division 5.1 (oxidizing substances); Division 5.2 (organic peroxides); Division 6.2 (Infectious substances); or, Class 7 (Radioactive material), must not be offered for transportation under this description. (T-0) (5) A description to which Special provision 170 or TP7 is assigned in Column 7 of the 172.101 Hazardous Materials Table, and therefore requires air to be eliminated from the package vapor space by nitrogen or other means, must not be offered for transportation under this description. (T-0)"
+  },
+  {
+   "provision": "365",
+   "details": "For manufactured instruments and articles containing mercury, see UN3506."
+  },
+  {
+   "provision": "367",
+   "details": "For the purposes of documentation and package marking: a. The proper shipping name “Paint related material” may be used for consignments of packages containing “Paint” and “Paint related material” in the same package; b. The proper shipping name “Paint related material, corrosive, flammable” may be used for consignments of packages containing “Paint, corrosive, flammable” and “Paint related material, corrosive, flammable” in the same package; c. The proper shipping name “Paint related material, flammable, corrosive” may be used for consignments of packages containing “Paint, flammable, corrosive” and “Paint related material, flammable, corrosive” in the same package; and d. The proper shipping name “Printing ink related material” may be used for consignments of packages containing “Printing ink” and “Printing ink related material” in the same package."
+  },
+  {
+   "provision": "368",
+   "details": "In the case of non-fissile or fissile-excepted uranium hexafluoride, the material must be classified under UN3507 or UN2978. (T-0)"
+  },
+  {
+   "provision": "369",
+   "details": "This radioactive material in an excepted package possessing toxic and corrosive properties is classified in Division 6.1 with radioactivity and corrosive subsidiary risks."
+  },
+  {
+   "provision": "370",
+   "details": "This entry also applies to ammonium nitrate with not more than 0.2% combustible substances, including any organic substance calculated as carbon, to the exclusion of any added substance, that gives a positive result when tested in accordance with Test Series 2 of the UN Manual of Tests and Criteria, Part I (IBR; see § 171.7 of this subchapter). See also UN1942 in the § 172.101 Hazardous Materials Table. This entry may not be used for ammonium nitrate for which a proper shipping name already exists in the § 172.101 Hazardous Materials Table, including ammonium nitrate mixed with fuel oil or any other commercial grade of ammonium nitrate ( e.g., ammonium nitrate fertilizer)."
+  },
+  {
+   "provision": "372",
+   "details": "This entry applies to asymmetric capacitors with an energy storage capacity greater than 0.3 Wh. Capacitors with an energy storage capacity of 0.3 Wh or less are not subject to the requirements of this manual. Energy storage capacity means the energy stored in a capacitor, as calculated according to the following equation, Wh = 1/2CN(UR2−UL2) × (1/3600) Using the nominal capacitance (CN), rated voltage (UR) and the rated lower limit voltage (UL). Nickel-carbon asymmetric capacitors containing Class 8 alkaline electrolytes must be transported as UN2795, Batteries, wet, filled with alkali, electric storage. (T-0)"
+  },
+  {
+   "provision": "387",
+   "details": "When chemical stabilization is employed, the person offering the material for transport ensures that the level of stabilization is sufficient to prevent the material as packaged from dangerous polymerization at 50 °C (122 °F). If chemical stabilization becomes ineffective at lower temperatures within the anticipated duration of transport, temperature control is required and is forbidden by aircraft."
+  },
+  {
+   "provision": "388",
+   "details": "Lithium batteries containing both primary lithium metal cells and rechargeable lithium ion cells that are not designed to be externally charged, must meet the following conditions: i. The rechargeable lithium ion cells can only be charged from the primary lithium metal cells; ii. Overcharge of the rechargeable lithium ion cells is precluded by design; iii. The battery has been tested as a primary lithium battery; and iv. Component cells of the battery must be of a type proved to meet the respective testing requirements of the Manual of Tests and Criteria, part III, subsection 38.3. These lithium batteries must be assigned to UN3090 or UN3091, as appropriate. When such batteries are transported in accordance with 49 CFR Paragraph 173.185(c), the total lithium content of all lithium metal cells contained in the battery must not exceed 1.5 g and the total capacity of all lithium ion cells contained in the battery must not exceed 10 Wh. (T-0)"
+  },
+  {
+   "provision": "389",
+   "details": "This entry only applies to lithium ion batteries or lithium metal batteries installed in a cargo transport unit and designed only to provide power external to the cargo transport unit. The lithium batteries must meet the requirements paragraph A3.3.9.2. and contain the necessary systems to prevent overcharge and over discharge between the batteries. (T-0) The batteries must be securely attached to the interior structure of the cargo transport unit (e.g., by means of placement in racks, cabinets, etc.) in such a manner as to prevent short circuits, accidental operation, and significant movement relative to the cargo transport unit under the shocks, loadings, and vibrations normally incident to transport. (T-0) Hazardous materials necessary for the safe and proper operation of the cargo transport unit (e.g., fire extinguishing systems and air conditioning systems), must be properly secured to or installed in the cargo transport unit and are not otherwise subject certification by this manual. (T-0) Hazardous materials not necessary for the safe and proper operation of the cargo transport unit must not be transported within the cargo transport unit. (T-0) The batteries inside the cargo transport unit are not subject to marking or labelling requirements of this manual. Display the UN number in a manner in accordance with 49 CFR Section 172.332 and be marked on two opposite sides of the cargo transport unit. (T-0)"
+  },
+  {
+   "provision": "391",
+   "details": "Articles containing hazardous materials of Division 2.3, Division 4.2, Division 4.3, Division 5.1, Division 5.2, or Division 6.1 (substances with a inhalation toxicity of Packing Group I) and articles containing more than one of the following hazards: (1) Gases of Class 2; (2) Liquid desensitized explosives of Class 3; or (3) Self-reactive substances and solid desensitized explosives of Division 4.1, may only be offered for transportation and transported under conditions approved by the DOT Associate Administrator."
+  },
+  {
+   "provision": "422",
+   "details": "When labelling is required, the label to be used must be the label shown in § 172.447. When a placard is displayed, the placard must be the placard shown in § 172.560."
+  },
+  {
+   "provision": "430",
+   "details": "This entry will only be used for solid medical waste of Category A transported for disposal ."
+  },
+  {
+   "provision": "441",
+   "details": "For marine pollutants transported under “UN3077, Environmentally hazardous substance, solid, n.o.s.” or “UN3082, Environmentally hazardous substance, liquid, n.o.s.” and for purposes of shipping paper and package marking requirements, the technical name used in association with the basic description may be a proper shipping name listed in A4.1. Hazardous Material Table; provided that the name chosen is not also an entry that includes “n.o.s.” as a part of the name or one that has a “G” in column (1) of the table. shipment."
+  },
+  {
+   "provision": "A1",
+   "details": "Single packaging is not permitted on aircraft carrying passengers. P4 restrictions apply."
+  },
+  {
+   "provision": "A2",
+   "details": "Single packagings are not permitted."
+  },
+  {
+   "provision": "A3",
+   "details": "For combination packagings, if glass inner packagings (including ampoules) are used, they must be packed with absorbent material in tightly closed rigid and leakproof receptacles before packing in outer packagings. (T-0)"
+  },
+  {
+   "provision": "A4",
+   "details": "Liquids having an inhalation toxicity of PG I and are identified as P1, P2, or P3 are not permitted on passenger aircraft. Deviations are not allowed."
+  },
+  {
+   "provision": "A5",
+   "details": "Solids having an inhalation toxicity of PG I and are identified as P1, P2, or P3, are not permitted on passenger aircraft and may not exceed a maximum net quantity per package of 15 kg (33 pounds) on cargo aircraft. See paragraph 2.2. for deviation authority."
+  },
+  {
+   "provision": "A6",
+   "details": "For combination packagings, if plastic inner packagings are used, pack in tightly closed metal receptacles before packing into outer packagings."
+  },
+  {
+   "provision": "A7",
+   "details": "Steel packagings must be corrosion-resistant or have protection against corrosion. (T-0)"
+  },
+  {
+   "provision": "A8",
+   "details": "For combination packagings, if glass inner packagings (including ampoules) are used, they must be packed with cushioning material in tightly closed metal receptacles before packing in outer packagings. (T-0)"
+  },
+  {
+   "provision": "A9",
+   "details": "For combination packages, if plastic bags are used, they must be packed in tightly closed metal receptacles before packing in outer packagings. (T-0)"
+  },
+  {
+   "provision": "A10",
+   "details": "When aluminum or aluminum alloy construction materials are used, they must be resistant to corrosion. (T-0)"
+  },
+  {
+   "provision": "A11",
+   "details": "For combination packagings, when metal inner packagings are permitted, only specification cylinders constructed of metals which are compatible with the hazardous material may be used."
+  },
+  {
+   "provision": "A13",
+   "details": "Bulk packagings are not authorized for transportation by aircraft."
+  },
+  {
+   "provision": "A14",
+   "details": "This material is not authorized to be transported as a limited quantity or consumer commodity in accordance with § 173.306 of this subchapter when transported aboard an aircraft."
+  },
+  {
+   "provision": "A19",
+   "details": "Combination packagings consisting of outer fiber drums or plywood drums, with inner plastic packagings, are not authorized."
+  },
+  {
+   "provision": "A20",
+   "details": "Plastic bags as inner receptacles of combination packagings are not authorized."
+  },
+  {
+   "provision": "A29",
+   "details": "Combination packagings consisting of outer expanded plastic boxes with inner plastic bags are not authorized."
+  },
+  {
+   "provision": "A30",
+   "details": "Ammonium permanganate is not authorized."
+  },
+  {
+   "provision": "A34",
+   "details": "Aerosols containing a corrosive liquid in Packing Group II charged with a gas are not permitted for transportation by aircraft."
+  },
+  {
+   "provision": "A35",
+   "details": "This includes material which is not covered by any other hazard class but has anesthetic, narcotic, noxious or other properties such that, in the event of spillage or leakage on the aircraft, extreme annoyance or discomfort could be caused to aircrew members so as to prevent correct performance of assigned duties. For material containing aromatic extract or flavoring, use packaging paragraph A13.2 . For all other material shipped under this PSN, use packaging paragraph A13.14."
+  },
+  {
+   "provision": "A37",
+   "details": "This entry applies only to a material meeting the definition in 49 CFR Section 171.8 for self-defense spray."
+  },
+  {
+   "provision": "A51",
+   "details": "For aircraft batteries, irrespective of the quantity limitations specified in Column (9A) of the § 172.101 Table or § 175.75(c), wet cell batteries, UN2794 or UN2795, up to a limit of 100 kg net mass per package may be transported aboard passenger aircraft. Transport in accordance with this special provision must be noted on the shipping paper."
+  },
+  {
+   "provision": "A53",
+   "details": "Refrigerating machines and refrigerating machine components are not subject to the requirements of this subchapter when containing less than 12 kg (26.4 pounds) of a non-flammable gas or when containing 12 L (3 gallons) or less of ammonia solution (UN2672) (see § 173.307 of this subchapter)."
+  },
+  {
+   "provision": "A54",
+   "details": "Irrespective of the quantity limits in Column 9B of the § 172.101 table, a lithium battery, including a lithium battery packed with, or contained in, equipment that otherwise meets the applicable requirements of § 173.185, may have a mass exceeding 35 kg if approved by the Associate Administrator prior to shipment."
+  },
+  {
+   "provision": "A56",
+   "details": "Radioactive material with a subsidiary hazard of Division 4.2 Packing Group I must be transported in Type B packages when offered for transportation by aircraft. Radioactive material with a subsidiary hazard of Division 2.1 is forbidden from transport on passenger aircraft."
+  },
+  {
+   "provision": "A60",
+   "details": "Sterilization devices, when containing less than 30 mL per inner packaging with not more than 150 mL per outer packaging, may be transported in accordance with the provisions in § 173.4a, irrespective of § 173.4a(b), provided such packagings were first subjected to comparative fire testing. Comparative fire testing between a package as prepared for transport (including the substance to be transported) and an identical package filled with water must show that the maximum temperature measured inside the packages during testing does not differ by more than 200 °C (392 °F). Packagings may include a vent to permit the slow escape of gas ( i.e. not more than 0.1 mL/hour per 30 mL inner packaging at 20 °C (68 °F) produced from gradual decomposition. The requirements of §§ 173.24(g)(1) and 173.27(c) do not apply."
+  },
+  {
+   "provision": "A61",
+   "details": "When used for purposes such as sterilization, inner packagings of peroxyacetic acid, stabilized, classified as UN3107 Organic peroxide type E, liquid or UN3109 Organic peroxide type F, liquid may be fitted with a vent consisting of hydrophobic membrane, provided: (1) Each inner packaging contains not more than 70 mL; (2) The inner packaging is designed so that the vent is not immersed in liquid in any orientation; (3) Each inner packaging is enclosed in an intermediate rigid plastic packaging with a small opening to permit release of gas and contains a buffer that neutralizes the contents of the inner packaging in the event of leakage; (4) Intermediate packagings are packed in a fiberboard box (4G) outer packaging; (5) Each outer packaging contains not more than 1.4 L of liquid; and (6) The rate of oxygen release from the outer packaging does not exceed 15 mL per hour. Such packages must be transported on cargo aircraft only. (T-0)"
+  },
+  {
+   "provision": "A82",
+   "details": "The quantity limits do not apply to human or animal body parts, whole organs or whole bodies known to contain or suspected of containing an infectious substance."
+  },
+  {
+   "provision": "A101",
+   "details": "In addition to the applicable requirements of § 173.185, the quantity of lithium metal in the batteries contained in any piece of equipment must not exceed 12 g per cell and 500 g per battery."
+  },
+  {
+   "provision": "A105",
+   "details": "a. This entry applies to machinery or apparatus containing hazardous materials as a residue or as an integral element of the machinery or apparatus. It must not be used for machinery or apparatus for which a proper shipping name already exists in the § 172.101 Table. b. Where the quantity of hazardous materials contained as an integral element in machinery or apparatus exceeds the limits permitted by § 173.222(c)(2), and the hazardous materials meet the provisions of § 173.222(c), the machinery or apparatus may be transported by aircraft only with the prior approval of the Associate Administrator."
+  },
+  {
+   "provision": "A112",
+   "details": "Notwithstanding the quantity limits shown in Column (9A) and (9B) for this entry, the following IBCs are authorized for transportation aboard passenger and cargo-only aircraft. Each IBC may not exceed a maximum net quantity of 1,000 kg: a. Metal: 11A, 11B, 11N, 21A, 21B and 21N b. Rigid plastics: 11H1, 11H2, 21H1 and 21H2 c. Composite with plastic inner receptacle: 11HZ1, 11HZ2, 21HZ1 and 21HZ2 d. Fiberboard: 11G e. Wooden: 11C, 11D and 11F (with inner liners) f. Flexible: 13H2, 13H3, 13H4, 13H5, 13L2, 13L3, 13L4, 13M1 and 13M2 (flexible IBCs must be sift-proof and water resistant or must be fitted with a sift-proof and water resistant liner)."
+  },
+  {
+   "provision": "A117",
+   "details": "Wastes containing Category A infectious substances may be assigned to UN2814, UN2900, or UN3549. (T-0) Solid Medical or Clinical Waste containing Category A infectious substances must use UN3549 . Wastes transported under UN3291 are routine regulated medical waste. UN3373 is only for Category B material as they are reasonably believed to have a low probability of containing infectious substances. Decontaminated wastes are not subject to these Regulations unless the criteria of another Class or Division apply."
+  },
+  {
+   "provision": "A189",
+   "details": "Except where the defining criteria of another class or division are met, concentrations of formaldehyde solution: a. With less than 25 percent but not less than 10 percent formaldehyde, must be described as UN3334, Aviation regulated liquid, n.o.s.; and b. With less than 10 percent formaldehyde, are not subject to this subchapter."
+  },
+  {
+   "provision": "A191",
+   "details": "Notwithstanding the Division 6.1 subsidiary hazard for this description, the toxic subsidiary hazard label and the requirement to indicate the subsidiary hazard on the shipping paper are not required for manufactured articles containing less than 5 kg (11 pounds) of mercury."
+  },
+  {
+   "provision": "A197",
+   "details": "Marine Pollutants in single or combination packagings containing a net quantity per single or inner packaging of 5 L or less for liquids or having a net mass of 5 kg or less for solids, are not subject to any other requirements of this manual provided the packagings meet the general requirements in Attachment 3. This exception does not apply to marine pollutants that are a hazardous waste or a hazardous substance. In the case of marine pollutants also meeting the criteria for inclusion in another hazard class, all provisions of this manual relevant to any additional hazards continue to apply."
+  },
+  {
+   "provision": "A200",
+   "details": "These articles must be transported as cargo and may not be carried aboard an aircraft by passengers or crewmembers in carry-on baggage, checked baggage, or on their person unless specifically authorized in § 175.10."
+  },
+  {
+   "provision": "A210",
+   "details": "This substance is forbidden for transport by air. It may be transported on cargo aircraft only with the prior approval of the Associate Administrator."
+  },
+  {
+   "provision": "A212",
+   "details": "“UN 2031, Nitric acid , other than red fuming, with more than 20% and less than 65% nitric acid” intended for use in sterilization devices only, may be transported on passenger aircraft irrespective of the indication of “forbidden” in columns (9A) of the § 172.101 table provided that: a. Each inner packaging contains not more than 30 mL; b. Each inner packaging is contained in a sealed leak-proof intermediate packaging with sufficient absorbent material capable of containing the contents of the inner packaging; c. Intermediate packagings are securely packed in an outer packaging of a type permitted by § 173.158(g) of this subchapter which meet the requirements of part 178 of this subchapter at the Packing Group I performance level; d. The maximum quantity of nitric acid in the package does not exceed 300 mL; and e. Transport in accordance with this special provision must be noted on the shipping paper."
+  },
+  {
+   "provision": "A218",
+   "details": "This entry must only be used for solid medical waste of category A transported for disposal."
+  },
+  {
+   "provision": "A500",
+   "details": "- P2 Code applies if rocket motor contains hypergolic liquids. Fuel types must be declared on SDDG in Block 19 Additional Handling Instructions. P3 Code will be used for any other fuel type."
+  },
+  {
+   "provision": "A501",
+   "details": "P3 does not apply to unit maintenance and support personnel traveling on Special Assignment Airlift Missions."
+  },
+  {
+   "provision": "A502",
+   "details": "With approval of Shipper’s HAZMAT service focal point (see paragraph 1.2.2.), may be shipped as P2."
+  },
+  {
+   "provision": "A503",
+   "details": "Only Class 2 (non-toxic aerosols only), Class 3 (Packing Group II or III only) and Division 6.1 (Packing Group III only) provided such substances do not have a subsidiary hazard may be shipped to an international (non-domestic) location as a Class 9."
+  },
+  {
+   "provision": "A504",
+   "details": "Deleted"
+  },
+  {
+   "provision": "A506",
+   "details": "Inner receptacles of a combination package and a single package must be capable of meeting the internal air gauge pressure requirements for a PG III liquid. (T-0)"
+  },
+  {
+   "provision": "A507",
+   "details": "Determine passenger eligibility (“P” Coded special provisions) for radioactive materials as follows: (1) Radioactive materials requiring a Category III-Yellow label are transported under the provisions of P3. Deviations not authorized unless radioactive material intended for use in, or incident to, research, medical diagnosis, or treatment. Also see A22.1.7.2. (2) Radioactive materials requiring a Category II-Yellow label are transported under the provisions of P4 . Deviations not authorized unless radioactive material intended for use in, or incident to, research, medical diagnosis, or treatment, and the total TI of all of the packages is 50 TI or less. Also see A22.1.7.2 . (3) Radioactive materials requiring a Category I-White or no label are transported under the provisions of P5. Also see A3.3.7.5.4."
+  },
+  {
+   "provision": "A508",
+   "details": "Diagnostic, Patient, or Clinical Specimens not containing a Category A or B infectious substances are not regulated by this manual."
+  },
+  {
+   "provision": "A509",
+   "details": "Magnesium alloys with 50% or less magnesium in pellets, turning or ribbons are not regulated."
+  },
+  {
+   "provision": "A510",
+   "details": "Emergency power units (EPU) for F-16 aircraft are packaged, marked and labeled in accordance with a DOT-SP, CAA or COE."
+  },
+  {
+   "provision": "A511",
+   "details": "See A15.4.2.1. for acceptable labeling of UN1072 Oxygen, Compressed and UN1073 Oxygen, Refrigerated Liquid."
+  },
+  {
+   "provision": "A520",
+   "details": "(IATA2) “UN1327 BHUSA” May be transported if article or substance is on cargo aircraft only with prior approval of the appropriate authority of the State of origin and the State of the operator under the written conditions established by those authorities. Transportaton under this special provision must be noted on the Shipper’s Decleration. Other States that are transited, overflight and destinations must all so be considered for approval before transporting."
+  },
+  {
+   "provision": "A521",
+   "details": "(IATA41) (49 CFR 173.175) Permeation devices that contain hazardous materials and that are used for calibrating air quality monitoring devices are not subject to the requirements of this subchapter provided the following requirements are met: (a) Each device must be constructed of a material compatible with the hazardous materials it contains; (b) The total contents of hazardous materials in each device is limited to 2 ml (0.07 ounces) and the device must not be liquid full at 55 °C (131 °F); (c) Each permeation device must be placed in a sealed, high impact resistant, tubular inner packaging of plastic or equivalent material. Sufficient absorbent material must be contained in the inner packaging to completely absorb the contents of the device. The closure of the inner packaging must be securely held in place with wire, tape or other positive means; (d) Each inner packaging must be contained in a secondary packaging constructed of metal, or plastic having a minimum thickness of 1.5 mm (0.06 inches). The secondary packaging must be hermetically sealed; (e) The secondary packaging must be securely packed in strong outer packaging. The completed package must be capable of withstanding, without breakage or leakage of any inner packaging and without significant reduction in effectiveness: (1) The following free drops onto a rigid, non resilient, flat and horizontal surface from a height of 1.8 m (5.9 feet): (i) One drop flat on the bottom; (ii) One drop flat on the top; (iii) One drop flat on the long side; (iv) One drop flat on the short side; (v) One drop on a corner at the junction of three intersecting edges; and (2) A force applied to the top surface for a duration of 24 hours, equivalent to the total weight of identical packages if stacked to a height of 3 m (10 feet) (including the test sample). (3) Each of the above tests may be performed on different but identical packages. (f) The gross mass of the completed package must not exceed 30 kg. (g) For transportation by aircraft, permeation devices must be transported as cargo and may not be carried onboard an aircraft by passengers or crewmembers in carry-on baggage, checked baggage, or on their person unless specifically excepted by § 175.10."
+  },
+  {
+   "provision": "A522",
+   "details": "(IATA59) Tyre assemblies are not subject to these regulationsprovided that: (a) Unserviceable or damaged tyre assemblies, the tyre is deflated to a guage pressuere of less than 200 kpa at 20 degrees C or, (b) Serviceable tyre assemblies, the tyre is not inflated to a guage pressure exceeding the maximum rated pressure for that tyre. However, such tyres (including valve assemblies) must be protected from damage during transport, which may require the use or a protective cover."
+  },
+  {
+   "provision": "A523",
+   "details": "(IATA103) Flammable liquified gases must be contained within refrigerating machine components. These components must be designed and tested to at least three times the working pressure of the machinery. The refrigerating machines must be designed and constructed to contain the liquified gas and preclude the risk of bursting or cracking of the pressure retaining components during normal conditions of transport. Refrigerating machines and refrigerating machine components are considered not subject to these Regulations if containing less than 100 g. of flammable, non-toxic, liquified gas.”"
+  },
+  {
+   "provision": "A524",
+   "details": "(IATA198) Hay, straw and BHUSA, when not wet, damp or contaminated with oil are not subject to HMR"
+  },
+  {
+   "provision": "A525",
+   "details": "(IATA200) This entry applies to packaging that contain residues of dangerous goods and which no longer meet the provisions of section 6. These packageings are forbidden for transport by air. Such packagings or parts therof must be transported in accordance with 5.0.2.13.5.1 of IATA Regulations"
+  },
+  {
+   "provision": "N3",
+   "details": "Glass inner packagings are permitted in combination or composite packagings only if the hazardous material is free from hydrofluoric acid."
+  },
+  {
+   "provision": "N4",
+   "details": "For combination or composite packagings, glass inner packagings, other than ampoules, are not permitted."
+  },
+  {
+   "provision": "N5",
+   "details": "Glass materials of construction are not authorized for any part of the packaging which is normally in contact with the hazardous material."
+  },
+  {
+   "provision": "N6",
+   "details": "Battery fluid packaged with electric storage batteries, wet or dry, must conform to the packaging provisions of A12.4.4."
+  },
+  {
+   "provision": "N7",
+   "details": "The hazard class or division number of the material must be marked on the package according to 49 CFR Section 172.302. (T-0) However, the hazard label corresponding to the hazard class or division may be substituted for the marking."
+  },
+  {
+   "provision": "N8",
+   "details": "Nitroglycerin solution in alcohol may be transported under this entry only when the solution is packed in metal cans of not more than 1 L capacity each, overpacked in a wooden box containing not more than 5 L. Completely surround metal cans with absorbent material. Completely line wooden boxes with a suitable material impervious to water and nitroglycerin."
+  },
+  {
+   "provision": "N11",
+   "details": "This material is excepted for the specification packaging requirements of this subchapter if the material is packaged in strong, tight non-bulk packaging meeting the requirements of subparts A and B of part 173 of this subchapter."
+  },
+  {
+   "provision": "N12",
+   "details": "Plastic packagings are not authorized."
+  },
+  {
+   "provision": "N20",
+   "details": "A 5M1 multi-wall paper bag is authorized if transported in a closed transport vehicle."
+  },
+  {
+   "provision": "N25",
+   "details": "Steel single packagings are not authorized."
+  },
+  {
+   "provision": "N32",
+   "details": "Aluminum materials of construction are not authorized for single packagings."
+  },
+  {
+   "provision": "N33",
+   "details": "Aluminum drums are not authorized."
+  },
+  {
+   "provision": "N34",
+   "details": "Aluminum construction materials are not authorized for any part of a packaging which is normally in contact with the hazardous materials."
+  },
+  {
+   "provision": "N36",
+   "details": "Aluminum or aluminum alloy construction materials are permitted only for halogenated hydrocarbons that will not react with aluminum."
+  },
+  {
+   "provision": "N37",
+   "details": "This material may be shipped in an integrally-lined fiber drum (1G) which meets the general packaging requirements of Attachment 3, the UN performance tests required based on the PG assigned to the material and to any other special provisions of column 7 of Table A4.1."
+  },
+  {
+   "provision": "N40",
+   "details": "This material is not authorized in the following packagings: (1) A combination packaging consisting of a 4G fiberboard box with inner receptacles of glass or earthenware. (2) A single packaging of a 4C2 sift-proof, natural wood box. (3) A composite packaging 6PG2 (glass, porcelain, or stoneware receptacles within a fiberboard box)."
+  },
+  {
+   "provision": "N41",
+   "details": "Metal construction materials are not authorized for any part of a packaging that is normally in contact with the hazardous material."
+  },
+  {
+   "provision": "N42",
+   "details": "1A1 drums made of carbon steel with thickness of body and heads of not less than 1.3 mm (0.050 inch) and with a corrosion-resistant phenolic lining are authorized for stabilized benzyl chloride if tested and certified to the Packing Group I performance level at a specific gravity of not less than 1.8."
+  },
+  {
+   "provision": "N43",
+   "details": "Metal drums are permitted as single packagings only if constructed of nickel or Monel."
+  },
+  {
+   "provision": "N45",
+   "details": "For combination packagings, copper cartridges are permitted as inner packagings when the hazardous material is not in dispersion."
+  },
+  {
+   "provision": "N65",
+   "details": "Outage must be sufficient to prevent cylinders or spheres from becoming liquid full at 55 degrees C (130 degrees F). (T-0) The vacant space (outage) may be charged with a nonflammable, nonliquefied compressed gas if the pressure in the cylinder or sphere at 55 degrees C (130 degrees F) does not exceed 125 percent of the marked service pressure."
+  },
+  {
+   "provision": "N73",
+   "details": "Packagings consisting of outer wooden or fiberboard boxes with inner glass, metal, or other strong containers; metal or fiber drums; kegs or barrels; or strong metal cans are authorized and need not conform to the UN test requirements for domestic shipment."
+  },
+  {
+   "provision": "N74",
+   "details": "Packages consisting of tightly closed inner containers of glass, earthenware, metal or polyethylene, capacity not over 0.5 kg (1.1 pounds) securely cushioned and packed in outer wooden barrels or wooden or fiberboard boxes, not over 15 kg (33 pounds) net weight, are authorized and need not conform to the UN test requirements for domestic shipment."
+  },
+  {
+   "provision": "N75",
+   "details": "Packages consisting of tightly closed inner packagings of glass, earthenware, or metal, securely cushioned and packed in outer wooden barrels, or wooden or fiberboard boxes, capacity not over 2.5 kg (5.5 pounds) net weight, are authorized and need not conform to the UN test requirements for domestic shipment."
+  },
+  {
+   "provision": "N76",
+   "details": "For materials of not more than 25 percent active ingredient by weight, packages consisting of inner metal packagings not greater than 250 ml (8 ounces) capacity each, packed in strong outer packagings together with sufficient absorbent material to completely absorb the liquid contents are authorized and need not conform to the UN test requirements for domestic shipment."
+  },
+  {
+   "provision": "N77",
+   "details": "For materials of not more than two percent active ingredients by weight and the liquid contents are absorbed in an inert material, the packagings need not conform to the UN test requirements for domestic shipment."
+  },
+  {
+   "provision": "N78",
+   "details": "Packages consisting of inner glass, earthenware, polyethylene, or other nonfragile plastic bottles or jars not over 0.5 kg (1.1 pounds) capacity each, or metal cans not over 5 pounds capacity each, packed in outer wooden boxes, barrels, kegs, or fiberboard boxes, are authorized and need not conform to the UN test requirements for domestic shipments. Net weight of contents in fiberboard boxes may not exceed 29 kg (64 pounds). Net weight of contents in wooden boxes, barrels, or kegs may not exceed 45 kg (99 pounds)."
+  },
+  {
+   "provision": "N79",
+   "details": "Packages consisting of tightly closed metal inner packagings not over 0.5 kg (1.1 pounds) capacity each, packed in outer wooden or fiberboard boxes, or wooden barrels, are authorized and need not conform to UN test requirements for domestic shipment. Net weight of contents may not exceed 15 kg (33 pounds)."
+  },
+  {
+   "provision": "N80",
+   "details": "Packages consisting of one inner metal can, not over 2.5 kg (5.5 pounds) capacity, packed in an outer wooden or fiberboard box, or a wooden barrel, are authorized and need not conform to the requirements of part 178 of this subchapter."
+  },
+  {
+   "provision": "N82",
+   "details": "See § 173.115 of this subchapter for classification criteria for flammable aerosols."
+  },
+  {
+   "provision": "N83",
+   "details": "This material may not be transported in quantities of more than 11.5 kg (25.4 lbs) per package."
+  },
+  {
+   "provision": "N84",
+   "details": "The maximum quantity per package is 500 g (1.1 lbs.)."
+  },
+  {
+   "provision": "N85",
+   "details": "Packagings certified at the Packing Group I performance level may not be used."
+  },
+  {
+   "provision": "N86",
+   "details": "UN pressure receptacles made of aluminum alloy are not authorized."
+  },
+  {
+   "provision": "N87",
+   "details": "The use of copper valves on UN pressure receptacles is prohibited."
+  },
+  {
+   "provision": "N88",
+   "details": "Any metal part of a UN pressure receptacle in contact with the contents may not contain more than 65% copper, with a tolerance of 1%."
+  },
+  {
+   "provision": "N89",
+   "details": "When steel UN pressure receptacles are used, only those bearing the “H” mark are authorized."
+  },
+  {
+   "provision": "N90",
+   "details": "Metal packagings are not authorized."
+  },
+  {
+   "provision": "N91",
+   "details": "The use of a non specification sift-proof, non-bulk, metal can with or without lid, or a non specification sift-proof, non-bulk fiber drum, with or without lid is authorized when transporting coal tar pitch compounds by motor vehicle or rail freight. The fiber drum must to be fabricated with a three ply wall, as a minimum. The coal tar pitch compound must be in a solid mass during"
+  },
+  {
+   "provision": "N92",
+   "details": "Notwithstanding the provisions of § 173.24(g) of this subchapter, packagings will be designed and constructed to permit the release of gas or vapor to prevent a build-up of pressure that could rupture the packagings in the event of loss of stabilization."
+  }
+ ]
 }

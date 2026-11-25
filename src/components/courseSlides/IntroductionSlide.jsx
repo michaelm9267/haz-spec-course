@@ -1,39 +1,46 @@
-import React from 'react'
+import React from "react";
+import { assetUrl } from "../../utils/hazard";
 
-const IntroductionSlide = () => {
-  return (
-    <div>
-        <h1>Welcome to Hazmat Specialist Course</h1>
-        <hr />
-       <h3>Overview</h3>
-        <div className='overview'>
-         
-            <ul>
-                <li>Disclaimer</li>
-                <li>Packaging Hierarchy</li>
-                <li>Important Definitions</li>
-                <li>Chapter 3 Movement</li>
-                <li>Types of Packaging</li>
-                <li>Item Table</li>
-                <li>Special Provisions</li>
-                <li>Hazardous Substances</li>
-                <li>Excepted Quantities</li>
-                <li>Limited Quantities</li>
-                <li>Marking</li>
-                <li>Labeling</li>
-                <li>Compatabilitie</li>
-                <li>Certifying</li>
-                <li>Questions</li>
-            </ul>
-            <img src='/images/hazphoto.png' alt='hazmat' />
-        </div>
+const TOPICS = [
+  "Disclaimer",
+  "Packaging Hierarchy",
+  "Important Definitions",
+  "Chapter 3 Movement",
+  "Types of Packaging",
+  "Item Table",
+  "Special Provisions",
+  "Hazardous Substances",
+  "Excepted Quantities",
+  "Limited Quantities",
+  "Marking",
+  "Labeling",
+  "Compatibility",
+  "Certifying",
+  "Questions",
+];
 
-        <div className='objective'>
-            <p ><strong>Objective:</strong><hr /> By the end of this course, given a copy of the DAFMAN 24-604, students should be able to complete a 15 question test and achied an 80%, with no instructor assist.</p>
-            
-        </div>
+const IntroductionSlide = () => (
+  <div>
+    <h1>Welcome to the Hazmat Specialist Course</h1>
+    <hr />
+    <div className="two-col">
+      <div>
+        <h3>Overview</h3>
+        <ul className="topic-list">
+          {TOPICS.map((t) => (
+            <li key={t}>{t}</li>
+          ))}
+        </ul>
+      </div>
+      <img src={assetUrl("images/hazphoto.png")} alt="Hazardous materials packages" />
     </div>
-  )
-}
 
-export default IntroductionSlide
+    <div className="callout">
+      <strong>Objective:</strong> By the end of this course, given a copy of DAFMAN 24-604,
+      students should be able to complete a 15-question test and achieve 80% with no instructor
+      assistance.
+    </div>
+  </div>
+);
+
+export default IntroductionSlide;

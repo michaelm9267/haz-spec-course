@@ -1,153 +1,142 @@
 import React from "react";
-import SP from "../data-file/special-provisions.json";
-import HC from "../data-file/hazardClasses.json";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import ClassCard from "./ClassCard";
+import QuantityCards from "./QuantityCards";
+import { useRegulation } from "../regulations/RegulationContext";
+import { assetUrl } from "../utils/hazard";
 import "../Styles/hazardInfo.css";
 
-const HazardInfo = ({ selectedItem }) => {
-  if (!selectedItem) {
-    return null;
+const Field = ({ label, children, wide }) => (
+  <div className={`field${wide ? " wide" : ""}`}>
+    <dt>{label}</dt>
+    <dd>{children}</dd>
+  </div>
+);
+
+const HazardInfo = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const { key, config, data } = useRegulation();
+  const item = data.items[Number(id)];
+
+  if (!item) {
+    return (
+      <div className="hazard-info">
+        <p>That item could not be found.</p>
+        <Link to={`/${key}`}>Back to the {config.tabs.items}</Link>
+      </div>
+    );
   }
 
-  // Destructure properties from selectedItem
-  const {
-    UN,
-    PSN,
-    TN,
-    Class: hazardClass,
-    SubClass: subsidiaryClass,
-    PG: packingGroup,
-    SpecProv: specialProvisions,
-    PackingPara,
-  } = selectedItem;
-
-  // Function to get hazard class info based on the division
-  const getHazardClassInfo = (classCode) => {
-    // Extract the first three characters to get the division part (e.g., "1.1" from "1.1B")
-    const division = classCode.slice(0, 3);
-    return HC.HazardClasses.find((hc) => hc.Class === division);
-  };
-
-  // Get main hazard class info based on division
-  const hazardClassInfo = getHazardClassInfo(hazardClass);
-
-  // Get subsidiary hazard class info if it exists
-  const subsidiaryClassInfo = subsidiaryClass
-    ? getHazardClassInfo(subsidiaryClass)
-    : null;
-
-  // Process special provisions
-  let specialProvisionsDetails = [];
-  if (specialProvisions) {
-    // Remove any whitespace and split the provisions into an array
-    const provisionsArray = specialProvisions.replace(/\s/g, "").split(",");
-
-    specialProvisionsDetails = provisionsArray.map((code) => {
-      // Find the provision in the special provisions data
-      const provisionDetail = SP.P.find((p) => p.provision === code);
-
-      return {
-        code,
-        details: provisionDetail ? provisionDetail.details : "No details available.",
-      };
-    });
-  }
+  const symbols = Object.entries(config.symbols).filter(([s]) => (item.symbols || "").includes(s));
+  const isCrossReference = !item.un && !item.hazardClass && /\bsee\b/i.test(item.name);
+  const { ExtraSections } = config;
 
   return (
-    <div className="hazard-info">
-      <h2>Hazard Information</h2>
-      <div className="hazard-details">
-      <p>
-        <strong>UN Number:</strong> {UN}
-      </p>
-      <p>
-        <strong>Proper Shipping Name:</strong> {PSN}
-      </p>
-      <p>
-        <strong>Technical Name:</strong> {TN ? "Technical Name is Required" : "No Technical Name Required"}
-      </p>
-      <p>
-        <strong>Packing Group:</strong> {packingGroup || "Not specified"}
-      </p>
-
-      {/* Hazard Class Information */}
-      {hazardClass && (
-        <>
-          <h3>Hazard Class</h3>
-          <p>
-            <strong>Class:</strong> {hazardClass}
-          </p>
-          {hazardClassInfo && (
-            <>
-              <p>
-                <strong>Name:</strong> {hazardClassInfo.Name}
-              </p>
-              {hazardClassInfo.LabelImage && (
-                <img
-                  src={hazardClassInfo.LabelImage}
-                  alt={hazardClassInfo.Label}
-                />
-              )}
-            </>
-          )}
-        </>
-      )}
-
-      {/* Subsidiary Hazard Class Information */}
-      {subsidiaryClass && (
-        <>
-          <h3>Subsidiary Hazard Class</h3>
-          <p>
-            <strong>Class:</strong> {subsidiaryClass}
-          </p>
-          {subsidiaryClassInfo && (
-            <>
-              <p>
-                <strong>Name:</strong> {subsidiaryClassInfo.Name}
-              </p>
-              {subsidiaryClassInfo.LabelImage && (
-                <img
-                  src={subsidiaryClassInfo.LabelImage}
-                  alt={subsidiaryClassInfo.Label}
-                />
-              )}
-            </>
-          )}
-        </>
-      )}
-
-{/* Special Provisions */}
-{specialProvisionsDetails.length > 0 && (
-  <div >
-    <h3>Special Provisions</h3>
-    <ul className="prov-cont">
-      {specialProvisionsDetails.map((sp, index) => {
-        const cargoAcftOnly =
-          sp.code === "P1" || sp.code === "P2" || sp.code === "P3" || sp.code === "P4"
-            ? "images/Cargo Aircraft Only.png"
-            : null;
-        return (
-          <li key={index} >
-            <strong>{sp.code}:</strong> {sp.details}
-            {cargoAcftOnly && (
-              <img
-                src={cargoAcftOnly}
-                alt="Cargo Aircraft Only"
-                id="cao"
-              />
-            )}
-          </li>
-        );
-      })}
-    </ul>
-  </div>
-)}
-
-
-      <p>
-        <strong>Packaging Paragraph:</strong> {PackingPara || "Not specified"}
-      </p>
+    <article className="hazard-info">
+      <div className="hazard-topbar">
+        <button className="back-button" onClick={() => navigate(-1)}>
+          ← Back
+        </button>
+        <span className="reg-tag">{config.name}</span>
+        {item.hazardClass.startsWith("2") && item.un && (
+          <Link className="compat-link" to={`/calculators?un=${item.un}`}>
+            Cylinder calculator →
+          </Link>
+        )}
+        {item.hazardClass && (
+          <Link className="compat-link" to={`/compatibility?reg=${key}&items=${item.id}`}>
+            Check load compatibility →
+          </Link>
+        )}
       </div>
-    </div>
+
+      <header className="hazard-title">
+        <div className="un-number">{item.un || "No UN/ID number"}</div>
+        <h1>{item.name}</h1>
+        {item.forbidden && <div className="badge badge-danger">{config.forbiddenLabel}</div>}
+        {item.airForbidden && <div className="badge badge-danger">Forbidden on aircraft</div>}
+        {item.cargoOnly && <div className="badge badge-warning">Cargo aircraft only</div>}
+      </header>
+
+      {isCrossReference ? (
+        <p className="note">
+          This entry is a cross-reference. Search for the proper shipping name it points to for shipping
+          details.
+        </p>
+      ) : (
+        <>
+          <dl className="fields">
+            {config.detailFields(item).map((f) => (
+              <Field key={f.label} label={f.label}>
+                {f.value}
+              </Field>
+            ))}
+            {symbols.length > 0 && (
+              <Field label="Symbols" wide>
+                <ul className="symbols">
+                  {symbols.map(([symbol, meaning]) => (
+                    <li key={symbol}>
+                      <strong>{symbol}</strong> {meaning}
+                    </li>
+                  ))}
+                </ul>
+              </Field>
+            )}
+          </dl>
+
+          {item.hazardClass && (
+            <section>
+              <h2>Hazard class</h2>
+              <ClassCard code={item.hazardClass} />
+            </section>
+          )}
+
+          {item.subsidiaryClasses.length > 0 && (
+            <section>
+              <h2>Subsidiary hazard {item.subsidiaryClasses.length > 1 ? "classes" : "class"}</h2>
+              <div className="class-cards">
+                {item.subsidiaryClasses.map((code) => (
+                  <ClassCard key={code} code={code} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {ExtraSections && <ExtraSections item={item} />}
+
+          {config.quantityCards && item.hazardClass && <QuantityCards cards={config.quantityCards(item)} />}
+
+          {item.provisionCodes.length > 0 && (
+            <section>
+              <h2>
+                Special provisions
+                {data.provisionsLink && (
+                  <a className="heading-link" href={data.provisionsLink} target="_blank" rel="noreferrer">
+                    full text ↗
+                  </a>
+                )}
+              </h2>
+              {item.cargoOnly && (
+                <img
+                  className="cao-label"
+                  src={assetUrl("images/Cargo Aircraft Only.png")}
+                  alt="Cargo Aircraft Only label"
+                />
+              )}
+              <ul className="provisions">
+                {item.provisionCodes.map((code) => (
+                  <li key={code}>
+                    <strong>{code}</strong>
+                    <span className="pre-line">{data.provisionMap.get(code) || data.provisionsMissingText}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </>
+      )}
+    </article>
   );
 };
 

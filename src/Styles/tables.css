@@ -1,106 +1,167 @@
-.table-header {
-    display: flex;
-    border: 2px solid #ced4da; /* Light border for table header */
-    position: sticky;
-    top: 0; /* Stick to the top of the table */
-    background-color: #ffffff; /* White background for header */
+.tabs {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  border-bottom: 2px solid var(--border);
 }
 
-.table-header h4 {
-    flex: 1; 
-    padding: 10px;
-    background-color: #f8f9fa; 
-    color: #343a40; 
-    text-align: center; 
-    border-bottom: 2px solid #007bff; 
+.tab {
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  background: none;
+  color: var(--text-muted);
+  font-weight: 500;
+  white-space: nowrap;
 }
 
-.table-row{
-    display: flex;
+.tab:hover {
+  color: var(--text);
 }
 
-.table-row p {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #bfc2c5;
-    margin: 0;
-}
-.table-row p:hover {
-    background-color: #f1f1f1;
-    cursor: pointer;
+.tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
-/* Pagination Style */
+.data-table {
+  margin-top: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.table-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.table-toolbar input {
+  flex: 1;
+  max-width: 420px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.row-count {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.data-table th {
+  position: sticky;
+  top: 0;
+  padding: 10px 12px;
+  background: var(--surface-alt);
+  border-bottom: 2px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.data-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--surface-alt);
+  vertical-align: top;
+}
+
+.data-table tbody tr.clickable {
+  cursor: pointer;
+}
+
+.data-table tbody tr.clickable:hover,
+.data-table tbody tr.clickable:focus-visible {
+  background: #eaf2fc;
+}
+
+.data-table tbody tr.muted td {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.data-table td.empty {
+  padding: 32px;
+  text-align: center;
+  color: var(--text-muted);
+}
 
 .pagination-controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    gap: 20px;
-    position: sticky;
-    bottom: 0;
-    background-color: #fff;
-    height: 60px
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border-top: 1px solid var(--border);
 }
 
 .pagination-controls label {
-    font-weight: bold;
-    margin-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
-select, input {
-    padding: 8px;
-    font-size: 14px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+.pagination-controls select {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
 }
 
-select:focus, input:focus {
-    outline: none;
-    border-color: #007bff;
+.pager {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-.pagination-dropdown, .pagination-input {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.pager button {
+  min-width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  font-size: 1.1rem;
 }
 
-.pagination-input input {
-    width: 60px;
-    text-align: center;
+.pager button:not(:disabled):hover {
+  background: var(--surface-alt);
 }
 
-select {
-    cursor: pointer;
+.pre-line {
+  white-space: pre-line;
 }
 
-.pagination-dropdown select {
-    cursor: pointer;
+.haz-tables .note {
+  margin: 16px 0 0;
+  padding: 10px 14px;
+  background: var(--warning-bg);
+  color: var(--warning-text);
+  border-radius: 8px;
 }
 
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-input[type="number"] {
-    -moz-appearance: textfield;
-}
-
-input[type="number"]:focus {
-    border-color: #007bff;
-}
-
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-.pagination-controls select,
-.pagination-controls input {
-    margin-left: 10px;
+.source-note {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
 }

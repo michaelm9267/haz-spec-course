@@ -1,49 +1,71 @@
-import React, {useState} from 'react'
-import '../Styles/course.css'
-import './courseSlides/IntroductionSlide'
-import IntroductionSlide from './courseSlides/IntroductionSlide'
-import PackagingHierarchy from './courseSlides/PackagingHierarchy'
-import Disclaimer from './courseSlides/Disclaimer'
-import Definitions from './courseSlides/Definitions'
-import TypesOfPackages from './courseSlides/TypesOfPackages'
+import React, { useCallback, useEffect, useState } from "react";
+import "../Styles/course.css";
+import IntroductionSlide from "./courseSlides/IntroductionSlide";
+import PackagingHierarchy from "./courseSlides/PackagingHierarchy";
+import Disclaimer from "./courseSlides/Disclaimer";
+import Definitions from "./courseSlides/Definitions";
+import TypesOfPackages from "./courseSlides/TypesOfPackages";
 
-const Course = () => {
-const [currentSlide, setCurrentSlide] = useState(4);
-
-const slides = [
-    {id: 1, slide: <IntroductionSlide />},
-    {id: 2, slide: <PackagingHierarchy />},
-    {id: 3, slide: <Disclaimer />},
-    {id: 4, slide: <Definitions />},
-    {id: 4, slide: <TypesOfPackages />},
-    
+const SLIDES = [
+  { title: "Introduction", Component: IntroductionSlide },
+  { title: "Disclaimer", Component: Disclaimer },
+  { title: "Packaging Hierarchy", Component: PackagingHierarchy },
+  { title: "Definitions", Component: Definitions },
+  { title: "Types of Packages", Component: TypesOfPackages },
 ];
 
-const handleNextSlide = () => {
-    if (currentSlide < slides.length - 1) {
-        setCurrentSlide(currentSlide + 1);
-    }
-}
+const Course = () => {
+  const [current, setCurrent] = useState(0);
+  const last = SLIDES.length - 1;
 
-const handlePreviousSlide = () => {
-    if (currentSlide > 0) {
-        setCurrentSlide(currentSlide - 1);
-    }
-}
+  const goTo = useCallback(
+    (index) => setCurrent(Math.min(Math.max(index, 0), last)),
+    [last]
+  );
 
+  // Arrow keys move between slides (ignored while typing in an input).
+  useEffect(() => {
+    const onKey = (e) => {
+      if (["INPUT", "SELECT", "TEXTAREA"].includes(e.target.tagName)) return;
+      if (e.key === "ArrowRight") goTo(current + 1);
+      if (e.key === "ArrowLeft") goTo(current - 1);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [current, goTo]);
 
+  const { Component } = SLIDES[current];
 
   return (
-    <div className='slide-cont'>
-                <button className='prev' onClick={handlePreviousSlide}></button>
-        <div className='course-cont'>
-            <div className='buttons'>
-            </div>
-          {slides[currentSlide].slide}
-        </div>
-             <button className='next'  onClick={handleNextSlide}></button>
-    </div>
-  )
-}
+    <div className="course">
+      <div className="slide">
+        <Component />
+      </div>
 
-export default Course
+      <div className="slide-nav">
+        <button onClick={() => goTo(current - 1)} disabled={current === 0}>
+          ← Previous
+        </button>
+        <div className="slide-dots">
+          {SLIDES.map((s, i) => (
+            <button
+              key={s.title}
+              className={`dot${i === current ? " active" : ""}`}
+              onClick={() => goTo(i)}
+              aria-label={`Go to slide ${i + 1}: ${s.title}`}
+              aria-current={i === current ? "step" : undefined}
+            />
+          ))}
+          <span className="slide-count">
+            {current + 1} / {SLIDES.length}
+          </span>
+        </div>
+        <button onClick={() => goTo(current + 1)} disabled={current === last}>
+          Next →
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Course;

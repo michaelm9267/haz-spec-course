@@ -1,0 +1,249 @@
+.calculators {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.calculators h1 {
+  margin: 0 0 16px;
+  font-size: 1.6rem;
+}
+
+.calc-card {
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.calc-card h2 {
+  margin: 0 0 4px;
+  font-size: 1.2rem;
+}
+
+.calc-intro {
+  margin: 0 0 20px;
+  color: var(--text-muted);
+}
+
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.calc-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.calc-field small {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.calc-input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.calc-input-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+.calc-field input,
+.calc-field select {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
+.calc-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.calc-result {
+  padding: 14px 16px;
+  background: var(--surface-alt);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+}
+
+.calc-result-label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.calc-result-value {
+  margin-top: 4px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.calc-result-sub {
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.calc-method {
+  margin-top: 20px;
+  color: var(--text-muted);
+}
+
+.calc-method summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.calculators .note {
+  margin-top: 16px;
+  padding: 10px 14px;
+  background: var(--warning-bg);
+  color: var(--warning-text);
+  border-radius: 8px;
+}
+
+/* ---- gas selection by UN number ---- */
+.gas-select {
+  margin-bottom: 20px;
+}
+
+.gas-select-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.gas-picker {
+  position: relative;
+}
+
+.gas-picker input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.gas-results {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.gas-results button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.gas-results button:hover,
+.gas-results button:focus {
+  background: var(--surface-alt);
+}
+
+.gas-results .empty {
+  padding: 8px;
+  color: var(--text-muted);
+}
+
+.gas-class {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface-alt);
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.gas-selected {
+  padding: 12px 14px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.gas-selected-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gas-clear {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.gas-selected .note,
+.gas-select .note {
+  margin: 10px 0 0;
+}
+
+.gas-limits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.gas-limits .q-table {
+  width: 100%;
+}
+
+.calc-static {
+  padding: 8px 10px;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.cylinder-field {
+  margin-bottom: 16px;
+}
+
+.cylinder-field select {
+  max-width: 100%;
+}

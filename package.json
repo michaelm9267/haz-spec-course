@@ -1,22 +1,23 @@
 {
   "homepage": "https://michaelm9267.github.io/haz-spec-course/",
-  "name": "haz-spec-course",
+  "name": "hazref",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "cheerio": "^1.0.0",
-    "fs": "^0.0.1-security",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
+    "sql.js": "^1.13.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "prestart": "node scripts/copy-sqljs.js",
     "start": "react-scripts start",
+    "prebuild": "node scripts/copy-sqljs.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

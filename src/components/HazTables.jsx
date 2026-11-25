@@ -1,134 +1,121 @@
-import React, { useState } from 'react'
-import "../Styles/tables.css"
-import "../Styles/hazTables.css"
-import HC from "../data-file/hazardClasses.json"
+import React, { useMemo } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import DataTable from "./DataTable";
+import { useRegulation } from "../regulations/RegulationContext";
+import "../Styles/tables.css";
 
-const HazTables = ({ hazData, setSelectedItem }) => {
-    const [activeTab, setActiveTab] = useState(0);
-    const [rowsPerPage, setRowsPerPage] = useState(25);  // Default is 25
-    const [currentPage, setCurrentPage] = useState(1);  // Current page number
-    const [inputPage, setInputPage] = useState('');  // For direct page input
+const includes = (field, q) => (field || "").toLowerCase().includes(q);
 
-    // Calculate the indices for the current page
-    const indexOfLastRow = currentPage * rowsPerPage;
-    const indexOfFirstRow = indexOfLastRow - rowsPerPage;
-    const currentRows = hazData.HazData.slice(indexOfFirstRow, indexOfLastRow);
+const preLine = (text) => <span className="pre-line">{text}</span>;
 
-    // Handle page change
-    const handlePageChange = (e) => {
-        const selectedPage = parseInt(e.target.value);
-        setCurrentPage(selectedPage);
-        setInputPage(selectedPage);  // Keep input field in sync
-    };
+const buildTabs = (config, data) => [
+  {
+    key: "items",
+    label: config.tabs.items,
+    rows: data.items,
+    filterPlaceholder: "Filter by ID number, name or class",
+    getRowKey: (row) => row.id,
+    filterRow: config.filterItem,
+    columns: config.itemColumns,
+    clickable: (row) => Boolean(row.un || row.hazardClass),
+  },
+  {
+    key: "provisions",
+    label: config.tabs.provisions,
+    rows: data.provisions,
+    filterPlaceholder: "Filter by code or text",
+    getRowKey: (row) => row.code,
+    filterRow: (row, q) => includes(row.code, q) || includes(row.details, q),
+    columns: [
+      { key: "code", header: "Code", width: "6rem" },
+      { key: "details", header: "Details", render: (row) => preLine(row.details) },
+    ],
+  },
+  {
+    key: "substances",
+    label: config.tabs.substances,
+    rows: data.substances,
+    filterPlaceholder: "Filter by substance",
+    getRowKey: (row, index) => `${row.substance}|${index}`,
+    filterRow: (row, q) => includes(row.substance, q),
+    columns: [
+      { key: "substance", header: "Hazardous Substance" },
+      { key: "lbs", header: "RQ (lbs)", width: "8rem" },
+      { key: "kg", header: "RQ (kg)", width: "8rem" },
+    ],
+  },
+];
 
-    // Handle rows per page change
-    const handleRowsPerPageChange = (e) => {
-        setRowsPerPage(parseInt(e.target.value));
-        setCurrentPage(1);  // Reset to the first page when rows per page changes
-        setInputPage(1);  // Reset input field to page 1
-    };
+const HazTables = () => {
+  const navigate = useNavigate();
+  const [params, setParams] = useSearchParams();
+  const { key, config, data } = useRegulation();
 
-    // Handle input field for direct page change
-    const handleInputChange = (e) => {
-        const value = e.target.value;
-        if (value === '' || (!isNaN(value) && value <= totalPages && value >= 1)) {
-            setInputPage(value);  // Allow empty value for deletion
-        }
-    };
+  const tabs = useMemo(() => buildTabs(config, data), [config, data]);
+  const tab = tabs.find((t) => t.key === params.get("tab")) || tabs[0];
+  const filter = params.get("q") || "";
+  const page = Number(params.get("page")) || 1;
+  const pageSize = Number(params.get("size")) || 25;
+  const noMatch = params.get("nomatch") === "1";
 
-    const handleInputSubmit = (e) => {
-        if ((e.key === 'Enter' || e.type === 'blur') && inputPage) {
-            const parsedPage = parseInt(inputPage, 10);
-            if (parsedPage >= 1 && parsedPage <= totalPages) {
-                setCurrentPage(parsedPage);
-            }
-        }
-    };
+  const updateParams = (changes) => {
+    const next = new URLSearchParams(params);
+    next.delete("nomatch");
+    Object.entries(changes).forEach(([k, v]) => {
+      if (v === undefined || v === "" || v === null) next.delete(k);
+      else next.set(k, v);
+    });
+    setParams(next, { replace: true });
+  };
 
-    // Calculate total pages
-    const totalPages = Math.ceil(hazData.HazData.length / rowsPerPage);
+  const rows = useMemo(() => {
+    const q = filter.toLowerCase().trim();
+    return q ? tab.rows.filter((row) => tab.filterRow(row, q)) : tab.rows;
+  }, [tab, filter]);
 
-    return (
-        <>
-            <div className='tabs'>
-                <div className='tab' onClick={() => setActiveTab(0)}>Item Table A4.1</div>
-                <div className='tab' onClick={() => setActiveTab(1)}>Special Provisions A4.1</div>
-                <div className='tab' onClick={() => setActiveTab(2)}>Hazardous Substances and Reportable Quantities Table A4.3</div>
-            </div>
-            <div className='tab-content'>
-                {activeTab === 0 && (
-                    <div>
-                        <div className='table-header'>
-                            <h4>Symbol</h4>
-                            <h4>UN/ID Number</h4>
-                            <h4>Proper Shipping Name</h4>
-                            <h4>Hazard Class</h4>
-                            <h4>Subsidiary Hazard Class</h4>
-                            <h4>Packing Group</h4>
-                            <h4>Special Provisions</h4>
-                            <h4>Packing Paragraph</h4>
-                        </div>
-                        {currentRows.map((item, index) => (
-                            <div key={index} className='table-row'>
-                                <p>{item.TN}</p>
-                                <p onClick={() => setSelectedItem(item)}>{item.UN}</p>
-                                <p onClick={() => setSelectedItem(item)}>{item.PSN}</p>
-                                <p>
-                                {item.Class ? `${item.Class} / `: ""}
-  {HC.HazardClasses.find((classItem) => classItem.Class === item.Class)?.Name || ""}
-</p>
-                                <p>
-  {item.SubClass ? `${item.SubClass} / `: ""}
-  {HC.HazardClasses.find((classItem) => classItem.Class === item.SubClass)?.Name || ""}
-</p>
-                                <p>{item.PG}</p>
-                                <p>{item.SpecProv}</p>
-                                <p>{item.PackingPara}</p>
-                            </div>
-                        ))}
-                    </div>
-                )}
-                {activeTab === 1 && <div>Content for Special Provisions A4.1</div>}
-                {activeTab === 2 && <div>Content for Hazardous Substances and Reportable Quantities Table A4.3</div>}
-            </div>
+  return (
+    <div className="haz-tables">
+      <div className="tabs" role="tablist">
+        {tabs.map((t) => (
+          <button
+            key={t.key}
+            role="tab"
+            aria-selected={t.key === tab.key}
+            className={`tab${t.key === tab.key ? " active" : ""}`}
+            onClick={() => updateParams({ tab: t.key === "items" ? undefined : t.key, page: undefined, q: undefined })}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
 
-            {/* Pagination Controls */}
-            <div className='pagination-controls'>
-                <label htmlFor="rowsPerPage">Rows per page:</label>
-                <select id="rowsPerPage" value={rowsPerPage} onChange={handleRowsPerPageChange}>
-                    <option value={10}>10</option>
-                    <option value={25}>25</option>
-                    <option value={50}>50</option>
-                    <option value={100}>100</option>
-                </select>
+      {noMatch && (
+        <p className="note">
+          No exact {config.name} entry matched the item you were viewing, so the table is filtered by its ID
+          number or name instead.
+        </p>
+      )}
 
-                <div className='pagination-dropdown'>
-                    <label htmlFor="pageSelect">Page:</label>
-                    <select id="pageSelect" value={currentPage} onChange={handlePageChange}>
-                        {[...Array(totalPages).keys()].map(pageNumber => (
-                            <option key={pageNumber + 1} value={pageNumber + 1}>
-                                {pageNumber + 1}
-                            </option>
-                        ))}
-                    </select>
-                </div>
+      <DataTable
+        columns={tab.columns}
+        rows={rows}
+        getRowKey={tab.getRowKey}
+        onRowClick={tab.clickable ? (row) => navigate(`/${key}/item/${row.id}`) : undefined}
+        isRowClickable={tab.clickable || (() => false)}
+        filter={filter}
+        onFilterChange={(q) => updateParams({ q, page: undefined })}
+        filterPlaceholder={tab.filterPlaceholder}
+        page={page}
+        pageSize={pageSize}
+        onPageChange={(p) => updateParams({ page: p === 1 ? undefined : p })}
+        onPageSizeChange={(size) => updateParams({ size, page: undefined })}
+      />
 
-                <div className='pagination-input'>
-                    <label htmlFor="pageInput">Go to page:</label>
-                    <input
-                        id="pageInput"
-                        type="number"
-                        value={inputPage || ''}
-                        min={1}
-                        max={totalPages}
-                        onChange={handleInputChange}
-                        onKeyPress={handleInputSubmit}
-                        onBlur={handleInputSubmit}
-                    />
-                </div>
-            </div>
-        </>
-    );
-}
+      <p className="source-note">
+        {data.sourceNote} This is a study and reference aid, not the official regulation.
+      </p>
+    </div>
+  );
+};
 
 export default HazTables;

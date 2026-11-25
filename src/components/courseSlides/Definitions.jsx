@@ -3,8 +3,8 @@ import React from "react";
 const Definitions = () => {
   return (
     <div>
-      <div>
-        <h1>Definitions (Page 26)</h1>
+      <div className="definitions">
+        <h1>Definitions</h1>
         <hr />
         <h3>Hazardous Material</h3>
         <p>
@@ -18,8 +18,7 @@ const Definitions = () => {
         <p>
           An emergency involving military forces caused by natural disasters,
           terrorists, subversives, or by required military operations. Due to
-          the uncertainty of the situation, 38 AFMAN24-604 9 October 2020
-          contingencies require plans, rapid response, and special procedures to
+          the uncertainty of the situation, contingencies require plans, rapid response, and special procedures to
           ensure the safety and readiness of personnel, installations, and
           equipment.
         </p>
