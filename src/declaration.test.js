@@ -364,3 +364,57 @@ describe("DAF Form 7507 pagination", () => {
     expect(paginate([1], [true])).toBeNull();
   });
 });
+
+describe("49 CFR shipping paper in the DAF Form 7507 layout", () => {
+  const DafForm7507 = require("./components/DafForm7507").default;
+  const { CERTIFICATIONS } = require("./utils/declaration");
+  const item = { un: "UN1090", name: "Acetone", hazardClass: "3", pg: "II", provisionCodes: [], subsidiaryHazards: [], raw: {} };
+  const paper = (o) => {
+    const line = { ...newLine(item, "cfr"), quantity: "4", packing: "§173.202" };
+    const decl = {
+      ...blankDeclaration("cfr"),
+      reference: "BOL-123",
+      tcn: "FB2029-5321-0001-XXX",
+      departure: "Hill AFB, UT",
+      emergencyPhone: "1-800-851-8061",
+      emergencyContact: "Defense Logistics Agency (DoD)",
+      emergencyInfo: "UN1090: ERG2024 Guide 127",
+      ...o,
+    };
+    return render(<DafForm7507 decl={decl} lines={[{ line, item }]} regKey="cfr" />);
+  };
+
+  test("highway: mode, origin, BOL and TCN; ERG info, agency and the CFR certification; no DAF form or checklist", () => {
+    const { container } = paper({ mode: "highway" });
+    const text = container.textContent;
+    expect(screen.getByText("SHIPPER'S DECLARATION FOR DANGEROUS GOODS")).toBeInTheDocument();
+    expect(screen.getByText("MODE OF TRANSPORT:")).toBeInTheDocument();
+    expect(screen.getByText("HIGHWAY")).toBeInTheDocument();
+    expect(screen.getByText("ORIGIN:")).toBeInTheDocument();
+    expect(screen.getByText("SHIPPING PAPER / BOL NO.")).toBeInTheDocument();
+    expect(text).toMatch(/BOL-123/);
+    expect(screen.getByText("SHIPPER'S REFERENCE NUMBER")).toBeInTheDocument();
+    expect(text).toMatch(/TCN:\s*FB2029-5321-0001-XXX/);
+    expect(text).not.toMatch(/CARRIER:/);
+    expect(text).toMatch(/HANDED TO THE CARRIER/);
+    // § 172.602: printed whether or not "Print ERG guides" is ticked
+    expect(text).toMatch(/UN1090: ERG2024 Guide 127/);
+    expect(screen.getByText("1-800-851-8061 (Defense Logistics Agency (DoD))")).toBeInTheDocument();
+    expect(text).toContain(CERTIFICATIONS.cfr);
+    expect(text).not.toContain(CERTIFICATIONS.cfrAir);
+    expect(text).toMatch(/49 CFR PART 172, SUBPART C/);
+    expect(text).not.toMatch(/DAF FORM 7507/);
+    expect(text).not.toMatch(/SHIPPER'S CHECKLIST/);
+    expect(text).not.toMatch(/DSN/);
+  });
+
+  test("air: aircraft choices, air waybill and the air certification statement", () => {
+    const { container } = paper({ mode: "airCao" });
+    const text = container.textContent;
+    expect(screen.getByText("AIR WAYBILL NO.")).toBeInTheDocument();
+    expect(screen.getByText("AIRPORT OF DEPARTURE:")).toBeInTheDocument();
+    expect(container.querySelector(".f7507-choice.deleted").textContent).toMatch(/PASSENGER AND/);
+    expect(text).toContain(CERTIFICATIONS.cfrAir);
+    expect(text).toMatch(/HANDED TO THE OPERATOR/);
+  });
+});

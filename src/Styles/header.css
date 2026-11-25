@@ -140,11 +140,42 @@
   background: var(--danger-bg);
 }
 
-@media (max-width: 700px) {
+.menu-toggle {
+  display: none;
+}
+
+/* the full nav plus a usable search box needs ~1360px; below that the nav collapses behind the menu button */
+@media (max-width: 1360px) {
   .header {
     flex-wrap: wrap;
-    gap: 8px 12px;
-    padding: 10px 16px;
+    gap: 8px;
+    padding: 8px 16px;
+  }
+
+  .brand {
+    font-size: 1.15rem;
+  }
+
+  .reg-switch button {
+    padding: 6px 9px;
+    font-size: 0.85rem;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: auto;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    font-size: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    color: var(--text);
+    font-weight: 600;
   }
 
   .search-bar {
@@ -154,6 +185,49 @@
   }
 
   .header nav {
-    margin-left: auto;
+    display: none;
+    order: 4;
+    flex-basis: 100%;
+  }
+
+  .header nav.open {
+    display: block;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 4px;
+  }
+
+  .header nav a {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .search-bar input {
+    font-size: 16px; /* 16px stops iOS zooming in on focus */
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    gap: 6px;
+    padding: 8px 12px;
+  }
+
+  .brand {
+    font-size: 1rem;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .reg-switch button {
+    padding: 6px 6px;
+    font-size: 0.8rem;
   }
 }

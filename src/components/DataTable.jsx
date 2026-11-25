@@ -1,6 +1,8 @@
 import React from "react";
 
 const PAGE_SIZES = [10, 25, 50, 100];
+// On phones each row becomes a card; this column is its title (see tables.css).
+const PRIMARY = new Set(["name", "substance", "details"]);
 
 /**
  * Paginated, filterable table. Paging/filter state is owned by the parent so it
@@ -78,9 +80,16 @@ const DataTable = ({
                   }
                   tabIndex={clickable ? 0 : undefined}
                 >
-                  {columns.map((col) => (
-                    <td key={col.key}>{col.render ? col.render(row) : row[col.key]}</td>
-                  ))}
+                  {columns.map((col) => {
+                    const value = col.render ? col.render(row) : row[col.key];
+                    const empty = value === undefined || value === null || value === false || value === "";
+                    const cls = [PRIMARY.has(col.key) && "cell-primary", empty && "cell-empty"].filter(Boolean).join(" ");
+                    return (
+                      <td key={col.key} data-label={typeof col.header === "string" ? col.header : undefined} className={cls || undefined}>
+                        {value}
+                      </td>
+                    );
+                  })}
                 </tr>
               );
             })}

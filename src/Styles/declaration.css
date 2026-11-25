@@ -241,106 +241,6 @@
   outline-offset: 2px;
 }
 
-.doc-title {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.doc-title h2 {
-  margin: 0;
-  font-size: 17px;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
-
-.doc-grid,
-.doc-items {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.doc-grid td,
-.doc-items th,
-.doc-items td {
-  padding: 5px 7px;
-  border: 1px solid #000;
-  vertical-align: top;
-}
-
-.doc-half {
-  width: 50%;
-}
-
-.doc-label,
-.doc-section-title {
-  font-size: 9px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-
-.doc-section-title {
-  margin: 10px 0 0;
-  padding: 4px 7px;
-  border: 1px solid #000;
-  border-bottom: 0;
-  background: #eee;
-}
-
-.doc-items {
-  margin-top: 10px;
-}
-
-.doc-section-title + .doc-items {
-  margin-top: 0;
-}
-
-.doc-items th {
-  background: #eee;
-  font-size: 10px;
-  text-align: left;
-}
-
-.doc-hm {
-  text-align: center;
-  font-weight: 700;
-}
-
-.doc-extra {
-  font-size: 11px;
-}
-
-.doc-struck {
-  text-decoration: line-through;
-  color: #777;
-}
-
-.doc-box {
-  margin-top: 10px;
-  padding: 7px;
-  border: 1px solid #000;
-}
-
-.doc-box p {
-  margin: 0 0 6px;
-}
-
-.doc-emergency {
-  margin-top: 6px;
-}
-
-.doc-sign {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 10px;
-}
-
-.doc-signature-line {
-  height: 24px;
-  border-bottom: 1px solid #000;
-}
-
 @media (max-width: 600px) {
   .decl-head {
     flex-direction: column;
@@ -348,10 +248,6 @@
 
   .decl-doc {
     padding: 12px;
-  }
-
-  .doc-sign {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -447,8 +343,9 @@
   color: #12411d;
 }
 
-/* ---- DAF Form 7507 (AFMAN output) ---- */
-.decl-doc.doc-afman {
+/* ---- DAF Form 7507 layout (AFMAN form, and the 49 CFR shipping paper in the same layout) ---- */
+.decl-doc.doc-afman,
+.decl-doc.doc-cfr {
   padding: 16px;
   background: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -818,9 +715,14 @@
     margin: 0;
   }
 
-  .decl-doc.doc-afman {
+  .decl-doc.doc-afman,
+  .decl-doc.doc-cfr {
     padding: 0;
     background: #fff;
+  }
+
+  .f7507-fit {
+    zoom: 1 !important;
   }
 
   .f7507-page {
@@ -837,4 +739,16 @@
   .f7507-page:last-child {
     break-after: auto;
   }
+}
+
+.decl-imported {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #e8f1fb;
+  color: var(--text);
+}
+
+.f7507-mode {
+  margin: 4px 0 8px;
 }

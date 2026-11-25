@@ -165,3 +165,109 @@
   color: var(--text-muted);
   font-size: 0.85rem;
 }
+
+/* ---------- phones and small tablets: each row becomes a card ---------- */
+@media (max-width: 900px) {
+  .table-toolbar {
+    flex-wrap: wrap;
+    gap: 8px 12px;
+  }
+
+  .table-toolbar input {
+    flex-basis: 100%;
+    max-width: none;
+    font-size: 16px; /* no iOS zoom on focus */
+  }
+
+  .tab {
+    padding: 10px 12px;
+  }
+
+  .data-table table,
+  .data-table tbody {
+    display: block;
+  }
+
+  .data-table thead {
+    display: none;
+  }
+
+  .data-table tbody tr {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .data-table td {
+    display: flex;
+    gap: 12px;
+    padding: 2px 0;
+    border: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .data-table td::before {
+    content: attr(data-label);
+    flex: 0 0 8.5rem;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1.9;
+  }
+
+  .data-table td.cell-empty {
+    display: none;
+  }
+
+  /* the name / substance / text column spans the card as its title */
+  .data-table td.cell-primary {
+    display: block;
+    order: -1;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+
+  .data-table td.cell-primary::before {
+    content: none;
+  }
+
+  .data-table tbody tr.muted td.cell-primary {
+    font-weight: 400;
+  }
+
+  .data-table td.empty {
+    display: block;
+    padding: 24px 0;
+  }
+
+  .data-table td.empty::before {
+    content: none;
+  }
+
+  .pagination-controls {
+    justify-content: center;
+  }
+
+  .pager {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pager button {
+    min-width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pager {
+    gap: 4px;
+  }
+
+  .pager button {
+    min-width: 40px;
+  }
+}

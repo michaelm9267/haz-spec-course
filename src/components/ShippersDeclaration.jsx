@@ -1,5 +1,5 @@
 import React, { memo, useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { useRegulation } from "../regulations/RegulationContext";
 import ItemPicker from "./ItemPicker";
 import DodaacPicker from "./DodaacPicker";
@@ -11,16 +11,12 @@ import {
   CFR_MODES,
   PACKAGE_TYPES,
   UNITS,
-  additionalDescription,
-  basicDescription,
   blankDeclaration,
   checkDeclaration,
   classText,
   isAir,
   newLine,
-  packagesText,
   technicalNameRequired,
-  totalQuantity,
 } from "../utils/declaration";
 import { division } from "../utils/quantities";
 import "../Styles/declaration.css";
@@ -29,7 +25,7 @@ const OLD_AFMAN_CERTIFICATION = /^I hereby certify that the contents of this con
 
 const STORAGE_KEY = (reg) => `hazref.declaration.${reg}`;
 
-const loadDraft = (reg) => {
+export const loadDraft = (reg) => {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY(reg)));
     if (saved && Array.isArray(saved.lines)) {
@@ -44,7 +40,7 @@ const loadDraft = (reg) => {
   return blankDeclaration(reg);
 };
 
-const saveDraft = (reg, decl) => {
+export const saveDraft = (reg, decl) => {
   try {
     localStorage.setItem(STORAGE_KEY(reg), JSON.stringify(decl));
   } catch {
@@ -62,151 +58,12 @@ const Field = ({ label, children, wide, hint }) => (
 
 // ---------- generated document (editable once generated) ----------
 
-const Lines = ({ text }) =>
-  (text || "").split("\n").map((l, i) => (
-    <React.Fragment key={i}>
-      {i > 0 && <br />}
-      {l}
-    </React.Fragment>
-  ));
-
-const SignatureBlock = ({ decl }) => (
-  <div className="doc-sign">
-    <div>
-      <div className="doc-label">Name / title of signatory</div>
-      <div>
-        {decl.signatory}
-        {decl.signatoryTitle && `, ${decl.signatoryTitle}`}
-      </div>
-    </div>
-    <div>
-      <div className="doc-label">Place and date</div>
-      <div>{[decl.place, decl.date].filter(Boolean).join(", ")}</div>
-    </div>
-    <div>
-      <div className="doc-label">Signature</div>
-      <div className="doc-signature-line" />
-    </div>
-  </div>
-);
-
-const CfrDocument = ({ decl, lines }) => {
-  const air = isAir(decl);
-  return (
-    <>
-      <div className="doc-title">
-        <h2>{air ? "Shipper's Declaration for Dangerous Goods" : "Hazardous Materials Shipping Paper"}</h2>
-        <div>49 CFR Part 172, Subpart C — {CFR_MODES[decl.mode]}</div>
-      </div>
-      <table className="doc-grid">
-        <tbody>
-          <tr>
-            <td className="doc-half">
-              <div className="doc-label">Shipper</div>
-              <Lines text={decl.shipper} />
-            </td>
-            <td>
-              <div className="doc-label">Consignee</div>
-              <Lines text={decl.consignee} />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="doc-label">Carrier</div>
-              {decl.carrier}
-            </td>
-            <td>
-              <div className="doc-label">Shipping paper / air waybill no.</div>
-              {decl.reference}
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="doc-label">{air ? "Airport of departure" : "Origin"}</div>
-              {decl.departure}
-            </td>
-            <td>
-              <div className="doc-label">{air ? "Airport of destination" : "Destination"}</div>
-              {decl.destination}
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="doc-label">Date</div>
-              {decl.date}
-            </td>
-            <td>
-              <div className="doc-label">Page</div>1 of 1
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <table className="doc-items">
-        <thead>
-          <tr>
-            <th>HM</th>
-            <th>No. and type of packages</th>
-            <th>Basic description (UN No., proper shipping name, hazard class, PG)</th>
-            <th>Total quantity</th>
-            <th>Additional information / authorization</th>
-          </tr>
-        </thead>
-        <tbody>
-          {lines.map(({ line, item }, i) => (
-            <tr key={i}>
-              <td className="doc-hm">X</td>
-              <td>{packagesText(line)}</td>
-              <td>{basicDescription(line, item)}</td>
-              <td>{totalQuantity(line)}</td>
-              <td>
-                {[...additionalDescription(line, item, decl), line.packing && `Packaging ${line.packing}`, line.authorization]
-                  .filter(Boolean)
-                  .map((a) => (
-                    <div key={a}>{a}</div>
-                  ))}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-
-      <div className="doc-box">
-        {decl.additionalInfo && (
-          <>
-            <div className="doc-label">Additional information</div>
-            <p>
-              <Lines text={decl.additionalInfo} />
-            </p>
-          </>
-        )}
-        {decl.emergencyInfo && (
-          <div className="doc-emergency">
-            <div className="doc-label">Emergency response information</div>
-            <Lines text={decl.emergencyInfo} />
-          </div>
-        )}
-        <div className="doc-emergency">
-          Emergency response telephone (24 hours): <strong>{decl.emergencyPhone}</strong>
-          {decl.emergencyContact && ` — ${decl.emergencyContact}`}
-        </div>
-      </div>
-
-      <div className="doc-box doc-cert">
-        <p>{decl.certification}</p>
-        {air && <p>{CERTIFICATIONS.cfrAir}</p>}
-        <SignatureBlock decl={decl} />
-      </div>
-    </>
-  );
-};
-
 /** Rendered once per "Generate"; memoised so React never overwrites the user's in-place edits. */
 const DeclarationDocument = memo(({ regKey, decl, items }) => {
   const lines = decl.lines.map((line) => ({ line, item: items[line.id] })).filter((x) => x.item);
   return (
     <div className={`decl-doc doc-${regKey}`} contentEditable suppressContentEditableWarning spellCheck={false} aria-label="Shipper's declaration (editable)">
-      {regKey === "afman" ? <DafForm7507 decl={decl} lines={lines} /> : <CfrDocument decl={decl} lines={lines} />}
+      <DafForm7507 decl={decl} lines={lines} regKey={regKey} />
     </div>
   );
 });
@@ -310,11 +167,13 @@ const ShippersDeclaration = () => {
   };
   const docRef = useRef(null);
   const [erg, setErg] = useState(null);
+  const [ergDone, setErgDone] = useState(false);
   useEffect(() => {
     let live = true;
     loadErg()
       .then((e) => live && setErg(e))
-      .catch(() => {}); // the form still works without ERG data
+      .catch(() => {}) // the form still works without ERG data
+      .finally(() => live && setErgDone(true));
     return () => {
       live = false;
     };
@@ -341,14 +200,8 @@ const ShippersDeclaration = () => {
     [decl, auto, data, key, erg]
   );
 
-  if (!data) return <p className="status">Loading {config.name}…</p>;
-
-  const set = (k) => (e) => setDecl({ ...decl, [k]: e.target.type === "checkbox" ? e.target.checked : e.target.value });
-  const setLines = (lines) => setDecl({ ...decl, lines });
-  const errors = issues.filter((i) => i.level === "error");
-  const isAfman = key === "afman";
   // Emergency response information follows the materials until the user edits it.
-  const autoEmergencyInfo = erg ? ergText(erg, decl.lines.map((l) => data.items[l.id]).filter(Boolean)) : "";
+  const autoEmergencyInfo = erg && data ? ergText(erg, decl.lines.map((l) => data.items[l.id]).filter(Boolean)) : "";
   const emergencyInfo = decl.emergencyInfo ?? autoEmergencyInfo;
 
   const generate = () => {
@@ -357,6 +210,25 @@ const ShippersDeclaration = () => {
     setTimeout(() => docRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 0);
   };
 
+  // Arriving from the Packaging guide (?from=packaging): the draft already holds its
+  // packages, so generate the form straight away once the ERG data is in.
+  const [params, setParams] = useSearchParams();
+  const [imported, setImported] = useState(null);
+  const fromPackaging = params.get("from") === "packaging";
+  useEffect(() => {
+    if (!fromPackaging || !data || !ergDone || draft.reg !== key) return;
+    setImported(decl.lines.length);
+    generate();
+    setParams({}, { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [fromPackaging, data, ergDone, draft.reg, key]);
+
+  if (!data) return <p className="status">Loading {config.name}…</p>;
+
+  const set = (k) => (e) => setDecl({ ...decl, [k]: e.target.type === "checkbox" ? e.target.checked : e.target.value });
+  const setLines = (lines) => setDecl({ ...decl, lines });
+  const errors = issues.filter((i) => i.level === "error");
+  const isAfman = key === "afman";
   const reset = () => {
     if (window.confirm("Clear the whole form?")) {
       setDecl(blankDeclaration(key));
@@ -380,6 +252,15 @@ const ShippersDeclaration = () => {
           Clear form
         </button>
       </div>
+
+      {imported !== null && (
+        <p className="note decl-imported no-print" role="status">
+          Filled in from the <Link to="/packaging">Packaging guide</Link>: {imported} material{imported === 1 ? "" : "s"} with
+          their packaging, quantities, {isAfman ? "packing paragraphs" : "packaging sections"} and the{" "}
+          {isAfman ? "aircraft" : "mode"}, plus the ERG emergency information and phone number. Add what's still missing
+          (see Checks), then Regenerate.
+        </p>
+      )}
 
       <section className="calc-card no-print">
         <h2>Shipment</h2>
@@ -424,11 +305,11 @@ const ShippersDeclaration = () => {
               </select>
             </Field>
           )}
+          <Field label="Shipper phone number">
+            <input type="tel" value={decl.shipperPhone || ""} onChange={set("shipperPhone")} />
+          </Field>
           {isAfman && (
             <>
-              <Field label="Shipper phone number">
-                <input type="tel" value={decl.shipperPhone || ""} onChange={set("shipperPhone")} />
-              </Field>
               <Field label="Shipper DSN">
                 <input type="tel" value={decl.shipperDsn || ""} onChange={set("shipperDsn")} />
               </Field>
@@ -441,8 +322,8 @@ const ShippersDeclaration = () => {
             <input value={decl.reference} onChange={set("reference")} />
           </Field>
           {!isAfman && (
-            <Field label="Carrier">
-              <input value={decl.carrier} onChange={set("carrier")} />
+            <Field label="Transportation control number (TCN)">
+              <input value={decl.tcn || ""} onChange={set("tcn")} />
             </Field>
           )}
           <Field label={isAfman || isAir(decl) ? "Airport of departure" : "Origin"}>
@@ -454,11 +335,9 @@ const ShippersDeclaration = () => {
           <Field label="Date">
             <input type="date" value={decl.date} onChange={set("date")} />
           </Field>
-          {isAfman && (
-            <label className="decl-checkbox">
-              <input type="checkbox" checked={decl.radioactive} onChange={set("radioactive")} /> Radioactive shipment
-            </label>
-          )}
+          <label className="decl-checkbox">
+            <input type="checkbox" checked={decl.radioactive} onChange={set("radioactive")} /> Radioactive shipment
+          </label>
           <label className="decl-checkbox" title="Origin or destination outside the U.S. Picking an overseas DoDAAC ticks this.">
             <input type="checkbox" checked={!!decl.international} onChange={set("international")} /> International shipment
           </label>
@@ -611,16 +490,14 @@ const ShippersDeclaration = () => {
             <span>
               Click anywhere in the declaration to edit it. Regenerating replaces your edits with the form's contents.
             </span>
-            {isAfman && (
-              <label className="decl-toggle">
-                <input type="checkbox" checked={redBorders} onChange={(e) => toggleRedBorders(e.target.checked)} /> Red borders
-              </label>
-            )}
+            <label className="decl-toggle">
+              <input type="checkbox" checked={redBorders} onChange={(e) => toggleRedBorders(e.target.checked)} /> Red borders
+            </label>
             <button className="decl-primary" onClick={() => window.print()}>
               Print / save as PDF
             </button>
           </div>
-          <div className={isAfman && redBorders ? "f7507-borders" : undefined}>
+          <div className={redBorders ? "f7507-borders" : undefined}>
             <DeclarationDocument key={generation} regKey={key} decl={generated} items={data.items} />
           </div>
         </section>

@@ -8,6 +8,7 @@ import Calculators from "./components/Calculators.jsx";
 import Compatibility from "./components/Compatibility.jsx";
 import ShippersDeclaration from "./components/ShippersDeclaration.jsx";
 import DodaacLookup from "./components/DodaacLookup.jsx";
+import PackagingGuide from "./components/PackagingGuide.jsx";
 import NotFound from "./components/NotFound.jsx";
 
 /** "/" goes to the tables for the last-used regulation. */
@@ -40,6 +41,7 @@ function App() {
             <Route path="/compatibility" element={<Compatibility />} />
             <Route path="/declaration" element={<ShippersDeclaration />} />
             <Route path="/dodaac" element={<DodaacLookup />} />
+            <Route path="/packaging" element={<PackagingGuide />} />
             <Route path="/:reg" element={<RegulationPage><HazTables /></RegulationPage>} />
             <Route path="/:reg/item/:id" element={<RegulationPage><HazardInfo /></RegulationPage>} />
             <Route path="*" element={<NotFound />} />

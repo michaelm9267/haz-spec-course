@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import SearchResults from "./SearchResults";
 import { REGULATIONS, useRegulation } from "../regulations/RegulationContext";
 import "../Styles/header.css";
@@ -52,6 +52,10 @@ const Header = () => {
   const [highlighted, setHighlighted] = useState(0);
   const containerRef = useRef(null);
   const navigate = useNavigate();
+  const location = useLocation();
+  // phone-width menu (the nav links collapse behind a button)
+  const [menuOpen, setMenuOpen] = useState(false);
+  useEffect(() => setMenuOpen(false), [location.pathname]);
 
   const results = useMemo(() => (items ? search(items, query) : []), [items, query]);
 
@@ -125,7 +129,17 @@ const Header = () => {
           />
         )}
       </div>
-      <nav>
+      <button
+        type="button"
+        className="menu-toggle"
+        aria-expanded={menuOpen}
+        aria-controls="site-nav"
+        aria-label="Menu"
+        onClick={() => setMenuOpen((o) => !o)}
+      >
+        <span aria-hidden="true">{menuOpen ? "✕" : "☰"}</span>
+      </button>
+      <nav id="site-nav" className={menuOpen ? "open" : undefined}>
         <ul>
           <li>
             <NavLink to={`/${key}`} end>
@@ -137,6 +151,9 @@ const Header = () => {
           </li>
           <li>
             <NavLink to="/declaration">Shipper's Dec</NavLink>
+          </li>
+          <li>
+            <NavLink to="/packaging">Packaging</NavLink>
           </li>
           <li>
             <NavLink to="/dodaac">DoDAAC</NavLink>

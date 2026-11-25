@@ -169,3 +169,30 @@ describe("App", () => {
     expect(screen.getByRole("button", { name: /previous/i })).toBeDisabled();
   });
 });
+
+describe("phone layout", () => {
+  test("the menu button opens and closes the nav, and following a link closes it", async () => {
+    await act(() => loadRegulation("afman"));
+    render(<App />);
+    const toggle = await screen.findByRole("button", { name: "Menu" });
+    const nav = document.getElementById("site-nav");
+    expect(toggle).toHaveAttribute("aria-expanded", "false");
+    expect(nav).not.toHaveClass("open");
+    fireEvent.click(toggle);
+    expect(toggle).toHaveAttribute("aria-expanded", "true");
+    expect(nav).toHaveClass("open");
+    fireEvent.click(screen.getByRole("link", { name: "Calculators" }));
+    expect(await screen.findByRole("heading", { name: "Calculators" })).toBeInTheDocument();
+    expect(nav).not.toHaveClass("open");
+  });
+
+  test("table cells carry their column name for the stacked card layout", async () => {
+    await act(() => loadRegulation("afman"));
+    window.location.hash = "#/afman";
+    render(<App />);
+    const cell = (await screen.findAllByText("UN1090"))[0].closest("td");
+    expect(cell).toHaveAttribute("data-label", "UN/ID");
+    const name = cell.closest("tr").querySelector("td.cell-primary");
+    expect(name).toHaveAttribute("data-label", "Proper Shipping Name");
+  });
+});

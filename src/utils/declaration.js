@@ -12,6 +12,7 @@ export const PACKAGE_TYPES = [
   "Wooden box (4C1)",
   "Plywood box (4D)",
   "Steel box (4A)",
+  "Solid plastic box (4H2)",
   "Steel drum (1A1)",
   "Steel drum, removable head (1A2)",
   "Plastic drum (1H1)",
@@ -20,6 +21,7 @@ export const PACKAGE_TYPES = [
   "Steel jerrican (3A1)",
   "Plastic jerrican (3H1)",
   "Composite packaging (6HG2)",
+  "Composite packaging (6HA1)",
   "Cylinder",
   "Overpack",
 ];
@@ -58,6 +60,8 @@ export const blankDeclaration = (regKey) => ({
   airWaybill: "",
   consignee: "",
   carrier: "",
+  // 49 CFR: TCN (AFMAN keeps its TCN in `reference`)
+  tcn: "",
   reference: "",
   date: new Date().toISOString().slice(0, 10),
   mode: regKey === "afman" ? "airPax" : "highway",
@@ -154,7 +158,7 @@ export const additionalDescription = (line, item, decl) => {
 
 // ---------- checks ----------
 
-const parseLimit = (s) => {
+export const parseLimit = (s) => {
   const m = /^([\d.]+)\s*(kg|L|g|mL)\b/i.exec((s || "").trim());
   if (!m) return null;
   const unit = Object.keys(UNITS).find((u) => u.toLowerCase() === m[2].toLowerCase());

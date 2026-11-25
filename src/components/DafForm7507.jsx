@@ -1,7 +1,10 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import {
   additionalDescription,
+  CERTIFICATIONS,
+  CFR_MODES,
   classText,
+  isAir,
   packagesText,
   shippingName,
   totalQuantity,
@@ -10,9 +13,19 @@ import {
 // DAF Form 7507 (20250131), Shipper's Declaration for Dangerous Goods, prescribed by
 // DAFI 24-605V2: page 1 is the declaration, page 2 the shipper's checklist.
 // Wording is reproduced as printed on the form.
+//
+// The 49 CFR shipping paper uses the same layout (regKey "cfr"), with what Part 172
+// Subpart C needs instead of the DAF specifics: the mode of transport and origin /
+// destination for ground shipments, the shipping paper or air waybill number (the
+// TCN goes in the shipper's reference box, as on the DAF form), the emergency response information always printed (§ 172.602), the
+// emergency number with the name that identifies its provider (§ 172.604(b)), the
+// § 172.204 certification (plus the air statement by air), and no DAF form number
+// or AFMAN checklist.
 
 export const FORM_ID = "DAF FORM 7507, 20250131";
 const FOOTER = `${FORM_ID}     PRESCRIBED BY DAFI24-605V2  REPLACES AMC IMT 1033, WHICH IS OBSOLETE`;
+const CFR_FOOTER =
+  "HAZARDOUS MATERIALS SHIPPING PAPER     49 CFR PART 172, SUBPART C";
 
 const Lines = ({ text }) =>
   (text || "").split("\n").map((l, i) => (
@@ -29,10 +42,10 @@ const Choice = ({ children, deleted }) => (
 
 const L = ({ children }) => <span className="f7507-label">{children}</span>;
 
-const Page = ({ children, className = "" }) => (
+const Page = ({ children, className = "", footer = FOOTER }) => (
   <div className={`f7507-page ${className}`.trim()}>
     <div className="f7507-sheet">{children}</div>
-    <div className="f7507-footer">{FOOTER}</div>
+    <div className="f7507-footer">{footer}</div>
   </div>
 );
 
@@ -58,7 +71,9 @@ export const phoneNumbers = (phone) =>
     .join("; ");
 
 const explosiveNew = (line, item) =>
-  /^1(\.|$)/.test(item.hazardClass || "") && parseFloat(line.netExplosive) > 0 ? parseFloat(line.netExplosive) : null;
+  /^1(\.|$)/.test(item.hazardClass || "") && parseFloat(line.netExplosive) > 0
+    ? parseFloat(line.netExplosive)
+    : null;
 const fmtNum = (n) => (Math.round(n * 1000) / 1000).toLocaleString();
 
 /**
@@ -74,7 +89,11 @@ export const formQuantity = (line, item) => {
 const formTotal = (line, item) => {
   const n = explosiveNew(line, item);
   const p = parseFloat(line.packages);
-  return n === null ? totalQuantity(line) : p > 0 ? `NEW ${fmtNum(p * n)} kg` : "";
+  return n === null
+    ? totalQuantity(line)
+    : p > 0
+      ? `NEW ${fmtNum(p * n)} kg`
+      : "";
 };
 
 /**
@@ -84,16 +103,31 @@ const formTotal = (line, item) => {
  */
 export const formExtras = (line, item, decl) =>
   additionalDescription(line, item, decl).filter(
-    (a) => !/^NEW /.test(a) && a !== "Cargo Aircraft Only" && a !== "Limited Quantity"
+    (a) =>
+      !/^NEW /.test(a) &&
+      a !== "Cargo Aircraft Only" &&
+      a !== "Limited Quantity",
   );
 
-const DeclarationPage = ({ decl, lines, page = 1, pages = 1 }) => {
+const DeclarationPage = ({
+  decl,
+  lines,
+  page = 1,
+  pages = 1,
+  regKey = "afman",
+}) => {
+  const cfr = regKey === "cfr";
+  const air = !cfr || isAir(decl);
   const cao = decl.mode === "airCao";
-  const handling = [decl.additionalInfo, decl.ergOnForm && decl.emergencyInfo]
+  // 49 CFR: emergency response information must be on or with the shipping paper (§ 172.602)
+  const handling = [
+    decl.additionalInfo,
+    (cfr || decl.ergOnForm) && decl.emergencyInfo,
+  ]
     .filter((t) => t && t.trim())
     .join("\n");
   return (
-    <Page className="f7507-decl-page">
+    <Page className="f7507-decl-page" footer={cfr ? CFR_FOOTER : FOOTER}>
       <table className="f7507">
         <colgroup>
           <col style={{ width: "58%" }} />
@@ -116,27 +150,41 @@ const DeclarationPage = ({ decl, lines, page = 1, pages = 1 }) => {
                   <L>PHONE NUMBER:</L>{" "}
                   <span className="f7507-value">{decl.shipperPhone}</span>
                 </span>
-                <span>
-                  <L>DSN:</L>{" "}
-                  <span className="f7507-value">{decl.shipperDsn}</span>
-                </span>
+                {!cfr && (
+                  <span>
+                    <L>DSN:</L>{" "}
+                    <span className="f7507-value">{decl.shipperDsn}</span>
+                  </span>
+                )}
               </div>
             </td>
             <td>
               <div>
-                <L>AIR WAYBILL NO.</L>{" "}
-                <span className="f7507-value">{decl.airWaybill}</span>
+                <L>
+                  {cfr
+                    ? air
+                      ? "AIR WAYBILL NO."
+                      : "SHIPPING PAPER / BOL NO."
+                    : "AIR WAYBILL NO."}
+                </L>{" "}
+                <span className="f7507-value">
+                  {cfr ? decl.reference : decl.airWaybill}
+                </span>
               </div>
               <div className="f7507-pages">
-                <L>PAGE</L> <span className="f7507-value">{page}</span> <L>OF</L>{" "}
-                <span className="f7507-value">{pages}</span> <L>PAGES</L>
+                <L>PAGE</L> <span className="f7507-value">{page}</span>{" "}
+                <L>OF</L> <span className="f7507-value">{pages}</span>{" "}
+                <L>PAGES</L>
               </div>
               <div>
                 <L>SHIPPER'S REFERENCE NUMBER</L>
               </div>
               <div>
                 <L>TCN:</L>{" "}
-                <span className="f7507-value">{decl.reference}</span>
+                {/* AFMAN keeps the TCN in `reference`; 49 CFR uses `reference` for the BOL / air waybill */}
+                <span className="f7507-value">
+                  {cfr ? decl.tcn : decl.reference}
+                </span>
               </div>
             </td>
           </tr>
@@ -154,7 +202,7 @@ const DeclarationPage = ({ decl, lines, page = 1, pages = 1 }) => {
               <L>
                 COMPLETED AND SIGNED COPIES OF THIS
                 <br />
-                DECLARATION MUST BE HANDED TO THE OPERATOR
+                DECLARATION MUST BE HANDED TO THE {air ? "OPERATOR" : "CARRIER"}
               </L>
             </td>
             <td rowSpan={2} className="f7507-warning">
@@ -171,24 +219,33 @@ const DeclarationPage = ({ decl, lines, page = 1, pages = 1 }) => {
           </tr>
           <tr>
             <td className="f7507-split">
-              <div>
-                <L>THIS SHIPMENT IS WITHIN THE LIMITATIONS PRESCRIBED FOR:</L>
-                <div className="f7507-note">(DELETE NON-APPLICABLE)</div>
-                <div className="f7507-choices">
-                  <Choice deleted={cao}>
-                    PASSENGER AND
-                    <br />
-                    CARGO AIRCRAFT
-                  </Choice>
-                  <Choice deleted={!cao}>
-                    CARGO AIRCRAFT
-                    <br />
-                    ONLY
-                  </Choice>
+              {air ? (
+                <div>
+                  <L>THIS SHIPMENT IS WITHIN THE LIMITATIONS PRESCRIBED FOR:</L>
+                  <div className="f7507-note">(DELETE NON-APPLICABLE)</div>
+                  <div className="f7507-choices">
+                    <Choice deleted={cao}>
+                      PASSENGER AND
+                      <br />
+                      CARGO AIRCRAFT
+                    </Choice>
+                    <Choice deleted={!cao}>
+                      CARGO AIRCRAFT
+                      <br />
+                      ONLY
+                    </Choice>
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <div>
+                  <L>MODE OF TRANSPORT:</L>
+                  <div className="f7507-value f7507-mode">
+                    {(CFR_MODES[decl.mode] || "").toUpperCase()}
+                  </div>
+                </div>
+              )}
               <div>
-                <L>AIRPORT OF DEPARTURE:</L>
+                <L>{air ? "AIRPORT OF DEPARTURE:" : "ORIGIN:"}</L>
                 <div className="f7507-value">{decl.departure}</div>
               </div>
             </td>
@@ -202,7 +259,7 @@ const DeclarationPage = ({ decl, lines, page = 1, pages = 1 }) => {
           </tr>
           <tr>
             <td>
-              <L>AIRPORT OF DESTINATION:</L>{" "}
+              <L>{air ? "AIRPORT OF DESTINATION:" : "DESTINATION:"}</L>{" "}
               <span className="f7507-value">{decl.destination}</span>
             </td>
           </tr>
@@ -299,7 +356,14 @@ const DeclarationPage = ({ decl, lines, page = 1, pages = 1 }) => {
               <div className="f7507-emergency">
                 <L>EMERGENCY TELEPHONE NUMBER:</L>{" "}
                 <span className="f7507-value">
-                  {phoneNumbers(decl.emergencyPhone)}
+                  {cfr ? (
+                    <>
+                      {decl.emergencyPhone}
+                      {decl.emergencyContact && ` (${decl.emergencyContact})`}
+                    </>
+                  ) : (
+                    phoneNumbers(decl.emergencyPhone)
+                  )}
                 </span>
               </div>
             </td>
@@ -317,6 +381,7 @@ const DeclarationPage = ({ decl, lines, page = 1, pages = 1 }) => {
           <tr>
             <td rowSpan={3} className="f7507-cert">
               {decl.certification}
+              {cfr && air && <> {CERTIFICATIONS.cfrAir}</>}
             </td>
             <td colSpan={2}>
               <L>NAME/TITLE OF SIGNATORY</L>
@@ -549,12 +614,51 @@ const goodsOverflow = (pageEl) => {
   const wrap = pageEl.querySelector(".f7507-goods-wrap");
   const table = wrap && wrap.querySelector(".f7507-goods");
   if (!table) return false;
-  const used = [...table.querySelectorAll("thead, tr.f7507-item")].reduce((h, el) => h + el.getBoundingClientRect().height, 0);
-  return used > wrap.clientHeight + 0.5;
+  const items = table.querySelectorAll("tr.f7507-item");
+  const last = items[items.length - 1];
+  if (!last) return false;
+  // compared on screen, so it holds while the form is scaled down to fit a phone
+  return (
+    last.getBoundingClientRect().bottom >
+    wrap.getBoundingClientRect().bottom + 0.5
+  );
 };
 
-const DafForm7507 = ({ decl, lines }) => {
+const PAGE_WIDTH = 816; // 8.5in at 96 CSS px per inch
+
+/**
+ * The form is a fixed 8.5in wide. On a narrower screen it is shown zoomed out to
+ * fit (CSS zoom, so the layout itself shrinks and nothing scrolls sideways);
+ * print always uses the full size (see the print rules in declaration.css).
+ */
+function useFitWidth(ref) {
+  const [zoom, setZoom] = useState(1);
+  useLayoutEffect(() => {
+    const el = ref.current?.parentElement;
+    if (!el || typeof ResizeObserver === "undefined") return;
+    const update = () => {
+      const cs = getComputedStyle(el);
+      const w =
+        el.clientWidth -
+        parseFloat(cs.paddingLeft || 0) -
+        parseFloat(cs.paddingRight || 0);
+      setZoom(
+        w > 0 && w < PAGE_WIDTH
+          ? Math.floor((w / PAGE_WIDTH) * 1000) / 1000
+          : 1,
+      );
+    };
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [ref]);
+  return zoom;
+}
+
+const DafForm7507 = ({ decl, lines, regKey = "afman" }) => {
   const ref = useRef(null);
+  const zoom = useFitWidth(ref);
   const [counts, setCounts] = useState([lines.length]);
   const total = counts.reduce((a, b) => a + b, 0);
   // the item list changed (e.g. regenerated): start again from one page
@@ -576,11 +680,22 @@ const DafForm7507 = ({ decl, lines }) => {
   });
 
   return (
-    <div ref={ref}>
+    <div
+      ref={ref}
+      className="f7507-fit"
+      style={zoom < 1 ? { zoom } : undefined}
+    >
       {groups.map((g, i) => (
-        <DeclarationPage key={i} decl={decl} lines={g} page={i + 1} pages={groups.length} />
+        <DeclarationPage
+          key={i}
+          decl={decl}
+          lines={g}
+          page={i + 1}
+          pages={groups.length}
+          regKey={regKey}
+        />
       ))}
-      <ChecklistPage />
+      {regKey !== "cfr" && <ChecklistPage />}
     </div>
   );
 };
