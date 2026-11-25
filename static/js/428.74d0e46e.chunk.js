@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhazref=self.webpackChunkhazref||[]).push([[428],{428:e=>{e.exports=JSON.parse('{"asOf":"2026-11-23","source":"https://www.ecfr.gov/current/title-49/part-172"}')}}]);
